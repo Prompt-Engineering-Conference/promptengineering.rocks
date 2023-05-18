@@ -1,0 +1,25 @@
+{
+    "short_name": "Prompt Engineering Conference",
+    "name": "Prompt Engineering Conference - World's first conference about prompt engineering",
+    "description": "World's first conference about prompt engineering",
+    "start_url": "/?utm_source=homescreen",
+    "display": "standalone",
+    "display_override": ["window-control-overlay", "minimal-ui"],
+    "theme_color": "#6B40D8",
+    "background_color": "#6B40D8",
+    "orientation": "portrait",
+    "scope": "/",
+    "categories": ["developer", "developer tools", "development"],
+    "icons": [
+        {
+            "src": "/images/icons/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/icons/android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}

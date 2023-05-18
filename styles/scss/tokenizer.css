@@ -1,0 +1,30 @@
+.tokenizer-tkn {
+    display: inline-block;
+    white-space: pre;
+    color: rgba(255,255,255,1);
+}
+
+.tokenizer-tkn-0 {
+    background: rgba(107,64,216,1)
+}
+
+.tokenizer-tkn-1 {
+    background: rgba(104,222,122,1)
+}
+
+.tokenizer-tkn-2 {
+    background: rgba(244,172,54,1)
+}
+
+.tokenizer-tkn-3 {
+    background: rgba(239,65,70,1)
+}
+
+.tokenizer-tkn-4 {
+    background: rgba(39,181,234,1)
+}
+
+.tokenizer-output {
+    transition: opacity .3s;
+    margin-bottom: 1em;
+}

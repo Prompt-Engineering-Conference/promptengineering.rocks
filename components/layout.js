@@ -1,78 +1,234 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import Script from 'next/script'
+import React, { useState, useEffect } from 'react';
 
-import styles from './layout.module.css'
-import utilStyles from '../styles/utils.module.css'
-import Link from 'next/link'
+import Head from 'next/head';
+import Image from 'next/image';
+import Script from 'next/script';
 
-const name = '[Your Name]'
-export const siteTitle = 'Next.js Sample Website'
+import styles from './layout.module.css';
+import utilStyles from '../styles/utils.module.css';
+import Link from 'next/link';
+
+export const siteTitle = 'Prompt Engineering Conference';
+import { styled } from '@mui/material/styles';
+import Tooltip, { TooltipProps, tooltipClasses } from '@mui/material/Tooltip';
+import Button from '@mui/material/Button';
+import { createTheme, ThemeProvider } from '@mui/material/styles';
+
+const HtmlTooltip = styled(({ className, ...props }) => (
+  <Tooltip {...props} classes={{ popper: className }} />
+))(({ theme }) => ({
+  [`& .${tooltipClasses.tooltip}`]: {
+    backgroundColor: theme.palette.common.black,
+    color: theme.palette.common.white,
+    maxWidth: 220,
+    fontSize: theme.typography.pxToRem(12),
+  },
+  [`& .${tooltipClasses.arrow}`]: {
+    color: theme.palette.common.black,
+  },
+}));
+
+const theme = createTheme({
+  palette: {
+    mode: 'light',
+    primary: {
+      main: '#6B40D8',
+    },
+    secondary: {
+      main: '#F4AC36',
+    },
+  },
+});
 
 export default function Layout({ children, home }) {
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      //setIsTooltipOpen(true)
+    }, 1000);
+    return () => clearTimeout(timer);
+  }, []);
+
+  const [isTooltipOpen, setIsTooltipOpen] = useState(false);
+
   return (
-    <div className={styles.container}>
+    <ThemeProvider theme={theme}>
       <Head>
         <link rel="icon" href="/favicon.ico" />
-        <meta
-          name="description"
-          content="Learn how to build a personal website using Next.js"
+        <meta name="description" content={siteTitle} />
+        <link
+          rel="apple-touch-icon"
+          sizes="180x180"
+          href="/images/icons/apple-touch-icon.png"
         />
-        <meta
-          property="og:image"
-          content={`https://og-image.vercel.app/${encodeURI(
-            siteTitle
-          )}.png?theme=light&md=0&fontSize=75px&images=https%3A%2F%2Fassets.zeit.co%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fnextjs-black-logo.svg`}
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="32x32"
+          href="/images/icons/favicon-32x32.png"
         />
-        <meta name="og:title" content={siteTitle} />
-        <meta name="twitter:card" content="summary_large_image" />
-      </Head>
-      <Script
-        src="https://connect.facebook.net/en_US/sdk.js"
-        strategy="lazyOnload"
-        onLoad={() =>
-          console.log(`script loaded correctly, window.FB has been populated`)
-        }
-      />
-      <header className={styles.header}>
-        {home ? (
-          <>
-            <Image
-              priority
-              src="/images/profile.jpg"
-              className={utilStyles.borderCircle}
-              height={144}
-              width={144}
-              alt={name}
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="16x16"
+          href="/images/icons/favicon-16x16.png"
+        />
+        <link rel="manifest" href="/app.webmanifest" />
+        <link
+          rel="mask-icon"
+          href="/images/icons/safari-pinned-tab.svg"
+          color="#6b40d8"
+        />
+        <meta name="msapplication-TileColor" content="#6b40d8" />
+        <meta name="theme-color" content="#6b40d8"></meta>
+        <meta property="og:url" content="https://promptengineering.rocks" />
+            <meta property="og:type" content="website" />
+            <meta
+              property="og:title"
+              content="Prompt Engineering Conference - World's first conference about prompt engineering"
             />
-            <h1 className={utilStyles.heading2Xl}>{name}</h1>
-          </>
-        ) : (
-          <>
-            <Link href="/">
-              <Image
-                priority
-                src="/images/profile.jpg"
-                className={utilStyles.borderCircle}
-                height={108}
-                width={108}
-                alt={name}
-              />
-            </Link>
-            <h2 className={utilStyles.headingLg}>
-              <Link href="/" className={utilStyles.colorInherit}>
-                {name}
-              </Link>
-            </h2>
-          </>
-        )}
-      </header>
-      <main>{children}</main>
-      {!home && (
-        <div className={styles.backToHome}>
-          <Link href="/">← Back to home</Link>
+            <meta
+              property="og:description"
+              content="Prompt Engineering Conference - World's first conference about prompt engineering"
+            />
+            <meta
+              property="og:image"
+              content="https://promptengineering.rocks/images/social.png"
+            />
+
+            <meta name="twitter:card" content="summary_large_image" />
+            <meta property="twitter:domain" content="promptengineering.rocks" />
+            <meta property="twitter:url" content="https://promptengineering.rocks" />
+            <meta
+              name="twitter:title"
+              content="Prompt Engineering Conference - World's first conference about prompt engineering"
+            />
+            <meta
+              name="twitter:description"
+              content="Prompt Engineering Conference - World's first conference about prompt engineering"
+            />
+            <meta
+              name="twitter:image"
+              content="https://promptengineering.rocks/images/social.png"
+            />
+            <link rel="preconnect" href="https://fonts.googleapis.com" />
+            <link
+              rel="preconnect"
+              href="https://fonts.gstatic.com"
+              crossOrigin="true"
+            />
+      </Head>
+
+      <div id="header">
+        <span className="logo">
+          <img src="images/logo.svg" alt={siteTitle} title={siteTitle} />
+        </span>
+        <HtmlTooltip
+          open={isTooltipOpen}
+          arrow
+          title={
+            <React.Fragment>
+              <>Characters: 121, Tokens: 20</>
+            </React.Fragment>
+          }
+        >
+          <div
+            className="tokenizer-output"
+            onMouseEnter={() => setIsTooltipOpen(true)}
+            onMouseLeave={() => setIsTooltipOpen(false)}
+          >
+            <span className="tokenizer-tkn tokenizer-tkn-0">The</span>
+            <span className="tokenizer-tkn tokenizer-tkn-1"> world</span>
+            <span className="tokenizer-tkn tokenizer-tkn-2">'s</span>
+            <span className="tokenizer-tkn tokenizer-tkn-3"> first</span>
+            <span className="tokenizer-tkn tokenizer-tkn-4"> conference</span>
+            <span className="tokenizer-tkn tokenizer-tkn-0"> dedicated</span>
+            <span className="tokenizer-tkn tokenizer-tkn-1"> to</span>
+            <span className="tokenizer-tkn tokenizer-tkn-2"> the</span>
+            <span className="tokenizer-tkn tokenizer-tkn-3"> only</span>
+            <span className="tokenizer-tkn tokenizer-tkn-4"> way</span>
+            <span className="tokenizer-tkn tokenizer-tkn-0"> to</span>
+            <span className="tokenizer-tkn tokenizer-tkn-1"> communicate</span>
+            <span className="tokenizer-tkn tokenizer-tkn-2"> with</span>
+            <span className="tokenizer-tkn tokenizer-tkn-3"> the</span>
+            <span className="tokenizer-tkn tokenizer-tkn-4"> most</span>
+            <span className="tokenizer-tkn tokenizer-tkn-0"> powerful</span>
+            <span className="tokenizer-tkn tokenizer-tkn-1"> AI</span>
+            <span className="tokenizer-tkn tokenizer-tkn-2"> tools</span>
+            <span className="tokenizer-tkn tokenizer-tkn-3"> currently</span>
+            <span className="tokenizer-tkn tokenizer-tkn-4"> available</span>
+          </div>
+        </HtmlTooltip>
+        <h1>October 12th, Online</h1>
+        <Button
+          variant="contained"
+          href="https://ti.to/prompt-engineering-conference/2023"
+          style={{width: '12em', margin: '1em'}}
+        >
+          Free tickets
+        </Button><Button
+          variant="contained"
+          href="https://ti.to/prompt-engineering-conference/2023"
+          style={{width: '12em', margin: '1em'}}
+        >
+          Apply to speak
+        </Button>
+      </div>
+
+      <div id="main">{children}</div>
+
+      <div id="footer">
+        <div className="container medium">
+          <header className="major last">
+            <h2>Stay updated</h2>
+          </header>
+
+          <p>
+            Subscribe to our newsletter to get the latest updates on the
+            conference.
+          </p>
+
+          <iframe
+            src="https://embeds.beehiiv.com/42af6a85-9c77-44a1-87fa-d0c3040cacb5?slim=true"
+            data-test-id="beehiiv-embed"
+            height="52"
+            frameborder="0"
+            scrolling="no"
+            style={{
+              margin: '0',
+              borderRadius: '0px !important',
+              backgroundColor: 'transparent',
+            }}
+          ></iframe>
+
+          <hr />
+
+          <ul className="icons">
+            <li>
+              <a
+                href="https://twitter.com/webmaxru"
+                className="icon brands fa-twitter"
+              >
+                <span className="label">Twitter</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://github.com/webmaxru/promptengineering.rocks"
+                className="icon brands fa-github"
+              >
+                <span className="label">Github</span>
+              </a>
+            </li>
+          </ul>
+
+          <ul className="copyright">
+            <li>&copy; 2023 {siteTitle}</li>
+            <li>
+              Template: <a href="http://html5up.net">HTML5 UP</a>
+            </li>
+          </ul>
         </div>
-      )}
-    </div>
-  )
+      </div>
+    </ThemeProvider>
+  );
 }
