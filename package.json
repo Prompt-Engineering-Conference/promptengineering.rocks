@@ -2,11 +2,10 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && next export",
     "start": "next start",
     "lint": "next lint",
-    "build-sw": "node sw-build.js && npx rollup -c",
-    "export": "next build && next export"
+    "build-sw": "node sw-build.js && npx rollup -c"
   },
   "dependencies": {
     "@emotion/react": "^11.11.0",
