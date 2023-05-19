@@ -8,7 +8,7 @@ let workboxConfig = {
     "**/*.txt"
   ],
 
-  swSrc: "src/sw/service-worker.js",
+  swSrc: "components/sw/service-worker.js",
   swDest: "out/sw.js",
 
   // React takes care of cache busting for JS and CSS (in prod mode)

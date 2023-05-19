@@ -11,8 +11,8 @@ export default {
   plugins: [
     resolve(),
     replace({
-      'process.env.NODE_ENV': JSON.stringify('development')
+      'process.env.NODE_ENV': JSON.stringify('production')
     }),
-    //terser()
+    terser()
   ]
 }

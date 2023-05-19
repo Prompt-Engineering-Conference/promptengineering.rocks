@@ -714,6 +714,7 @@ span.image.icon {
       font-family: 'Font Awesome 5 Brands';
     }
   }
+
 }
 
 /* List */
@@ -1037,12 +1038,28 @@ input[type='button'],
     }
   }
 
+  
+  .form {
+    background-color: _palette(accent1, bg);
+	color: #fff;
+
+    display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+
+	.separator {
+		margin: 0 1em;
+	}
+  }
+
 }
 
 /* Feature */
 
 .feature {
   position: relative;
+  height: 15em;
 
   &:after {
     clear: both;
@@ -1340,6 +1357,7 @@ input[type='button'],
       }
     }
   }
+
 }
 
 /* Main */
