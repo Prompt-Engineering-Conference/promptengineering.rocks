@@ -14,17 +14,22 @@ import Tooltip, { TooltipProps, tooltipClasses } from '@mui/material/Tooltip';
 import Button from '@mui/material/Button';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 
+import { InView, defaultFallbackInView } from 'react-intersection-observer';
+import Typewriter from 'typewriter-effect';
+
+defaultFallbackInView(true);
+
 const HtmlTooltip = styled(({ className, ...props }) => (
   <Tooltip {...props} classes={{ popper: className }} />
 ))(({ theme }) => ({
   [`& .${tooltipClasses.tooltip}`]: {
-    backgroundColor: theme.palette.common.black,
+    backgroundColor: theme.palette.secondary.main,
     color: theme.palette.common.white,
     maxWidth: 220,
     fontSize: theme.typography.pxToRem(12),
   },
   [`& .${tooltipClasses.arrow}`]: {
-    color: theme.palette.common.black,
+    color: theme.palette.secondary.main,
   },
 }));
 
@@ -81,41 +86,44 @@ export default function Layout({ children, home }) {
         <meta name="msapplication-TileColor" content="#6b40d8" />
         <meta name="theme-color" content="#6b40d8"></meta>
         <meta property="og:url" content="https://promptengineering.rocks" />
-            <meta property="og:type" content="website" />
-            <meta
-              property="og:title"
-              content="Prompt Engineering Conference - World's first conference about prompt engineering"
-            />
-            <meta
-              property="og:description"
-              content="Prompt Engineering Conference - World's first conference about prompt engineering"
-            />
-            <meta
-              property="og:image"
-              content="https://promptengineering.rocks/images/social.png"
-            />
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:title"
+          content="Prompt Engineering Conference - World's first conference about prompt engineering"
+        />
+        <meta
+          property="og:description"
+          content="Prompt Engineering Conference - World's first conference about prompt engineering"
+        />
+        <meta
+          property="og:image"
+          content="https://promptengineering.rocks/images/social.png"
+        />
 
-            <meta name="twitter:card" content="summary_large_image" />
-            <meta property="twitter:domain" content="promptengineering.rocks" />
-            <meta property="twitter:url" content="https://promptengineering.rocks" />
-            <meta
-              name="twitter:title"
-              content="Prompt Engineering Conference - World's first conference about prompt engineering"
-            />
-            <meta
-              name="twitter:description"
-              content="Prompt Engineering Conference - World's first conference about prompt engineering"
-            />
-            <meta
-              name="twitter:image"
-              content="https://promptengineering.rocks/images/social.png"
-            />
-            <link rel="preconnect" href="https://fonts.googleapis.com" />
-            <link
-              rel="preconnect"
-              href="https://fonts.gstatic.com"
-              crossOrigin="true"
-            />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta property="twitter:domain" content="promptengineering.rocks" />
+        <meta
+          property="twitter:url"
+          content="https://promptengineering.rocks"
+        />
+        <meta
+          name="twitter:title"
+          content="Prompt Engineering Conference - World's first conference about prompt engineering"
+        />
+        <meta
+          name="twitter:description"
+          content="Prompt Engineering Conference - World's first conference about prompt engineering"
+        />
+        <meta
+          name="twitter:image"
+          content="https://promptengineering.rocks/images/social.png"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link
+          rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossOrigin="true"
+        />
       </Head>
 
       <div id="header">
@@ -158,49 +166,102 @@ export default function Layout({ children, home }) {
             <span className="tokenizer-tkn tokenizer-tkn-4"> available</span>
           </div>
         </HtmlTooltip>
-        <h1>October 12th, Online</h1>
+        <h1>October 12th, Online, Free</h1>
         <Button
           variant="contained"
           href="https://ti.to/prompt-engineering-conference/2023"
-          style={{width: '12em', margin: '1em'}}
+          style={{ width: '18em', margin: '0 2em 1em 2em' }}
+          size="large"
         >
-          Free tickets
-        </Button><Button
-          variant="contained"
-          href="https://ti.to/prompt-engineering-conference/2023"
-          style={{width: '12em', margin: '1em'}}
+          Tickets (pre-register)
+        </Button>
+        <Button
+          variant="outlined"
+          style={{ width: '18em', margin: '0 2em 1em 2em' }}
+          size="large"
         >
-          Apply to speak
+          Apply to speak (soon)
         </Button>
       </div>
 
       <div id="main">{children}</div>
 
       <div id="footer">
+        <div className="box bot container">
+          <section className="prompt user">
+            <span className="actor">user</span>
+            <InView triggerOnce={true}>
+              {({ inView, ref, entry }) => (
+                <span ref={ref}>
+                  {inView ? (
+                    <Typewriter
+                      onInit={(typewriter) => {
+                        typewriter
+                          .changeDelay(20)
+                          .pauseFor(0)
+                          .typeString(
+                            `How do I know when the tickets will be released and call for papers will open?`
+                          )
+                          .start();
+                      }}
+                    />
+                  ) : (
+                    <>
+                      How do I know when the tickets will be released and call
+                      for papers will open?
+                    </>
+                  )}
+                </span>
+              )}
+            </InView>
+          </section>
+
+          <section className="prompt assistant">
+            <span className="actor">assistant</span>
+            <InView triggerOnce={true}>
+              {({ inView, ref, entry }) => (
+                <span ref={ref}>
+                  {inView ? (
+                    <Typewriter
+                      onInit={(typewriter) => {
+                        typewriter
+                          .changeDelay(20)
+                          .pauseFor(2000)
+                          .typeString(
+                            `Just subscribe to our newsletter and we'll let you know.`
+                          )
+                          .start();
+                      }}
+                    />
+                  ) : (
+                    <>
+                      Just subscribe to our newsletter and we'll let you know.
+                    </>
+                  )}
+                </span>
+              )}
+            </InView>
+          </section>
+          <section className="prompt assistant">
+            <iframe
+              src="https://embeds.beehiiv.com/42af6a85-9c77-44a1-87fa-d0c3040cacb5?slim=true"
+              data-test-id="beehiiv-embed"
+              height="52"
+              frameBorder="0"
+              scrolling="no"
+              style={{
+                margin: '0',
+                borderRadius: '0px !important',
+                backgroundColor: 'transparent',
+              }}
+            ></iframe>
+          </section>
+        </div>
+
         <div className="container medium">
           <header className="major last">
-            <h2>Stay updated</h2>
+            <h2>Let's stay connected!</h2>
           </header>
-
-          <p>
-            Subscribe to our newsletter to get the latest updates on the
-            conference.
-          </p>
-
-          <iframe
-            src="https://embeds.beehiiv.com/42af6a85-9c77-44a1-87fa-d0c3040cacb5?slim=true"
-            data-test-id="beehiiv-embed"
-            height="52"
-            frameborder="0"
-            scrolling="no"
-            style={{
-              margin: '0',
-              borderRadius: '0px !important',
-              backgroundColor: 'transparent',
-            }}
-          ></iframe>
-
-          <hr />
 
           <ul className="icons">
             <li>

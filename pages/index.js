@@ -14,37 +14,111 @@ export default function Home() {
         </title>
       </Head>
 
-      <header className="major container medium">
-        <InView triggerOnce={true}>
-          {({ inView, ref, entry }) => (
-            <div ref={ref}>
-              {inView ? (
-                <Typewriter
-                  onInit={(typewriter) => {
-                    typewriter
-                      .changeDelay(10)
-                      .typeString(
-                        `<h2>Create a description for the conference about prompt engineering</h2>`
-                      )
-                      .pauseFor(500)
-                      .typeString(
-                        `<p>Welcome to the groundbreaking world's first conference on prompt engineering! This highly anticipated event brings together leading experts, researchers, and practitioners in the field of artificial intelligence and natural language processing.
+      <div className="box bot container">
+        <section className="prompt system">
+          <span className="actor">system</span>
 
-                        The Conference on Prompt Engineering is an extraordinary platform where innovators converge to explore the latest advancements and best practices in crafting effective and precise prompts for language models. Prompt engineering is a cutting-edge discipline that focuses on harnessing the full potential of language models by strategically designing input instructions or queries.</p>`
-                      )
-                      .start();
-                  }}
-                />
-              ) : (
-                <h2>
-                  The world's first conference dedicated to the only way to
-                  communicate with the most powerful AI tools currently
-                  available
-                </h2>
-              )}
-            </div>
-          )}
-        </InView>
+          <InView triggerOnce={true}>
+            {({ inView, ref, entry }) => (
+              <span ref={ref}>
+                {inView ? (
+                  <Typewriter
+                    onInit={(typewriter) => {
+                      typewriter
+                        .changeDelay(20)
+                        .typeString(
+                          `You are a Prompt Engineering Conference assistant. You answer the questions about event.`
+                        )
+                        .start();
+                    }}
+                  />
+                ) : (
+                  <>
+                    You are a conference organizing assistant. You write
+                    descriptions for the conferences.
+                  </>
+                )}
+              </span>
+            )}
+          </InView>
+        </section>
+        <section className="prompt user">
+          <span className="actor">user</span>
+          <InView triggerOnce={true}>
+            {({ inView, ref, entry }) => (
+              <span ref={ref}>
+                {inView ? (
+                  <Typewriter
+                    onInit={(typewriter) => {
+                      typewriter
+                        .changeDelay(20)
+                        .pauseFor(3000)
+                        .typeString(
+                          `What is this conference about?`
+                        )
+                        .start();
+                    }}
+                  />
+                ) : (
+                  <>
+                    Write a short description for the conference about prompt
+                    engineering.
+                  </>
+                )}
+              </span>
+            )}
+          </InView>
+        </section>
+
+        <section className="prompt assistant">
+          <span className="actor">assistant</span>
+          <InView triggerOnce={true}>
+            {({ inView, ref, entry }) => (
+              <span ref={ref}>
+                {inView ? (
+                  <Typewriter
+                    onInit={(typewriter) => {
+                      typewriter
+                        .changeDelay(20)
+                        .pauseFor(5000)
+                        .typeString(
+                          `The conference features a diverse range of captivating sessions,
+                          including keynote speeches by renowned thought leaders who have
+                          revolutionized the field. Attendees will have the opportunity to delve
+                          into enlightening presentations, thought-provoking panel discussions,
+                          and interactive workshops led by experts in the realm of prompt
+                          engineering.`
+                        )
+                        .start();
+                    }}
+                  />
+                ) : (
+                  <>
+                    The conference features a diverse range of captivating
+                    sessions, including keynote speeches by renowned thought
+                    leaders who have revolutionized the field. Attendees will
+                    have the opportunity to delve into enlightening
+                    presentations, thought-provoking panel discussions, and
+                    interactive workshops led by experts in the realm of prompt
+                    engineering.
+                  </>
+                )}
+              </span>
+            )}
+          </InView>
+        </section>
+      </div>
+
+      <header className="major container medium">
+        <h2>
+          Prompt Engineering is the technique of formulating instructions
+          (“prompts”) for a generative AI, in order to have it produce the
+          expected output. (
+          <a href="https://en.m.wiktionary.org/wiki/prompt_engineering">
+            Wiktionary
+          </a>
+          )
+        </h2>
       </header>
 
       <div className="box alt container">
