@@ -2,26 +2,27 @@
     display: inline-block;
     white-space: pre;
     color: rgba(255,255,255,1);
+    margin: 0 0 1px 0;
 }
 
 .tokenizer-tkn-0 {
-    background: rgba(107,64,216,1)
+    background: rgba(107,64,216,0.5)
 }
 
 .tokenizer-tkn-1 {
-    background: rgba(104,222,122,1)
+    background: rgba(104,222,122,0.5)
 }
 
 .tokenizer-tkn-2 {
-    background: rgba(244,172,54,1)
+    background: rgba(244,172,54,0.7)
 }
 
 .tokenizer-tkn-3 {
-    background: rgba(239,65,70,1)
+    background: rgba(239,65,70,0.5)
 }
 
 .tokenizer-tkn-4 {
-    background: rgba(39,181,234,1)
+    background: rgba(39,181,234,0.5)
 }
 
 .tokenizer-output {
