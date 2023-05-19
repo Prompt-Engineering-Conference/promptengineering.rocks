@@ -157,7 +157,7 @@ export default function Subscription(props) {
           </Button>
         </Tooltip>
       ) : (
-        <Typography variant="body1" gutterBottom color="error.main">
+        <Typography variant="body1" style={{ color: 'white' }}>
           Web Push API is not available in your browser. On iOS 16.4+ devices,
           you have to "Add to Home Screen" first (in "Share" icon menu).
         </Typography>

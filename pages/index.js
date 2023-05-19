@@ -11,7 +11,7 @@ export default function Home() {
     <Layout home>
       <Head>
         <title>
-          {`${siteTitle} - World's first conference about prompt engineering`}
+          {`${siteTitle} - The world's first conference about prompt engineering - October 12, Online, Free`}
         </title>
       </Head>
 
