@@ -79,7 +79,7 @@ export default function Layout({children}) {
       <ThemeProvider theme={theme}>
         <Head>
           <link rel="icon" href="/favicon.ico" />
-          <meta name="description" content={siteTitle} />
+          <meta name="description" content="The conference will showcase a comprehensive range of topics, including theoretical foundations of prompt engineering, prompt generation methodologies, practical strategies for prompts optimizing, fine-tuning strategies, bias mitigation, innovative techniques, and many more." />
           <link
             rel="apple-touch-icon"
             sizes="180x180"
@@ -109,11 +109,11 @@ export default function Layout({children}) {
           <meta property="og:type" content="website" />
           <meta
             property="og:title"
-            content="Prompt Engineering Conference - World's first conference about prompt engineering"
+            content="Prompt Engineering Conference - The world's first conference about prompt engineering - October 12, Online, Free"
           />
           <meta
             property="og:description"
-            content="Prompt Engineering Conference - World's first conference about prompt engineering"
+            content="The conference will showcase a comprehensive range of topics, including theoretical foundations of prompt engineering, prompt generation methodologies, practical strategies for prompts optimizing, fine-tuning strategies, bias mitigation, innovative techniques, and many more."
           />
           <meta
             property="og:image"
@@ -128,11 +128,11 @@ export default function Layout({children}) {
           />
           <meta
             name="twitter:title"
-            content="Prompt Engineering Conference - World's first conference about prompt engineering"
+            content="Prompt Engineering Conference - The world's first conference about prompt engineering - October 12, Online, Free"
           />
           <meta
             name="twitter:description"
-            content="Prompt Engineering Conference - World's first conference about prompt engineering"
+            content="The conference will showcase a comprehensive range of topics, including theoretical foundations of prompt engineering, prompt generation methodologies, practical strategies for prompts optimizing, fine-tuning strategies, bias mitigation, innovative techniques, and many more."
           />
           <meta
             name="twitter:image"
