@@ -16,6 +16,7 @@ import Axios from 'axios';
 import { toast } from 'react-toastify';
 import ReactGA from 'react-ga4';
 import Tooltip from '@mui/material/Tooltip';
+import {isIOS} from 'react-device-detect';
 
 const axios = Axios.create({
   baseURL: process.env.NEXT_PUBLIC_API_BASE_URL,
@@ -143,7 +144,10 @@ export default function Subscription(props) {
   return (
     <>
       {isFeatureAvailable ? (
-        <Tooltip title="Check the address bar of your browser - you may see a notification block icon" arrow>
+        <Tooltip
+          title="Check the address bar of your browser - you may see a notification block icon"
+          arrow
+        >
           <Button
             variant="contained"
             size="large"
@@ -158,8 +162,9 @@ export default function Subscription(props) {
         </Tooltip>
       ) : (
         <Typography variant="body1" style={{ color: 'white' }}>
-          Web Push API is not available in your browser. On iOS 16.4+ devices,
-          you have to "Add to Home Screen" first (in "Share" icon menu).
+          {isIOS
+            ? 'To enable Web Push on iOS 16.4+ devices, you have to "Add to Home Screen" first (in "Share" icon menu) and then open the app from the home screen.'
+            : 'Oh, it looks like Web Push is not available in your browser so just join the mailing list.'}
         </Typography>
       )}
     </>

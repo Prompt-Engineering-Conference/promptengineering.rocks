@@ -4,8 +4,10 @@
 @import 'libs/vendor';
 @import 'libs/breakpoints';
 @import 'libs/html-grid';
-@import url('fontawesome-all.min.css');
-@import url('tokenizer.css');
+@import 'fontawesome/scss/fontawesome.scss';
+@import 'fontawesome/scss/solid.scss';
+@import 'fontawesome/scss/brands.scss';
+@import 'tokenizer.css';
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic,600,600italic,700,700italic');
 
 /*
@@ -711,7 +713,7 @@ span.image.icon {
 
   &.brands {
     &:before {
-      font-family: 'Font Awesome 5 Brands';
+      font-family: 'Font Awesome 6 Brands';
     }
   }
 

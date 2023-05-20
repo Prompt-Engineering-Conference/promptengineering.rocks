@@ -179,7 +179,26 @@ export default function Home() {
         </section>
         <section className="feature left">
           <a
-            href="mailto:hello@promptengineering.rocks"
+            href="mailto:hello@promptengineering.rocks?subject=Our community wants to partner with the Prompt Engineering Conference!"
+            className="image icon solid fa-people-group"
+          >
+            <img src="images/overlay.png" alt="" />
+          </a>
+          <div className="content">
+            <h3>Community partner</h3>
+            <p>
+              Are you organizing a community focused on the generative AI
+              topics? Let your people know about the conferences they can join
+              the fun as attendees and presenters!{' '}
+              <a href="mailto:hello@promptengineering.rocks?subject=Our community wants to partner with the Prompt Engineering Conference!">
+                Contact us for the details.
+              </a>
+            </p>
+          </div>
+        </section>
+        <section className="feature right">
+          <a
+            href="mailto:hello@promptengineering.rocks?subject=We want to sponsor the Prompt Engineering Conference!"
             className="image icon solid fa-handshake"
           >
             <img src="images/overlay.png" alt="" />
@@ -191,7 +210,7 @@ export default function Home() {
               Are you looking to hire experienced AI/prompt engineers? Share
               your message with the community by{' '}
               <Tooltip title="Send an email and let's chat!" arrow>
-                <a href="mailto:hello@promptengineering.rocks">
+                <a href="mailto:hello@promptengineering.rocks?subject=We want to sponsor the Prompt Engineering Conference!">
                   becoming a sponsor
                 </a>
               </Tooltip>
