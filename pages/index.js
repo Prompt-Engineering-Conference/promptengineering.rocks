@@ -15,6 +15,14 @@ export default function Home() {
         </title>
       </Head>
 
+      <header className="major container medium">
+        <h2>
+          Prompt engineering is a cutting-edge discipline that focuses on
+          harnessing the full potential of language models by strategically
+          designing input instructions ("prompts")
+        </h2>
+      </header>
+
       <div className="box bot container">
         <section className="prompt system">
           <span className="actor">system</span>
@@ -89,39 +97,42 @@ export default function Home() {
         </section>
       </div>
 
-      <header className="major container medium">
-        <h2>
-          Prompt engineering is a cutting-edge discipline that focuses on
-          harnessing the full potential of language models by strategically
-          designing input instructions ("prompts")
-        </h2>
-      </header>
-
       <div className="box container">
         <h3>Using AI policy</h3>
 
         <p>
           We believe that 100% (or so) AI-generated sessions will not meet the
           quality standards we expect. At the same time, we encourage presenters
-          to use prompt engineering to improve your talk proposal and session
+          to use prompt engineering to improve their talk proposal and session
           content.
         </p>
 
         <h3>Tracks</h3>
 
-        <p>
-          We plan to have two tracks: one focused on using prompts in
-          production-ready apps, and the other on pure creativity and
-          experimentation. However, this is just a formal separation and the
-          boundaries are quite thin.
-        </p>
+        <ul class="default">
+          <li>
+            <strong>Development</strong>
+            <p>
+              Using prompts in production-ready apps. Helping companies adopt
+              generative AI by sharing use cases, best practices, and lessons
+              learned.
+            </p>
+          </li>
+          <li>
+            <strong>Experimentation</strong>
+            <p>
+              Pure research, experiments, arts, and ideas - the "tomorrow" of
+              prompt engineering, if you wish.
+            </p>
+          </li>
+        </ul>
 
         <h3>Audience</h3>
 
         <p>
-          Our target audience is very broad. The content will be engaging and
-          useful for everyone interested in interacting with generative AI
-          tools.
+          Our target audience is very broad, so when choosing sessions, we make
+          sure the content is engaging and useful for everyone interested in
+          working with generative AI tools.
         </p>
       </div>
 
