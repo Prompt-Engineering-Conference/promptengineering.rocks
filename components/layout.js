@@ -180,6 +180,7 @@ export default function Layout({ children }) {
             href="https://ti.to/prompt-engineering-conference/2023"
             style={{ width: '18em', margin: '0 2em 1em 2em' }}
             size="large"
+            onClick={() => ReactGA.event('ticket', {})}
           >
             Tickets (pre-register)
           </Button>
@@ -191,6 +192,7 @@ export default function Layout({ children }) {
             style={{ width: '18em', margin: '0 2em 1em 2em' }}
             size="large"
             href="https://sessionize.com/prompt-engineering-conference-2023"
+            onClick={() => ReactGA.event('cfp', {})}
           >
             Become a speaker
           </Button>
@@ -303,6 +305,11 @@ export default function Layout({ children }) {
 
           <ul className="copyright">
             <li>&copy; 2023 {siteTitle}</li>
+            <li>
+              <a href="mailto:hello@promptengineering.rocks">
+                hello@promptengineering.rocks
+              </a>
+            </li>
             <li>
               Template: <a href="http://html5up.net">HTML5 UP</a>
             </li>

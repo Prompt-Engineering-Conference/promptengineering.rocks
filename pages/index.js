@@ -97,6 +97,34 @@ export default function Home() {
         </h2>
       </header>
 
+      <div className="box container">
+        <h3>Using AI policy</h3>
+
+        <p>
+          We believe that 100% (or so) AI-generated sessions will not meet the
+          quality standards we expect. At the same time, we encourage presenters
+          to use prompt engineering to improve your talk proposal and session
+          content.
+        </p>
+
+        <h3>Tracks</h3>
+
+        <p>
+          We plan to have two tracks: one focused on using prompts in
+          production-ready apps, and the other on pure creativity and
+          experimentation. However, this is just a formal separation and the
+          boundaries are quite thin.
+        </p>
+
+        <h3>Audience</h3>
+
+        <p>
+          Our target audience is very broad. The content will be engaging and
+          useful for everyone interested in interacting with generative AI
+          tools.
+        </p>
+      </div>
+
       <div className="box bot container">
         <section className="prompt user">
           <span className="actor">user</span>
@@ -159,8 +187,11 @@ export default function Home() {
             <h3>Attendee</h3>
             <p>
               We will soon open the registration for free tickets. Make sure to
-              mark October 12th in your calendars and <a href="#subscribe">sign up for the newsletter
-              and push notifications</a> to stay informed.
+              mark October 12th in your calendars and{' '}
+              <a href="#subscribe">
+                sign up for the newsletter and push notifications
+              </a>{' '}
+              to stay informed.
             </p>
           </div>
         </section>
