@@ -2,7 +2,7 @@ import Head from 'next/head';
 import Layout, { siteTitle } from '../components/layout';
 import { InView, defaultFallbackInView } from 'react-intersection-observer';
 import Typewriter from 'typewriter-effect';
-import Tooltip from '@mui/material/Tooltip';
+import { HtmlTooltip } from '../components/HtmlTooltip';
 
 defaultFallbackInView(true);
 
@@ -131,7 +131,7 @@ export default function Home() {
                     onInit={(typewriter) => {
                       typewriter
                         .changeDelay(20)
-                        .pauseFor(1000)
+                        .pauseFor(2000)
                         .typeString(
                           `The conference is in the early stages of planning, so there are many opportunities for you:`
                         )
@@ -159,21 +159,27 @@ export default function Home() {
             <h3>Attendee</h3>
             <p>
               We will soon open the registration for free tickets. Make sure to
-              mark October 12th in your calendars and sign up for the newsletter
-              and/or push notifications to stay informed.
+              mark October 12th in your calendars and <a href="#subscribe">sign up for the newsletter
+              and push notifications</a> to stay informed.
             </p>
           </div>
         </section>
         <section className="feature right">
-          <a href="#" className="image icon solid fa-microphone">
+          <a
+            href="https://sessionize.com/prompt-engineering-conference-2023"
+            className="image icon solid fa-microphone"
+          >
             <img src="images/overlay.png" alt="" />
           </a>
           <div className="content">
             <h3>Speaker</h3>
             <p>
               We want to hear your story about prompt engineering! The call for
-              presentations will open on June 1st, so start preparing your talk
-              proposal now!
+              presentations is open.{' '}
+              <a href="https://sessionize.com/prompt-engineering-conference-2023">
+                Check more details and send your proposal
+              </a>{' '}
+              now !
             </p>
           </div>
         </section>
@@ -209,11 +215,11 @@ export default function Home() {
               Does your company develop generative AI-related tools or services?
               Are you looking to hire experienced AI/prompt engineers? Share
               your message with the community by{' '}
-              <Tooltip title="Send an email and let's chat!" arrow>
+              <HtmlTooltip title="Send an email and let's chat!" arrow>
                 <a href="mailto:hello@promptengineering.rocks?subject=We want to sponsor the Prompt Engineering Conference!">
                   becoming a sponsor
                 </a>
-              </Tooltip>
+              </HtmlTooltip>
               !
             </p>
           </div>
@@ -254,7 +260,7 @@ export default function Home() {
                     onInit={(typewriter) => {
                       typewriter
                         .changeDelay(20)
-                        .pauseFor(1000)
+                        .pauseFor(2000)
                         .typeString(
                           `Prompt Engineering Conference is a community-driven event organized by a group of prompt engineering enthusiasts led by <a href="https://twitter.com/webmaxru" target="_blank" style="color: white">Maxim Salnikov</a>.`
                         )
