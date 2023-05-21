@@ -174,15 +174,15 @@ export default function Layout({ children }) {
           </div>
         </HtmlTooltip>
         <h1>October 12th, Online, Free</h1>
-        <HtmlTooltip title="Register your interest for a free ticket" arrow>
+        <HtmlTooltip title="Reserve your virtual seat" arrow>
           <Button
             variant="contained"
-            href="https://ti.to/prompt-engineering-conference/2023"
+            href="https://ti.to/prompt-engineering-conference/2023?source=website"
             style={{ width: '18em', margin: '0 2em 1em 2em' }}
             size="large"
             onClick={() => ReactGA.event('ticket', {})}
           >
-            Tickets (pre-register)
+            Get a free ticket
           </Button>
         </HtmlTooltip>
         <HtmlTooltip title="Call for papers is open!" arrow>
@@ -202,6 +202,39 @@ export default function Layout({ children }) {
       <div id="main">{children}</div>
 
       <div id="footer">
+        <div className="container">
+          <header className="major last">
+            <h2>Let's stay connected!</h2>
+          </header>
+
+          <ul className="icons">
+            <li>
+              <a
+                href="https://twitter.com/PromptEngConf"
+                className="icon brands fa-twitter"
+              >
+                <span className="label">Twitter</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/company/prompt-engineering-conference/"
+                className="icon brands fa-linkedin"
+              >
+                <span className="label">LinkedIn</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="mailto:hello@promptengineering.rocks"
+                className="icon fa-envelope"
+              >
+                <span className="label">Email</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+
         <div className="box bot container">
           <section className="prompt user">
             <span className="actor">user</span>
@@ -215,7 +248,7 @@ export default function Layout({ children }) {
                           .changeDelay(20)
                           .pauseFor(0)
                           .typeString(
-                            `How will I know when the tickets are released and the call for papers opens?`
+                            `What if I want to receive updates about the conference immediately without checking social media?`
                           )
                           .start();
                       }}
@@ -272,37 +305,6 @@ export default function Layout({ children }) {
         </div>
 
         <div className="container medium">
-          <header className="major last">
-            <h2>Let's stay connected!</h2>
-          </header>
-
-          <ul className="icons">
-            <li>
-              <a
-                href="https://twitter.com/PromptEngConf"
-                className="icon brands fa-twitter"
-              >
-                <span className="label">Twitter</span>
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://www.linkedin.com/company/prompt-engineering-conference/"
-                className="icon brands fa-linkedin"
-              >
-                <span className="label">LinkedIn</span>
-              </a>
-            </li>
-            <li>
-              <a
-                href="mailto:hello@promptengineering.rocks"
-                className="icon fa-envelope"
-              >
-                <span className="label">Email</span>
-              </a>
-            </li>
-          </ul>
-
           <ul className="copyright">
             <li>&copy; 2023 {siteTitle}</li>
             <li>

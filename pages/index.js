@@ -98,15 +98,6 @@ export default function Home() {
       </div>
 
       <div className="box container">
-        <h3>Using AI policy</h3>
-
-        <p>
-          We believe that 100% (or so) AI-generated sessions will not meet the
-          quality standards we expect. At the same time, we encourage presenters
-          to use prompt engineering to improve their talk proposal and session
-          content.
-        </p>
-
         <h3>Tracks</h3>
 
         <ul class="default">
@@ -133,6 +124,15 @@ export default function Home() {
           Our target audience is very broad, so when choosing sessions, we make
           sure the content is engaging and useful for everyone interested in
           working with generative AI tools.
+        </p>
+
+        <h3>Using AI policy</h3>
+
+        <p>
+          We believe that 100% (or so) AI-generated sessions will not meet the
+          quality standards we expect. At the same time, we encourage presenters
+          to use prompt engineering to improve their talk proposal and session
+          content.
         </p>
       </div>
 
@@ -189,20 +189,27 @@ export default function Home() {
       <div className="box alt container">
         <section className="feature left">
           <a
-            href="https://ti.to/prompt-engineering-conference/2023"
+            href="https://ti.to/prompt-engineering-conference/2023?source=website"
             className="image icon solid fa-ticket-alt"
+            onClick={() => ReactGA.event('ticket', {})}
           >
             <img src="images/overlay.png" alt="" />
           </a>
           <div className="content">
             <h3>Attendee</h3>
             <p>
-              We will soon open the registration for free tickets. Make sure to
-              mark October 12th in your calendars and{' '}
+              <a
+                href="https://ti.to/prompt-engineering-conference/2023?source=website"
+                onClick={() => ReactGA.event('ticket', {})}
+              >
+                Get your free ticket
+              </a>{' '}
+              right now and make sure to mark October 12th in your calendars.
+              Also,{' '}
               <a href="#subscribe">
                 sign up for the newsletter and push notifications
               </a>{' '}
-              to stay informed.
+              to stay updated.
             </p>
           </div>
         </section>
@@ -210,6 +217,7 @@ export default function Home() {
           <a
             href="https://sessionize.com/prompt-engineering-conference-2023"
             className="image icon solid fa-microphone"
+            onClick={() => ReactGA.event('cfp', {})}
           >
             <img src="images/overlay.png" alt="" />
           </a>
@@ -218,7 +226,10 @@ export default function Home() {
             <p>
               We want to hear your story about prompt engineering! The call for
               presentations is open.{' '}
-              <a href="https://sessionize.com/prompt-engineering-conference-2023">
+              <a
+                href="https://sessionize.com/prompt-engineering-conference-2023"
+                onClick={() => ReactGA.event('cfp', {})}
+              >
                 Check more details and send your proposal
               </a>{' '}
               now !
@@ -304,7 +315,7 @@ export default function Home() {
                         .changeDelay(20)
                         .pauseFor(2000)
                         .typeString(
-                          `Prompt Engineering Conference is a community-driven event organized by a group of prompt engineering enthusiasts led by <a href="https://twitter.com/webmaxru" target="_blank" style="color: white">Maxim Salnikov</a>.`
+                          `Prompt Engineering Conference is a community-driven event organized by a group of prompt engineering enthusiasts led by <a href="https://twitter.com/webmaxru" target="_blank" style="color: white">Maxim Salnikov</a> (founder of ngVikings and Mobile Era conferences, technical speaker, dev communities organizer).`
                         )
                         .start();
                     }}
