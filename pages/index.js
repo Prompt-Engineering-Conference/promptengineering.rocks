@@ -3,6 +3,8 @@ import Layout, { siteTitle } from '../components/layout';
 import { InView, defaultFallbackInView } from 'react-intersection-observer';
 import Typewriter from 'typewriter-effect';
 import { HtmlTooltip } from '../components/HtmlTooltip';
+import ReactGA from 'react-ga4';
+import Link from 'next/link';
 
 defaultFallbackInView(true);
 
@@ -188,22 +190,22 @@ export default function Home() {
 
       <div className="box alt container">
         <section className="feature left">
-          <a
+          <Link
             href="https://ti.to/prompt-engineering-conference/2023?source=website"
             className="image icon solid fa-ticket-alt"
             onClick={() => ReactGA.event('ticket', {})}
           >
             <img src="images/overlay.png" alt="" />
-          </a>
+          </Link>
           <div className="content">
             <h3>Attendee</h3>
             <p>
-              <a
+              <Link
                 href="https://ti.to/prompt-engineering-conference/2023?source=website"
                 onClick={() => ReactGA.event('ticket', {})}
               >
                 Get your free ticket
-              </a>{' '}
+              </Link>{' '}
               right now and make sure to mark October 12th in your calendars.
               Also,{' '}
               <a href="#subscribe">
@@ -214,24 +216,24 @@ export default function Home() {
           </div>
         </section>
         <section className="feature right">
-          <a
+          <Link
             href="https://sessionize.com/prompt-engineering-conference-2023"
             className="image icon solid fa-microphone"
             onClick={() => ReactGA.event('cfp', {})}
           >
             <img src="images/overlay.png" alt="" />
-          </a>
+          </Link>
           <div className="content">
             <h3>Speaker</h3>
             <p>
               We want to hear your story about prompt engineering! The call for
               presentations is open.{' '}
-              <a
+              <Link
                 href="https://sessionize.com/prompt-engineering-conference-2023"
                 onClick={() => ReactGA.event('cfp', {})}
               >
                 Check more details and send your proposal
-              </a>{' '}
+              </Link>{' '}
               now !
             </p>
           </div>

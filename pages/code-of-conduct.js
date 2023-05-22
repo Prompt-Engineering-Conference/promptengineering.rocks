@@ -68,7 +68,7 @@ export default function Home() {
           Web Assembly Summit Code of Conduct
         </a>{' '}
         and the{' '}
-        <a href="(https://aneventapart.com/registration-information#code-of-conduct">
+        <a href="https://aneventapart.com/registration-information#code-of-conduct">
           An Event Apart Code of Conduct
         </a>
         .
