@@ -1228,6 +1228,10 @@ input[type='button'],
     margin: 0 0 1em 0;
     text-align: center;
     font-size: 1.5em;
+
+    a {
+      text-decoration: none;
+    }
   }
 
   h1 {
