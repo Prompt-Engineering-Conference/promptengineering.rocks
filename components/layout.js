@@ -135,7 +135,7 @@ export default function Layout({ children }) {
 
       <div id="header">
         <span className="logo">
-          <img src="images/logo.svg" alt={siteTitle} title={siteTitle} />
+          <Link href="/"><img src="images/logo.svg" alt={siteTitle} title={siteTitle} /></Link>
         </span>
         <HtmlTooltip
           open={isTooltipOpen}
@@ -308,9 +308,9 @@ export default function Layout({ children }) {
           <ul className="copyright">
             <li>&copy; 2023 {siteTitle}</li>
             <li>
-              <a href="mailto:hello@promptengineering.rocks">
-                hello@promptengineering.rocks
-              </a>
+              <Link href="/code-of-conduct">
+                Code of Conduct
+              </Link>
             </li>
             <li>
               Template: <a href="http://html5up.net">HTML5 UP</a>
