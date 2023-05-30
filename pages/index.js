@@ -125,7 +125,7 @@ export default function Home() {
         <p>
           Our target audience is very broad, so when choosing sessions, we make
           sure the content is engaging and useful for everyone interested in
-          working with generative AI tools.
+          communicating with generative AI tools.
         </p>
 
         <h3>Using AI policy</h3>
@@ -141,50 +141,13 @@ export default function Home() {
       <div className="box bot container">
         <section className="prompt user">
           <span className="actor">user</span>
-          <InView triggerOnce={true}>
-            {({ inView, ref, entry }) => (
-              <span ref={ref}>
-                {inView ? (
-                  <Typewriter
-                    onInit={(typewriter) => {
-                      typewriter
-                        .changeDelay(20)
-                        .pauseFor(0)
-                        .typeString(`How can I join the conference?`)
-                        .start();
-                    }}
-                  />
-                ) : (
-                  <></>
-                )}
-              </span>
-            )}
-          </InView>
+          How can I join the conference?
         </section>
 
         <section className="prompt assistant">
           <span className="actor">assistant</span>
-          <InView triggerOnce={true}>
-            {({ inView, ref, entry }) => (
-              <span ref={ref}>
-                {inView ? (
-                  <Typewriter
-                    onInit={(typewriter) => {
-                      typewriter
-                        .changeDelay(20)
-                        .pauseFor(2000)
-                        .typeString(
-                          `The conference is in the early stages of planning, so there are many opportunities for you:`
-                        )
-                        .start();
-                    }}
-                  />
-                ) : (
-                  <></>
-                )}
-              </span>
-            )}
-          </InView>
+          The conference is in the early stages of planning, so there are many
+          opportunities for you:
         </section>
       </div>
 
@@ -281,53 +244,38 @@ export default function Home() {
         </section>
       </div>
 
+      <div className="box container">
+        <h3>Community partners</h3>
+
+        <div className="partners clearfix">
+          <a href="https://www.meetup.com/promptengineering/">
+            <img
+              src="/images/partners/pe-norway.png"
+              alt="Prompt Engineering Norway"
+            />
+          </a>
+        </div>
+      </div>
+
       <div className="box bot container">
         <section className="prompt user">
           <span className="actor">user</span>
-          <InView triggerOnce={true}>
-            {({ inView, ref, entry }) => (
-              <span ref={ref}>
-                {inView ? (
-                  <Typewriter
-                    onInit={(typewriter) => {
-                      typewriter
-                        .changeDelay(20)
-                        .pauseFor(0)
-                        .typeString(`Who is organizing this conference?`)
-                        .start();
-                    }}
-                  />
-                ) : (
-                  <></>
-                )}
-              </span>
-            )}
-          </InView>
+          Who is organizing this conference?
         </section>
 
         <section className="prompt assistant">
           <span className="actor">assistant</span>
-          <InView triggerOnce={true}>
-            {({ inView, ref, entry }) => (
-              <span ref={ref}>
-                {inView ? (
-                  <Typewriter
-                    onInit={(typewriter) => {
-                      typewriter
-                        .changeDelay(20)
-                        .pauseFor(2000)
-                        .typeString(
-                          `Prompt Engineering Conference is a community-driven event organized by a group of prompt engineering enthusiasts led by <a href="https://twitter.com/webmaxru" target="_blank" style="color: white">Maxim Salnikov</a> (founder of ngVikings and Mobile Era conferences, technical speaker, dev communities organizer).`
-                        )
-                        .start();
-                    }}
-                  />
-                ) : (
-                  <></>
-                )}
-              </span>
-            )}
-          </InView>
+          Prompt Engineering Conference is a community-driven event organized by
+          a group of prompt engineering enthusiasts led by{' '}
+          <a
+            href="https://twitter.com/webmaxru"
+            target="_blank"
+            style={{ color: 'white' }}
+          >
+            Maxim Salnikov
+          </a>{' '}
+          (founder of ngVikings and Mobile Era conferences, technical speaker,
+          dev communities organizer).
         </section>
       </div>
     </Layout>

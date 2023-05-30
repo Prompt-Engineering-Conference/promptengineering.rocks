@@ -1798,3 +1798,17 @@ input[type='button'],
     }
   }
 }
+
+/* Partners */
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.partners img {
+  width: 10em;
+  float: left;
+  margin: 0 1em 2em 1em;
+}

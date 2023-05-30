@@ -135,7 +135,9 @@ export default function Layout({ children }) {
 
       <div id="header">
         <span className="logo">
-          <Link href="/"><img src="images/logo.svg" alt={siteTitle} title={siteTitle} /></Link>
+          <Link href="/">
+            <img src="images/logo.svg" alt={siteTitle} title={siteTitle} />
+          </Link>
         </span>
         <HtmlTooltip
           open={isTooltipOpen}
@@ -226,6 +228,14 @@ export default function Layout({ children }) {
             </li>
             <li>
               <a
+                href="https://youtube.com/@PromptEngineeringConf"
+                className="icon brands fa-youtube"
+              >
+                <span className="label">YouTube</span>
+              </a>
+            </li>
+            <li>
+              <a
                 href="mailto:hello@promptengineering.rocks"
                 className="icon fa-envelope"
               >
@@ -238,52 +248,14 @@ export default function Layout({ children }) {
         <div className="box bot container">
           <section className="prompt user">
             <span className="actor">user</span>
-            <InView triggerOnce={true}>
-              {({ inView, ref, entry }) => (
-                <span ref={ref}>
-                  {inView ? (
-                    <Typewriter
-                      onInit={(typewriter) => {
-                        typewriter
-                          .changeDelay(20)
-                          .pauseFor(0)
-                          .typeString(
-                            `What if I want to receive updates about the conference immediately without checking social media?`
-                          )
-                          .start();
-                      }}
-                    />
-                  ) : (
-                    <></>
-                  )}
-                </span>
-              )}
-            </InView>
+            What if I want to receive updates about the conference immediately
+            without checking social media?
           </section>
 
           <section className="prompt assistant">
             <span className="actor">assistant</span>
-            <InView triggerOnce={true}>
-              {({ inView, ref, entry }) => (
-                <span ref={ref}>
-                  {inView ? (
-                    <Typewriter
-                      onInit={(typewriter) => {
-                        typewriter
-                          .changeDelay(20)
-                          .pauseFor(2000)
-                          .typeString(
-                            `Subscribe to our newsletter and push notifications, and we'll keep you informed.`
-                          )
-                          .start();
-                      }}
-                    />
-                  ) : (
-                    <></>
-                  )}
-                </span>
-              )}
-            </InView>
+            Subscribe to our newsletter and push notifications, and we'll keep
+            you informed.
           </section>
           <section className="prompt form" id="subscribe">
             <iframe
@@ -308,9 +280,7 @@ export default function Layout({ children }) {
           <ul className="copyright">
             <li>&copy; 2023 {siteTitle}</li>
             <li>
-              <Link href="/code-of-conduct">
-                Code of Conduct
-              </Link>
+              <Link href="/code-of-conduct">Code of Conduct</Link>
             </li>
             <li>
               Template: <a href="http://html5up.net">HTML5 UP</a>
