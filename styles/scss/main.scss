@@ -716,7 +716,6 @@ span.image.icon {
       font-family: 'Font Awesome 6 Brands';
     }
   }
-
 }
 
 /* List */
@@ -994,8 +993,8 @@ input[type='button'],
 
   &.bot {
     padding: 0;
-	text-align: left;
-	color: _palette(fg);
+    text-align: left;
+    color: _palette(fg);
   }
 
   .prompt {
@@ -1014,8 +1013,8 @@ input[type='button'],
       padding: 0 0.5em 0 0.5em;
       border-bottom: solid 1px _palette(border);
       margin-right: 0.5em;
-	  width: 5em;
-	  text-align: center;
+      width: 5em;
+      text-align: center;
     }
   }
 
@@ -1025,7 +1024,7 @@ input[type='button'],
 
   .assistant {
     background-color: _palette(accent1, bg);
-	color: #fff;
+    color: #fff;
 
     .actor {
       color: _palette(accent1, bg);
@@ -1040,21 +1039,19 @@ input[type='button'],
     }
   }
 
-  
   .form {
     background-color: _palette(accent1, bg);
-	color: #fff;
+    color: #fff;
 
     display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 
-	.separator {
-		margin: 0 1em;
-	}
+    .separator {
+      margin: 0 1em;
+    }
   }
-
 }
 
 /* Feature */
@@ -1364,7 +1361,6 @@ input[type='button'],
       }
     }
   }
-
 }
 
 /* Main */
@@ -1802,7 +1798,7 @@ input[type='button'],
 /* Partners */
 
 .clearfix::after {
-  content: "";
+  content: '';
   clear: both;
   display: table;
 }
@@ -1811,4 +1807,34 @@ input[type='button'],
   width: 10em;
   float: left;
   margin: 0 1em 2em 1em;
+}
+
+/* Team */
+
+.team {
+  margin: 1.5em 0 0 0;
+  .member {
+    margin: 0 1.5em 2em 0;
+    float: left;
+    color: #fff;
+
+    h2 {
+      color: #fff;
+      margin: 0 0 0 0;
+      text-align: left;
+    }
+
+    img {
+      width: 10em;
+      margin: 0 0 0.5em 0;
+    }
+
+    .icons {
+      margin: 0.5em 0 0 0;
+
+      .icon {
+        color: #fff;
+      }
+    }
+  }
 }

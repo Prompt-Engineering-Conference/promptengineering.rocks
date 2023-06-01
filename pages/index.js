@@ -266,16 +266,62 @@ export default function Home() {
         <section className="prompt assistant">
           <span className="actor">assistant</span>
           Prompt Engineering Conference is a community-driven event organized by
-          a group of prompt engineering enthusiasts led by{' '}
-          <a
-            href="https://twitter.com/webmaxru"
-            target="_blank"
-            style={{ color: 'white' }}
-          >
-            Maxim Salnikov
-          </a>{' '}
-          (founder of ngVikings and Mobile Era conferences, technical speaker,
-          dev communities organizer).
+          a group of generative AI enthusiasts:
+          <div className="team clearfix">
+            <div className="member">
+              <img src="/images/team/maxim_salnikov.jpg" alt="Maxim Salnikov" />
+              <h2>Maxim Salnikov</h2>
+              <small>Developer Relations @ Microsoft</small>
+              <ul className="icons">
+                <li>
+                  <a
+                    href="https://twitter.com/webmaxru"
+                    target="_blank"
+                    className="icon brands fa-twitter"
+                  >
+                    <span className="label">Twitter</span>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.linkedin.com/in/webmaxru/"
+                    target="_blank"
+                    className="icon brands fa-linkedin"
+                  >
+                    <span className="label">LinkedInd</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div className="member">
+              <img
+                src="/images/team/erich_hellstrom.png"
+                alt="Erich Hellstrom"
+              />
+              <h2>Erich Hellstrom</h2>
+              <small>Founder @ Prompt Perfect</small>
+              <ul className="icons">
+                <li>
+                  <a
+                    href="https://twitter.com/Prompt_Perfect"
+                    target="_blank"
+                    className="icon brands fa-twitter"
+                  >
+                    <span className="label">Twitter</span>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.linkedin.com/company/prompt-perfect/"
+                    target="_blank"
+                    className="icon brands fa-linkedin"
+                  >
+                    <span className="label">LinkedIn</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
         </section>
       </div>
     </Layout>
