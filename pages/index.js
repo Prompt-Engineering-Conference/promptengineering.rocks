@@ -247,13 +247,37 @@ export default function Home() {
       <div className="box container">
         <h3>Community partners</h3>
 
-        <div className="partners clearfix">
-          <a href="https://www.meetup.com/promptengineering/">
-            <img
-              src="/images/partners/pe-norway.png"
-              alt="Prompt Engineering Norway"
-            />
-          </a>
+        <div className="partners">
+          <div className="partner">
+            <a href="https://www.meetup.com/promptengineering/">
+              <img 
+                src="/images/partners/pe-norway.png"
+                alt="Prompt Engineering Norway"
+              />
+              <p>Prompt Engineering Norway</p>
+            </a>
+          </div>
+
+          <div className="partner">
+            <a href="https://www.meetup.com/london-prompt-engineers/">
+              <img 
+                src="/images/partners/london-prompt-engineers.jpg"
+                alt="London Prompt Engineers"
+              />
+              <p>London Prompt Engineers</p>
+            </a>
+          </div>
+
+          <div className="partner">
+            <a href="https://aka.ms/SKDiscord">
+              <img 
+                src="/images/partners/semantic-kernel.png"
+                alt="Semantic Kernel Community"
+              />
+              <p>Semantic Kernel Community</p>
+            </a>
+          </div>
+
         </div>
       </div>
 

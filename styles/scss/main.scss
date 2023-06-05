@@ -1803,10 +1803,27 @@ input[type='button'],
   display: table;
 }
 
-.partners img {
-  width: 10em;
-  float: left;
-  margin: 0 1em 2em 1em;
+.partners {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: center;
+
+  a {
+    text-decoration: none;
+    border: none;
+  }
+
+  .partner {
+    margin: 0 1em 2em 1em;
+    width: 10em;
+    text-align: center;
+
+    img {
+      width: 10em;
+      height: 10em;
+    }
+  }
 }
 
 /* Team */
