@@ -278,6 +278,16 @@ export default function Home() {
             </a>
           </div>
 
+          <div className="partner">
+            <a href="https://www.meetup.com/berlin-prompt-engineers-meetup/">
+              <img 
+                src="/images/partners/berlin-prompt-engineers.png"
+                alt="Berlin Prompt Engineers"
+              />
+              <p>Berlin Prompt Engineers</p>
+            </a>
+          </div>
+
         </div>
       </div>
 
@@ -337,6 +347,34 @@ export default function Home() {
                 <li>
                   <a
                     href="https://www.linkedin.com/company/prompt-perfect/"
+                    target="_blank"
+                    className="icon brands fa-linkedin"
+                  >
+                    <span className="label">LinkedIn</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div className="member">
+              <img
+                src="/images/team/dan_cleary.png"
+                alt="Dan Cleary"
+              />
+              <h2>Dan Cleary</h2>
+              <small>Founder @ Prompt Hub</small>
+              <ul className="icons">
+                <li>
+                  <a
+                    href="https://twitter.com/DanJCleary"
+                    target="_blank"
+                    className="icon brands fa-twitter"
+                  >
+                    <span className="label">Twitter</span>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.linkedin.com/in/dan-cleary-06b754123/"
                     target="_blank"
                     className="icon brands fa-linkedin"
                   >
