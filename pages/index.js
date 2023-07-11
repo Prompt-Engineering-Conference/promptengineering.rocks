@@ -318,7 +318,7 @@ export default function Home() {
                 </li>
                 <li>
                   <a
-                    href="https://www.linkedin.com/in/webmaxru/"
+                    href="https://www.linkedin.com/in/webmax/"
                     target="_blank"
                     className="icon brands fa-linkedin"
                   >
