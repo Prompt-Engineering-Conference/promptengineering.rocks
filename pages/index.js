@@ -250,7 +250,7 @@ export default function Home() {
         <div className="partners">
           <div className="partner">
             <a href="https://www.meetup.com/promptengineering/">
-              <img 
+              <img
                 src="/images/partners/pe-norway.png"
                 alt="Prompt Engineering Norway"
               />
@@ -260,7 +260,7 @@ export default function Home() {
 
           <div className="partner">
             <a href="https://www.meetup.com/london-prompt-engineers/">
-              <img 
+              <img
                 src="/images/partners/london-prompt-engineers.jpg"
                 alt="London Prompt Engineers"
               />
@@ -270,7 +270,7 @@ export default function Home() {
 
           <div className="partner">
             <a href="https://aka.ms/SKDiscord">
-              <img 
+              <img
                 src="/images/partners/semantic-kernel.png"
                 alt="Semantic Kernel Community"
               />
@@ -280,7 +280,7 @@ export default function Home() {
 
           <div className="partner">
             <a href="https://www.meetup.com/berlin-prompt-engineers-meetup/">
-              <img 
+              <img
                 src="/images/partners/berlin-prompt-engineers.png"
                 alt="Berlin Prompt Engineers"
               />
@@ -288,6 +288,12 @@ export default function Home() {
             </a>
           </div>
 
+          <div className="partner">
+            <a href="https://chatu.ai">
+              <img src="/images/partners/chatu.jpg" alt="ChatU" />
+              <p>ChatU</p>
+            </a>
+          </div>
         </div>
       </div>
 
@@ -356,10 +362,7 @@ export default function Home() {
               </ul>
             </div>
             <div className="member">
-              <img
-                src="/images/team/dan_cleary.png"
-                alt="Dan Cleary"
-              />
+              <img src="/images/team/dan_cleary.png" alt="Dan Cleary" />
               <h2>Dan Cleary</h2>
               <small>Founder @ Prompt Hub</small>
               <ul className="icons">
