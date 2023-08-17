@@ -294,6 +294,16 @@ export default function Home() {
               <p>ChatU</p>
             </a>
           </div>
+
+          <div className="partner">
+            <a href="https://www.dataforeningen.no/">
+              <img
+                src="/images/partners/dnd.png"
+                alt="Den norske dataforening"
+              />
+              <p>Den norske dataforening</p>
+            </a>
+          </div>
         </div>
       </div>
 
