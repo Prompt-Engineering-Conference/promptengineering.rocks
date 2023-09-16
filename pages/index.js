@@ -321,7 +321,7 @@ export default function Home() {
             <div className="member">
               <img src="/images/team/maxim_salnikov.jpg" alt="Maxim Salnikov" />
               <h2>Maxim Salnikov</h2>
-              <small>Developer Relations @ Microsoft</small>
+              <small>Developer Productivity @ Microsoft</small>
               <ul className="icons">
                 <li>
                   <a
@@ -388,6 +388,44 @@ export default function Home() {
                 <li>
                   <a
                     href="https://www.linkedin.com/in/dan-cleary-06b754123/"
+                    target="_blank"
+                    className="icon brands fa-linkedin"
+                  >
+                    <span className="label">LinkedIn</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <h2>Invited program committee members</h2>
+          <div className="team clearfix">
+            <div className="member">
+              <img src="/images/team/diana_philips.jpg" alt="Diana Philips" />
+              <h2>Diana Philips</h2>
+              <small>AI Technical Enablement @ Microsoft</small>
+              <ul className="icons">
+                <li>
+                  <a
+                    href="https://www.linkedin.com/in/utahitpro/"
+                    target="_blank"
+                    className="icon brands fa-linkedin"
+                  >
+                    <span className="label">LinkedIn</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div className="member">
+              <img
+                src="/images/team/brian_elvesæter.jpg"
+                alt="Brian Elvesæter "
+              />
+              <h2>Brian Elvesæter </h2>
+              <small>Senior Research Scientist @ SINTEF</small>
+              <ul className="icons">
+                <li>
+                  <a
+                    href="https://www.linkedin.com/in/elvesater/"
                     target="_blank"
                     className="icon brands fa-linkedin"
                   >
