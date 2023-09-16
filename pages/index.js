@@ -189,15 +189,8 @@ export default function Home() {
           <div className="content">
             <h3>Speaker</h3>
             <p>
-              We want to hear your story about prompt engineering! The call for
-              presentations is open.{' '}
-              <Link
-                href="https://sessionize.com/prompt-engineering-conference-2023"
-                onClick={() => ReactGA.event('cfp', {})}
-              >
-                Check more details and send your proposal
-              </Link>{' '}
-              now !
+              The call for presentations is closed for 2023's edition. Join the
+              mailing list below to know when we open CFP for 2024!
             </p>
           </div>
         </section>
