@@ -20,6 +20,7 @@ export default function Home() {
       </Head>
 
       <div
+        suppressHydrationWarning={true}
         dangerouslySetInnerHTML={{
           __html: sessionizeScript,
         }}
@@ -252,7 +253,10 @@ export default function Home() {
           <div className="partner">
             <a href="https://www.prompthub.us/">
               <img src="/images/partners/prompt-hub.png" alt="Prompt Hub" />
-              <p>Keep your prompts organized and leverage top-tier templates to streamline your process with Prompt Hub</p>
+              <p>
+                Keep your prompts organized and leverage top-tier templates to
+                streamline your process with Prompt Hub
+              </p>
             </a>
           </div>
 
@@ -262,7 +266,10 @@ export default function Home() {
                 src="/images/partners/prompt-perfect.png"
                 alt="Prompt Perfect"
               />
-              <p>Prompt Perfect optimizes your prompts in ChatGPT to ensure high-quality, relevant responses</p>
+              <p>
+                Prompt Perfect optimizes your prompts in ChatGPT to ensure
+                high-quality, relevant responses
+              </p>
             </a>
           </div>
         </div>

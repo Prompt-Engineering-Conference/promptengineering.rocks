@@ -125,6 +125,7 @@ export default function Layout({ children }) {
           name="twitter:image"
           content="https://promptengineering.rocks/images/social.png"
         />
+        <meta name="format-detection" content="telephone=no" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
           rel="preconnect"
