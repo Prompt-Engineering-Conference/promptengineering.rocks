@@ -126,6 +126,10 @@ export default function Layout({ children }) {
           content="https://promptengineering.rocks/images/social.png"
         />
         <meta name="format-detection" content="telephone=no" />
+        <meta name="format-detection" content="date=no" />
+        <meta name="format-detection" content="address=no" />
+        <meta name="format-detection" content="email=no" />
+        <meta name="format-detection" content="url=no" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
           rel="preconnect"

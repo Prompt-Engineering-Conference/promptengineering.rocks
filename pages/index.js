@@ -5,6 +5,7 @@ import Typewriter from 'typewriter-effect';
 import { HtmlTooltip } from '../components/HtmlTooltip';
 import ReactGA from 'react-ga4';
 import Link from 'next/link';
+import React, { Suspense } from 'react';
 
 defaultFallbackInView(true);
 
@@ -19,12 +20,14 @@ export default function Home() {
         </title>
       </Head>
 
-      <div
-        suppressHydrationWarning={true}
-        dangerouslySetInnerHTML={{
-          __html: sessionizeScript,
-        }}
-      ></div>
+      <Suspense fallback={null}>
+        <div
+          suppressHydrationWarning={true}
+          dangerouslySetInnerHTML={{
+            __html: sessionizeScript,
+          }}
+        ></div>
+      </Suspense>
 
       <header className="major container medium">
         <h2>
