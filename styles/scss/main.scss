@@ -1860,3 +1860,24 @@ input[type='button'],
     }
   }
 }
+
+/* Sessionize */
+
+.sz-root {
+
+  .sz-session__room {
+    display: none !important;
+  }
+
+  padding: 1em; 
+  text-transform: unset;
+
+  h1, h2, h3, h4, h5, h6 {
+    text-transform: unset;
+    letter-spacing: normal;
+  }
+
+  .sz-session__card .sz-session__title {
+    color: #fff;
+  }
+}

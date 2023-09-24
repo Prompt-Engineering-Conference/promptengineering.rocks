@@ -9,6 +9,8 @@ import Link from 'next/link';
 defaultFallbackInView(true);
 
 export default function Home() {
+  const sessionizeScript = `<script type="text/javascript" src="https://sessionize.com/api/v2/o3iuxoh0/view/GridSmart"></script>`;
+
   return (
     <Layout home>
       <Head>
@@ -16,6 +18,12 @@ export default function Home() {
           {`${siteTitle} - The world's first conference about prompt engineering - October 12, Online, Free`}
         </title>
       </Head>
+
+      <div
+        dangerouslySetInnerHTML={{
+          __html: sessionizeScript,
+        }}
+      ></div>
 
       <header className="major container medium">
         <h2>
@@ -102,7 +110,7 @@ export default function Home() {
       <div className="box container">
         <h3>Tracks</h3>
 
-        <ul class="default">
+        <ul className="default">
           <li>
             <strong>Development</strong>
             <p>
@@ -235,6 +243,29 @@ export default function Home() {
             </p>
           </div>
         </section>
+      </div>
+
+      <div className="box container">
+        <h3>Sponsors</h3>
+
+        <div className="partners">
+          <div className="partner">
+            <a href="https://www.prompthub.us/">
+              <img src="/images/partners/prompt-hub.png" alt="Prompt Hub" />
+              <p>Keep your prompts organized and leverage top-tier templates to streamline your process with Prompt Hub</p>
+            </a>
+          </div>
+
+          <div className="partner">
+            <a href="https://promptperfect.xyz/">
+              <img
+                src="/images/partners/prompt-perfect.png"
+                alt="Prompt Perfect"
+              />
+              <p>Prompt Perfect optimizes your prompts in ChatGPT to ensure high-quality, relevant responses</p>
+            </a>
+          </div>
+        </div>
       </div>
 
       <div className="box container">
