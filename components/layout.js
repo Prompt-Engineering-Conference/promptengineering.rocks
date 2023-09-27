@@ -192,6 +192,30 @@ export default function Layout({ children }) {
             Get a free ticket
           </Button>
         </HtmlTooltip>
+        <HtmlTooltip title="Streaming Track 1" arrow>
+          <Button
+            variant="contained"
+            color="secondary"
+            style={{ width: '18em', margin: '0 2em 1em 2em' }}
+            size="large"
+            href="https://bit.ly/prompt-conf-track1"
+            onClick={() => ReactGA.event('stream1', {})}
+          >
+            Stream Track 1
+          </Button>
+        </HtmlTooltip>
+        <HtmlTooltip title="Streaming Track 2" arrow>
+          <Button
+            variant="contained"
+            color="secondary"
+            style={{ width: '18em', margin: '0 2em 1em 2em' }}
+            size="large"
+            href="https://bit.ly/prompt-conf-track2"
+            onClick={() => ReactGA.event('stream2', {})}
+          >
+            Stream Track 2
+          </Button>
+        </HtmlTooltip>
       </div>
 
       <div id="main">{children}</div>

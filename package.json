@@ -15,6 +15,7 @@
     "axios-hooks": "^4.0.0",
     "date-fns": "^2.29.3",
     "gpt-3-encoder": "^1.1.4",
+    "iframe-resizer-react": "^1.1.0",
     "next": "latest",
     "react": "18.2.0",
     "react-device-detect": "^2.2.3",

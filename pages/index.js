@@ -5,13 +5,12 @@ import Typewriter from 'typewriter-effect';
 import { HtmlTooltip } from '../components/HtmlTooltip';
 import ReactGA from 'react-ga4';
 import Link from 'next/link';
-import React, { Suspense } from 'react';
+import React from 'react';
+import IframeResizer from 'iframe-resizer-react';
 
 defaultFallbackInView(true);
 
 export default function Home() {
-  const sessionizeScript = `<script type="text/javascript" src="https://sessionize.com/api/v2/o3iuxoh0/view/GridSmart"></script>`;
-
   return (
     <Layout home>
       <Head>
@@ -20,14 +19,10 @@ export default function Home() {
         </title>
       </Head>
 
-      <Suspense fallback={null}>
-        <div
-          suppressHydrationWarning={true}
-          dangerouslySetInnerHTML={{
-            __html: sessionizeScript,
-          }}
-        ></div>
-      </Suspense>
+      <IframeResizer
+        src="./schedule.html"
+        style={{ width: '1px', minWidth: '100%' }}
+      />
 
       <header className="major container medium">
         <h2>
@@ -112,7 +107,7 @@ export default function Home() {
       </div>
 
       <div className="box container">
-        <h3>Tracks</h3>
+        <h3>Topics</h3>
 
         <ul className="default">
           <li>
@@ -257,8 +252,8 @@ export default function Home() {
             <a href="https://www.prompthub.us/">
               <img src="/images/partners/prompt-hub.png" alt="Prompt Hub" />
               <p>
-                Keep your prompts organized and leverage top-tier templates to
-                streamline your process with Prompt Hub
+                Test, deploy, and manage your prompts with PromptHub, a prompt
+                management tool built for teams
               </p>
             </a>
           </div>
