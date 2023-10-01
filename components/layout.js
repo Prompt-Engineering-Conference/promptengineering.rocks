@@ -185,18 +185,42 @@ export default function Layout({ children }) {
           <Button
             variant="contained"
             href="https://ti.to/prompt-engineering-conference/2023?source=website"
-            style={{ width: '18em', margin: '0 2em 1em 2em' }}
+            style={{ width: '13em', margin: '0 1em 1em 1em' }}
             size="large"
             onClick={() => ReactGA.event('ticket', {})}
           >
-            Get a free ticket
+            Free ticket
           </Button>
         </HtmlTooltip>
+        <HtmlTooltip title="Add to your calendar" arrow>
+          <Button
+            variant="contained"
+            style={{ width: '13em', margin: '0 1em 1em 1em' }}
+            size="large"
+            href="./PromptEngineeringConference2023.ics"
+            onClick={() => ReactGA.event('ical', {})}
+          >
+            Add to calendar
+          </Button>
+        </HtmlTooltip>
+        <HtmlTooltip title="Install our mobile app (PWA)" arrow>
+          <Button
+            variant="contained"
+            style={{ width: '13em', margin: '0 1em 1em 1em' }}
+            size="large"
+            href="https://promptengconf.sessionize.com"
+            onClick={() => ReactGA.event('app', {})}
+          >
+            Mobile app
+          </Button>
+        </HtmlTooltip>
+
+        <br />
         <HtmlTooltip title="Streaming Track 1" arrow>
           <Button
             variant="contained"
             color="secondary"
-            style={{ width: '18em', margin: '0 2em 1em 2em' }}
+            style={{ width: '13em', margin: '0 1em 1em 1em' }}
             size="large"
             href="https://bit.ly/prompt-conf-track1"
             onClick={() => ReactGA.event('stream1', {})}
@@ -208,7 +232,7 @@ export default function Layout({ children }) {
           <Button
             variant="contained"
             color="secondary"
-            style={{ width: '18em', margin: '0 2em 1em 2em' }}
+            style={{ width: '13em', margin: '0 1em 1em 1em' }}
             size="large"
             href="https://bit.ly/prompt-conf-track2"
             onClick={() => ReactGA.event('stream2', {})}
