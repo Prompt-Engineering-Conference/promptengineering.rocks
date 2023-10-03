@@ -1834,11 +1834,16 @@ input[type='button'],
 
 .team {
   margin: 1.5em 0 0 0;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  align-content: center;
+
   .member {
-    margin: 0 1em 2em 0;
-    float: left;
+    margin: 0 1em 2em 1em;
     color: #fff;
-    width: 30%;
+    width: 12em;
 
     h2 {
       color: #fff;
@@ -1866,15 +1871,19 @@ input[type='button'],
 /* Sessionize */
 
 .sz-root {
-
   .sz-session__room {
     display: none !important;
   }
 
-  padding: 1em; 
+  padding: 1em;
   text-transform: unset;
 
-  h1, h2, h3, h4, h5, h6 {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
     text-transform: unset;
     letter-spacing: normal;
   }

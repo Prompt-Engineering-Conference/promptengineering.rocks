@@ -445,7 +445,7 @@ export default function Home() {
               <img src="/images/partners/synthminds.png" alt="Synthminds AI" />
               <p>
                 Synthminds AI is a full-service AI agency offering consulting,
-                training, and results-driven solutions.
+                training, and results-driven solutions
               </p>
             </a>
           </div>
