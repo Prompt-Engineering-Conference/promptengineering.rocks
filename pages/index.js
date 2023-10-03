@@ -244,98 +244,6 @@ export default function Home() {
         </section>
       </div>
 
-      <div className="box container">
-        <h3>Sponsors</h3>
-
-        <div className="partners">
-          <div className="partner">
-            <a href="https://www.prompthub.us/">
-              <img src="/images/partners/prompt-hub.png" alt="Prompt Hub" />
-              <p>
-                Test, deploy, and manage your prompts with PromptHub, a prompt
-                management tool built for teams
-              </p>
-            </a>
-          </div>
-
-          <div className="partner">
-            <a href="https://promptperfect.xyz/">
-              <img
-                src="/images/partners/prompt-perfect.png"
-                alt="Prompt Perfect"
-              />
-              <p>
-                Prompt Perfect optimizes your prompts in ChatGPT to ensure
-                high-quality, relevant responses
-              </p>
-            </a>
-          </div>
-        </div>
-      </div>
-
-      <div className="box container">
-        <h3>Community partners</h3>
-
-        <div className="partners">
-          <div className="partner">
-            <a href="https://www.meetup.com/promptengineering/">
-              <img
-                src="/images/partners/pe-norway.png"
-                alt="Prompt Engineering Norway"
-              />
-              <p>Prompt Engineering Norway</p>
-            </a>
-          </div>
-
-          <div className="partner">
-            <a href="https://www.meetup.com/london-prompt-engineers/">
-              <img
-                src="/images/partners/london-prompt-engineers.jpg"
-                alt="London Prompt Engineers"
-              />
-              <p>London Prompt Engineers</p>
-            </a>
-          </div>
-
-          <div className="partner">
-            <a href="https://aka.ms/SKDiscord">
-              <img
-                src="/images/partners/semantic-kernel.png"
-                alt="Semantic Kernel Community"
-              />
-              <p>Semantic Kernel Community</p>
-            </a>
-          </div>
-
-          <div className="partner">
-            <a href="https://www.meetup.com/berlin-prompt-engineers-meetup/">
-              <img
-                src="/images/partners/berlin-prompt-engineers.png"
-                alt="Berlin Prompt Engineers"
-              />
-              <p>Berlin Prompt Engineers</p>
-            </a>
-          </div>
-
-          <div className="partner">
-            <a href="https://chatu.ai">
-              <img src="/images/partners/chatu.jpg" alt="ChatU" />
-              <p>ChatU</p>
-            </a>
-          </div>
-
-          <div className="partner">
-            <a href="https://www.dataforeningen.no/">
-              <img
-                src="/images/partners/dnd.png"
-                alt="Den norske dataforening"
-              />
-              <p>Den norske dataforening</p>
-            </a>
-          </div>
-        </div>
-      </div>
-
       <div className="box bot container">
         <section className="prompt user">
           <span className="actor">user</span>
@@ -426,6 +334,44 @@ export default function Home() {
               </ul>
             </div>
           </div>
+          <h2>Event hosts and moderators</h2>
+          <div className="team clearfix">
+            <div className="member">
+              <img src="/images/team/goda_go.png" alt="Goda Go" />
+              <h2>Goda Go</h2>
+              <small>Youtuber & Podcast co-host</small>
+              <ul className="icons">
+                <li>
+                  <a
+                    href="https://www.linkedin.com/in/godajuskevi/"
+                    target="_blank"
+                    className="icon brands fa-linkedin"
+                  >
+                    <span className="label">LinkedIn</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div className="member">
+              <img
+                src="/images/team/wes_shields.png"
+                alt="William (Wes) Shields"
+              />
+              <h2>William (Wes) Shields</h2>
+              <small>MS, MBA, Founder @ Synthminds</small>
+              <ul className="icons">
+                <li>
+                  <a
+                    href="https://www.linkedin.com/in/shields-wes/"
+                    target="_blank"
+                    className="icon brands fa-linkedin"
+                  >
+                    <span className="label">LinkedIn</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
           <h2>Invited program committee members</h2>
           <div className="team clearfix">
             <div className="member">
@@ -465,6 +411,108 @@ export default function Home() {
             </div>
           </div>
         </section>
+      </div>
+
+      <div className="box container">
+        <h3>Sponsors</h3>
+
+        <div className="partners">
+          <div className="partner">
+            <a href="https://www.prompthub.us/">
+              <img src="/images/partners/prompt-hub.png" alt="Prompt Hub" />
+              <p>
+                Test, deploy, and manage your prompts with PromptHub, a prompt
+                management tool built for teams
+              </p>
+            </a>
+          </div>
+
+          <div className="partner">
+            <a href="https://promptperfect.xyz/">
+              <img
+                src="/images/partners/prompt-perfect.png"
+                alt="Prompt Perfect"
+              />
+              <p>
+                Prompt Perfect optimizes your prompts in ChatGPT to ensure
+                high-quality, relevant responses
+              </p>
+            </a>
+          </div>
+
+          <div className="partner">
+            <a href="https://www.synthminds.ai/">
+              <img src="/images/partners/synthminds.png" alt="Synthminds AI" />
+              <p>
+                Synthminds AI is a full-service AI agency offering consulting,
+                training, and results-driven solutions.
+              </p>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div className="box container">
+        <h3>Community partners</h3>
+
+        <div className="partners">
+          <div className="partner">
+            <a href="https://www.meetup.com/promptengineering/">
+              <img
+                src="/images/partners/pe-norway.png"
+                alt="Prompt Engineering Norway"
+              />
+              <p>Prompt Engineering Norway</p>
+            </a>
+          </div>
+
+          <div className="partner">
+            <a href="https://www.meetup.com/london-prompt-engineers/">
+              <img
+                src="/images/partners/london-prompt-engineers.jpg"
+                alt="London Prompt Engineers"
+              />
+              <p>London Prompt Engineers</p>
+            </a>
+          </div>
+
+          <div className="partner">
+            <a href="https://aka.ms/SKDiscord">
+              <img
+                src="/images/partners/semantic-kernel.png"
+                alt="Semantic Kernel Community"
+              />
+              <p>Semantic Kernel Community</p>
+            </a>
+          </div>
+
+          <div className="partner">
+            <a href="https://www.meetup.com/berlin-prompt-engineers-meetup/">
+              <img
+                src="/images/partners/berlin-prompt-engineers.png"
+                alt="Berlin Prompt Engineers"
+              />
+              <p>Berlin Prompt Engineers</p>
+            </a>
+          </div>
+
+          <div className="partner">
+            <a href="https://chatu.ai">
+              <img src="/images/partners/chatu.jpg" alt="ChatU" />
+              <p>ChatU</p>
+            </a>
+          </div>
+
+          <div className="partner">
+            <a href="https://www.dataforeningen.no/">
+              <img
+                src="/images/partners/dnd.png"
+                alt="Den norske dataforening"
+              />
+              <p>Den norske dataforening</p>
+            </a>
+          </div>
+        </div>
       </div>
     </Layout>
   );
