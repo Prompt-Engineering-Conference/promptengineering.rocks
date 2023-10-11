@@ -7,10 +7,10 @@ X-WR-CALNAME:Prompt Engineering Conference 2023
 BEGIN:VEVENT
 DESCRIPTION:
 DTEND:20231012T151000Z
-DTSTAMP:20231001T081034Z
+DTSTAMP:20231011T194023Z
 DTSTART:20231012T150000Z
 LOCATION:Track 1
-SEQUENCE:197185
+SEQUENCE:198694
 STATUS:CONFIRMED
 SUMMARY:Opening (10 min)
 UID:SZSESSIONf105e827-0a7b-4b06-bc72-440a32f9afff
@@ -19,10 +19,10 @@ BEGIN:VEVENT
 DESCRIPTION:Speaker: Ajit Jaokar\n\nTBD\n\nhttps://sessionize.com/live/kha
  wsexo542211
 DTEND:20231012T154000Z
-DTSTAMP:20231001T081034Z
+DTSTAMP:20231011T194023Z
 DTSTART:20231012T151000Z
 LOCATION:Track 1
-SEQUENCE:197185
+SEQUENCE:198694
 STATUS:CONFIRMED
 SUMMARY:Prompt Engineering: Democratising learning of AI - experiences fro
  m the University of Oxford
@@ -42,10 +42,10 @@ DESCRIPTION:Speaker: Stephen Perin\n\nA Journey through Diverse Patterns a
   the landscape of Generative AI.\n\nhttps://sessionize.com/live/xpasxeno5
  42208
 DTEND:20231012T154000Z
-DTSTAMP:20231001T081034Z
+DTSTAMP:20231011T194023Z
 DTSTART:20231012T151000Z
 LOCATION:Track 2
-SEQUENCE:197185
+SEQUENCE:198694
 STATUS:CONFIRMED
 SUMMARY:Navigating the Evolution of Prompt Engineering
 UID:SZSESSION542208
@@ -68,10 +68,10 @@ DESCRIPTION:Speaker: Rohan Singh Rajput\n\nIn the evolving digital landsca
   customer engagement strategies. \n\nhttps://sessionize.com/live/isdarjem
  o521356
 DTEND:20231012T161000Z
-DTSTAMP:20231001T081034Z
+DTSTAMP:20231011T194023Z
 DTSTART:20231012T154000Z
 LOCATION:Track 1
-SEQUENCE:197185
+SEQUENCE:198694
 STATUS:CONFIRMED
 SUMMARY:Prompt Based Recommendation Systems: A New Era of Personalized Exp
  eriences
@@ -89,10 +89,10 @@ DESCRIPTION:Speaker: Jesus Serrano\n\nEmbark on a journey to the Universal
   boundaries and welcoming everyone to leave their unique mark in this gra
  nd innovation tapestry.\n\nhttps://sessionize.com/live/ipyapgebo513521
 DTEND:20231012T161000Z
-DTSTAMP:20231001T081034Z
+DTSTAMP:20231011T194023Z
 DTSTART:20231012T154000Z
 LOCATION:Track 2
-SEQUENCE:197185
+SEQUENCE:198694
 STATUS:CONFIRMED
 SUMMARY:The Dawn of Universal Creativity: Reinventing Design Workflows!
 UID:SZSESSION513521
@@ -102,10 +102,10 @@ DESCRIPTION:Speaker: Dr. Ayse Glass\n\nGenerating non-existing city concep
  ts\, materials and architectural design. \n\nhttps://sessionize.com/live/
  oqolzao515276
 DTEND:20231012T162000Z
-DTSTAMP:20231001T081034Z
+DTSTAMP:20231011T194023Z
 DTSTART:20231012T161000Z
 LOCATION:Track 1
-SEQUENCE:197185
+SEQUENCE:198694
 STATUS:CONFIRMED
 SUMMARY:Generated Cities and Architecture
 UID:SZSESSION515276
@@ -117,10 +117,10 @@ DESCRIPTION:Speaker: Anand Kulkarni\n\nPrompt Engineering is revolutionizi
   belong to? How to secure it? With rights come duties\, what are they?\n\
  nhttps://sessionize.com/live/zsadzeno515362
 DTEND:20231012T162000Z
-DTSTAMP:20231001T081034Z
+DTSTAMP:20231011T194023Z
 DTSTART:20231012T161000Z
 LOCATION:Track 2
-SEQUENCE:197185
+SEQUENCE:198694
 STATUS:CONFIRMED
 SUMMARY:Whose Intellectual Property is Prompt Engineering?
 UID:SZSESSION515362
@@ -128,10 +128,10 @@ END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:
 DTEND:20231012T164000Z
-DTSTAMP:20231001T081034Z
+DTSTAMP:20231011T194023Z
 DTSTART:20231012T162000Z
 LOCATION:Track 1
-SEQUENCE:197185
+SEQUENCE:198694
 STATUS:CONFIRMED
 SUMMARY:Q&A with Section 1 speakers
 UID:SZSESSION3e0486aa-c1f9-4e2f-a4e8-1b49703d14b6
@@ -139,10 +139,10 @@ END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:
 DTEND:20231012T164000Z
-DTSTAMP:20231001T081034Z
+DTSTAMP:20231011T194023Z
 DTSTART:20231012T162000Z
 LOCATION:Track 2
-SEQUENCE:197185
+SEQUENCE:198694
 STATUS:CONFIRMED
 SUMMARY:Q&A with Section 1 speakers
 UID:SZSESSION53756e66-4b22-4dd8-8d9f-1136dcee626f
@@ -150,10 +150,10 @@ END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:
 DTEND:20231012T165000Z
-DTSTAMP:20231001T081034Z
+DTSTAMP:20231011T194023Z
 DTSTART:20231012T164000Z
 LOCATION:Track 1
-SEQUENCE:197185
+SEQUENCE:198694
 STATUS:CONFIRMED
 SUMMARY:Virtual coffee break
 UID:SZSESSION9519331d-f2b0-4f0d-85ec-ddbaba3b64c7
@@ -187,10 +187,10 @@ DESCRIPTION:Speaker: Eric Elliott\n\nIn the rapidly-evolving landscape of
  ctical strategies for a more efficient AI prompting experience.\n\nhttps:
  //sessionize.com/live/ifyacqeo513532
 DTEND:20231012T172000Z
-DTSTAMP:20231001T081034Z
+DTSTAMP:20231011T194023Z
 DTSTART:20231012T165000Z
 LOCATION:Track 1
-SEQUENCE:197185
+SEQUENCE:198694
 STATUS:CONFIRMED
 SUMMARY:Better Prompting with Pseudocode
 UID:SZSESSION513532
@@ -201,10 +201,10 @@ DESCRIPTION:Speaker: Mark Hennings\n\nWhat fine-tuning is\, how it works\,
  o migrate from an instruction-based prompt to a fine-tuned LLM.\n\nhttps:
  //sessionize.com/live/iscacsego532252
 DTEND:20231012T172000Z
-DTSTAMP:20231001T081034Z
+DTSTAMP:20231011T194023Z
 DTSTART:20231012T165000Z
 LOCATION:Track 2
-SEQUENCE:197185
+SEQUENCE:198694
 STATUS:CONFIRMED
 SUMMARY:Intro to Fine-tuning
 UID:SZSESSION532252
@@ -224,10 +224,10 @@ DESCRIPTION:Speaker: Rory Preddy\n\n🚀 Get ready to supercharge your devel
  ion with Semantic Kernel and Semantic Kernel Tools today! 🤖\n\nhttps://s
  essionize.com/live/mvaooho495194
 DTEND:20231012T175000Z
-DTSTAMP:20231001T081034Z
+DTSTAMP:20231011T194023Z
 DTSTART:20231012T172000Z
 LOCATION:Track 1
-SEQUENCE:197185
+SEQUENCE:198694
 STATUS:CONFIRMED
 SUMMARY:Semantic Kernel: Teaching AI to Not Just Repeat\, But Complete!
 UID:SZSESSION495194
@@ -253,10 +253,10 @@ DESCRIPTION:Speaker: Anastasia Podrabinek\n\nAs a Product Manager for AI t
  ormal\, well defined and somewhat predictable part of the workflow\n\nhtt
  ps://sessionize.com/live/wxadveio516936
 DTEND:20231012T175000Z
-DTSTAMP:20231001T081034Z
+DTSTAMP:20231011T194023Z
 DTSTART:20231012T172000Z
 LOCATION:Track 2
-SEQUENCE:197185
+SEQUENCE:198694
 STATUS:CONFIRMED
 SUMMARY:How prompt engineering projects change R&D cycle and team work in 
  enterprise
@@ -273,10 +273,10 @@ DESCRIPTION:Speaker: Eric Allen\n\nChatGPT can help you brainstorm. GitHub
  or prototyping your next idea using language models.\n\nhttps://sessioniz
  e.com/live/ixnafyevo538589
 DTEND:20231012T180000Z
-DTSTAMP:20231001T081034Z
+DTSTAMP:20231011T194023Z
 DTSTART:20231012T175000Z
 LOCATION:Track 1
-SEQUENCE:197185
+SEQUENCE:198694
 STATUS:CONFIRMED
 SUMMARY:Rapid Prototyping with AI
 UID:SZSESSION538589
@@ -297,10 +297,10 @@ DESCRIPTION:Speakers: C Wen\, Zhaohong Wang\n\nIn today's fast-paced devel
  ct managers in real-time project evaluation and risk management.\n\nhttps
  ://sessionize.com/live/ciogsafo541038
 DTEND:20231012T180000Z
-DTSTAMP:20231001T081034Z
+DTSTAMP:20231011T194023Z
 DTSTART:20231012T175000Z
 LOCATION:Track 2
-SEQUENCE:197185
+SEQUENCE:198694
 STATUS:CONFIRMED
 SUMMARY:Prompt Engineering a Product Manager
 UID:SZSESSION541038
@@ -308,10 +308,10 @@ END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:
 DTEND:20231012T182000Z
-DTSTAMP:20231001T081034Z
+DTSTAMP:20231011T194023Z
 DTSTART:20231012T180000Z
 LOCATION:Track 1
-SEQUENCE:197185
+SEQUENCE:198694
 STATUS:CONFIRMED
 SUMMARY:Q&A with Section 2 speakers
 UID:SZSESSION44db2c1e-b834-4628-9ee8-0ad5ec477f6e
@@ -319,10 +319,10 @@ END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:
 DTEND:20231012T182000Z
-DTSTAMP:20231001T081034Z
+DTSTAMP:20231011T194023Z
 DTSTART:20231012T180000Z
 LOCATION:Track 2
-SEQUENCE:197185
+SEQUENCE:198694
 STATUS:CONFIRMED
 SUMMARY:Q&A with Section 2 speakers
 UID:SZSESSIONc6302839-1ceb-4754-8884-f931506e49f5
@@ -330,10 +330,10 @@ END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:
 DTEND:20231012T183000Z
-DTSTAMP:20231001T081034Z
+DTSTAMP:20231011T194023Z
 DTSTART:20231012T182000Z
 LOCATION:Track 1
-SEQUENCE:197185
+SEQUENCE:198694
 STATUS:CONFIRMED
 SUMMARY:Virtual coffee break
 UID:SZSESSIONc6bd02ec-c3b3-4b86-8d0f-c7c0f2673964
@@ -348,10 +348,10 @@ DESCRIPTION:Speaker: Greg Nash\n\nExplore the frontier of data visualizati
  e future of AI-driven data visualization.\n\nhttps://sessionize.com/live/
  nqaqpevo533241
 DTEND:20231012T190000Z
-DTSTAMP:20231001T081034Z
+DTSTAMP:20231011T194023Z
 DTSTART:20231012T183000Z
 LOCATION:Track 1
-SEQUENCE:197185
+SEQUENCE:198694
 STATUS:CONFIRMED
 SUMMARY:Building complex data visualisations using ChatGPT: The power of I
  terative Prompt Engineering
@@ -378,28 +378,47 @@ DESCRIPTION:Speaker: Daniel Kocot\n\nIn this session\, we will delve into
  ding to better-designed\, more robust\, and easily understandable APIs.\n
  \nhttps://sessionize.com/live/djajzeuo511930
 DTEND:20231012T190000Z
-DTSTAMP:20231001T081034Z
+DTSTAMP:20231011T194023Z
 DTSTART:20231012T183000Z
 LOCATION:Track 2
-SEQUENCE:197185
+SEQUENCE:198694
 STATUS:CONFIRMED
 SUMMARY:Leveraging Prompt Engineering for Effective OpenAPI Descriptions o
  f APIs
 UID:SZSESSION511930
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Speaker: Ivana Tilca\n\nLet's explore the journey of Prompt En
- gineering\, navigating through the various stages from design and develop
- ment to evaluation\, refinement\, optimization\, and production.\n\nhttps
- ://sessionize.com/live/iwcauivo525969
+DESCRIPTION:Speaker: Jan Krans\n\nIn a world where generative AI is reshap
+ ing the boundaries of what's possible\, the power of prompting emerges as
+  the game-changer. \n\nBut can it truly be a seismic catalyst for those w
+ ith a growth mindset? \n\nThis session provides the answer by delving dee
+ per into the transformative journey of harnessing generative AI\, not jus
+ t as a tool\, but as a partner in exploration\, personal development\, an
+ d growth. \n\nDive into a personal journey of rediscovery and innovation 
+ as we explore 'Mystical Fusion' Tarot system\, not as an end product\, bu
+ t as a testament to the creative learning process: the challenges faced\,
+  the boundaries pushed\, and the lessons learned.\n\nFrom revisiting a de
+ cades-old idea with limited to no programming experience to the triumph o
+ f creating a tangible delivery of the project\, it's a story of resilienc
+ e\, innovation\, and the boundless possibilities that emerge when a growt
+ h mindset meets the right tools.\n\nBy the end of this journey\, what was
+  once a hypothesis before the experiment is now proven\, culminating in a
+  fully functional AI-powered Tarot app running on its own server in the c
+ loud\, a physical deck of 52 cards\, a guiding e-book\, and a website\, a
+ ll created during a 2 and a half week creative holiday break.\n\nThe proo
+ f has been delivered. The power of prompting is rocket fuel for people wi
+ th a growth mindset. The only limitation is your own creativity and energ
+ y\, or like Charlie Chaplin once said: "Imagination is nothing without do
+ ing".\n\nhttps://sessionize.com/live/qxazgepo540933
 DTEND:20231012T193000Z
-DTSTAMP:20231001T081034Z
+DTSTAMP:20231011T194023Z
 DTSTART:20231012T190000Z
 LOCATION:Track 1
-SEQUENCE:197185
+SEQUENCE:198694
 STATUS:CONFIRMED
-SUMMARY:Productize prompt engineering with Azure Prompt Flow
-UID:SZSESSION525969
+SUMMARY:The Power of Prompting: Rocket Fuel for People with a Growth Minds
+ et\; Here's the Proof!
+UID:SZSESSION540933
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Speaker: Jeroen Egelmeers\n\nAt numerous conferences\, there i
@@ -422,10 +441,10 @@ DESCRIPTION:Speaker: Jeroen Egelmeers\n\nAt numerous conferences\, there i
  pportunity to enhance your skills\, boost your productivity\, and stay ah
  ead of the curve!\n\nhttps://sessionize.com/live/ioqjapfeo515129
 DTEND:20231012T193000Z
-DTSTAMP:20231001T081034Z
+DTSTAMP:20231011T194023Z
 DTSTART:20231012T190000Z
 LOCATION:Track 2
-SEQUENCE:197185
+SEQUENCE:198694
 STATUS:CONFIRMED
 SUMMARY:Supercharge Your Productivity: Mastering Prompt Engineering
 UID:SZSESSION515129
@@ -436,10 +455,10 @@ DESCRIPTION:Speaker: Alexander Holmeset\n\nI will go through some simple s
  thods can be applied to. other languages also. Can it also help you code 
  more effectively? \n\nhttps://sessionize.com/live/ilgahtexo540490
 DTEND:20231012T194000Z
-DTSTAMP:20231001T081034Z
+DTSTAMP:20231011T194023Z
 DTSTART:20231012T193000Z
 LOCATION:Track 1
-SEQUENCE:197185
+SEQUENCE:198694
 STATUS:CONFIRMED
 SUMMARY:How can you use prompt engineering to debug PowerShell?
 UID:SZSESSION540490
@@ -454,10 +473,10 @@ DESCRIPTION:Speaker: Peter Kestenholz\n\nExperience how natural language c
  rtfolio management and has been a Microsoft MVP for 12 years.\n\nhttps://
  sessionize.com/live/ihqaopmeo499639
 DTEND:20231012T194000Z
-DTSTAMP:20231001T081034Z
+DTSTAMP:20231011T194023Z
 DTSTART:20231012T193000Z
 LOCATION:Track 2
-SEQUENCE:197185
+SEQUENCE:198694
 STATUS:CONFIRMED
 SUMMARY:Prompting your next company strategy
 UID:SZSESSION499639
@@ -465,10 +484,10 @@ END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:
 DTEND:20231012T200000Z
-DTSTAMP:20231001T081034Z
+DTSTAMP:20231011T194023Z
 DTSTART:20231012T194000Z
 LOCATION:Track 1
-SEQUENCE:197185
+SEQUENCE:198694
 STATUS:CONFIRMED
 SUMMARY:Q&A with Section 3 speakers
 UID:SZSESSION4721f706-c897-44da-8833-046efcb68ecf
@@ -476,10 +495,10 @@ END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:
 DTEND:20231012T200000Z
-DTSTAMP:20231001T081034Z
+DTSTAMP:20231011T194023Z
 DTSTART:20231012T194000Z
 LOCATION:Track 2
-SEQUENCE:197185
+SEQUENCE:198694
 STATUS:CONFIRMED
 SUMMARY:Q&A with Section 3 speakers
 UID:SZSESSION72962725-8ad9-4b75-9dae-f01b4e61f735
@@ -487,10 +506,10 @@ END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:
 DTEND:20231012T201000Z
-DTSTAMP:20231001T081034Z
+DTSTAMP:20231011T194023Z
 DTSTART:20231012T200000Z
 LOCATION:Track 1
-SEQUENCE:197185
+SEQUENCE:198694
 STATUS:CONFIRMED
 SUMMARY:Closing (10min)
 UID:SZSESSIONc4f81660-a52d-42ea-8f09-1ef00d6b45cd
