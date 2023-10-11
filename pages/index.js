@@ -449,6 +449,16 @@ export default function Home() {
               </p>
             </a>
           </div>
+
+          <div className="partner">
+            <a href="https://open.spotify.com/show/7c5OsxnEAEgflUqvd0aC5T?si=570a93f65aa64ba9">
+              <img src="/images/partners/httta.png" alt="How to Talk to AI" />
+              <p>
+                Podcast about unlocking AI’s Revolutionary Potential through
+                Prompt Engineering
+              </p>
+            </a>
+          </div>
         </div>
       </div>
 
