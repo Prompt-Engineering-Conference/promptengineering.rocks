@@ -185,7 +185,7 @@ export default function Layout({ children }) {
           <Button
             variant="contained"
             href="https://bit.ly/prompt-eng-conf-videos"
-            style={{ width: '13em', margin: '0 1em 1em 1em' }}
+            style={{ width: '20em', margin: '0 1em 1em 1em' }}
             size="large"
             onClick={() => ReactGA.event('recordings', {})}
           >
@@ -197,7 +197,7 @@ export default function Layout({ children }) {
           <Button
             variant="contained"
             color="secondary"
-            style={{ width: '13em', margin: '0 1em 1em 1em' }}
+            style={{ width: '20em', margin: '0 1em 1em 1em' }}
             size="large"
             href="https://twitter.com/PromptEngConf"
             onClick={() => ReactGA.event('stream1', {})}

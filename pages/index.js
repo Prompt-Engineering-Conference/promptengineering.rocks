@@ -19,10 +19,37 @@ export default function Home() {
         </title>
       </Head>
 
-      <IframeResizer
-        src="./schedule.html"
-        style={{ width: '1px', minWidth: '100%' }}
-      />
+      <div className="box container">
+        <h3>Program and recordings</h3>
+
+        <IframeResizer
+          src="./sessions.html"
+          style={{ width: '1px', minWidth: '100%' }}
+        />
+      </div>
+
+      <div className="box container">
+        <h3>Speakers</h3>
+
+        <IframeResizer
+          src="./speakers.html"
+          style={{ width: '1px', minWidth: '100%' }}
+        />
+      </div>
+
+      <div className="box container">
+        <h3>Playlist on YouTube</h3>
+
+        <iframe
+          width="100%"
+          height="315"
+          src="https://www.youtube.com/embed/videoseries?si=sNEOTp08dnPvYDw7&amp;list=PLQEYbmzcCfpe-3GLDTtwvfF6MpjLVVFZ1"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+      </div>
 
       <header className="major container medium">
         <h2>
