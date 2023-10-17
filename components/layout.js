@@ -180,64 +180,29 @@ export default function Layout({ children }) {
             <span className="tokenizer-tkn tokenizer-tkn-4"> available</span>
           </div>
         </HtmlTooltip>
-        <h1>October 12th, Online, Free</h1>
-        <HtmlTooltip title="Reserve your virtual seat" arrow>
+        <h1>It was a success! See you in 2024</h1>
+        <HtmlTooltip title="Over 10 hours of the sessions about prompt engineering" arrow>
           <Button
             variant="contained"
-            href="https://ti.to/prompt-engineering-conference/2023?source=website"
+            href="https://bit.ly/prompt-eng-conf-videos"
             style={{ width: '13em', margin: '0 1em 1em 1em' }}
             size="large"
-            onClick={() => ReactGA.event('ticket', {})}
+            onClick={() => ReactGA.event('recordings', {})}
           >
-            Free ticket
+            Full program video playlist
           </Button>
         </HtmlTooltip>
-        <HtmlTooltip title="Add to your calendar" arrow>
-          <Button
-            variant="contained"
-            style={{ width: '13em', margin: '0 1em 1em 1em' }}
-            size="large"
-            href="./PromptEngineeringConference2023.ics"
-            onClick={() => ReactGA.event('ical', {})}
-          >
-            Add to calendar
-          </Button>
-        </HtmlTooltip>
-        <HtmlTooltip title="Install our mobile app (PWA)" arrow>
-          <Button
-            variant="contained"
-            style={{ width: '13em', margin: '0 1em 1em 1em' }}
-            size="large"
-            href="https://promptengconf.sessionize.com"
-            onClick={() => ReactGA.event('app', {})}
-          >
-            Mobile app
-          </Button>
-        </HtmlTooltip>
-
         <br />
-        <HtmlTooltip title="Streaming Track 1" arrow>
+        <HtmlTooltip title="Follow us on X (Twitter) to stay updated on the next events" arrow>
           <Button
             variant="contained"
             color="secondary"
             style={{ width: '13em', margin: '0 1em 1em 1em' }}
             size="large"
-            href="https://bit.ly/prompt-conf-track1"
+            href="https://twitter.com/PromptEngConf"
             onClick={() => ReactGA.event('stream1', {})}
           >
-            Stream Track 1
-          </Button>
-        </HtmlTooltip>
-        <HtmlTooltip title="Streaming Track 2" arrow>
-          <Button
-            variant="contained"
-            color="secondary"
-            style={{ width: '13em', margin: '0 1em 1em 1em' }}
-            size="large"
-            href="https://bit.ly/prompt-conf-track2"
-            onClick={() => ReactGA.event('stream2', {})}
-          >
-            Stream Track 2
+            Follow @PromptEngConf
           </Button>
         </HtmlTooltip>
       </div>
