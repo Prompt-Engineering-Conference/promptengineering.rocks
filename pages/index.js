@@ -15,41 +15,9 @@ export default function Home() {
     <Layout home>
       <Head>
         <title>
-          {`${siteTitle} - The world's first conference about prompt engineering - October 12, Online, Free`}
+          {`${siteTitle} - The world's first conference about prompt engineering - October 31, Online, Free`}
         </title>
       </Head>
-
-      <div className="box container">
-        <h3>Program and recordings</h3>
-
-        <IframeResizer
-          src="./sessions.html"
-          style={{ width: '1px', minWidth: '100%' }}
-        />
-      </div>
-
-      <div className="box container">
-        <h3>Speakers</h3>
-
-        <IframeResizer
-          src="./speakers.html"
-          style={{ width: '1px', minWidth: '100%' }}
-        />
-      </div>
-
-      <div className="box container">
-        <h3>Playlist on YouTube</h3>
-
-        <iframe
-          width="100%"
-          height="315"
-          src="https://www.youtube.com/embed/videoseries?si=sNEOTp08dnPvYDw7&amp;list=PLQEYbmzcCfpe-3GLDTtwvfF6MpjLVVFZ1"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen
-        ></iframe>
-      </div>
 
       <header className="major container medium">
         <h2>
@@ -188,7 +156,7 @@ export default function Home() {
       <div className="box alt container">
         <section className="feature left">
           <Link
-            href="https://ti.to/prompt-engineering-conference/2023?source=website"
+            href="https://ti.to/prompt-engineering-conference/2024?source=website"
             className="image icon solid fa-ticket-alt"
             onClick={() => ReactGA.event('ticket', {})}
           >
@@ -198,12 +166,12 @@ export default function Home() {
             <h3>Attendee</h3>
             <p>
               <Link
-                href="https://ti.to/prompt-engineering-conference/2023?source=website"
+                href="https://ti.to/prompt-engineering-conference/2024?source=website"
                 onClick={() => ReactGA.event('ticket', {})}
               >
                 Get your free ticket
               </Link>{' '}
-              right now and make sure to mark October 12th in your calendars.
+              right now and make sure to mark October 31st in your calendars.
               Also,{' '}
               <a href="#subscribe">
                 sign up for the newsletter and push notifications
@@ -214,7 +182,7 @@ export default function Home() {
         </section>
         <section className="feature right">
           <Link
-            href="https://sessionize.com/prompt-engineering-conference-2023"
+            href="https://sessionize.com/prompt-engineering-conference-2024"
             className="image icon solid fa-microphone"
             onClick={() => ReactGA.event('cfp', {})}
           >
@@ -223,8 +191,15 @@ export default function Home() {
           <div className="content">
             <h3>Speaker</h3>
             <p>
-              The call for presentations is closed for 2023's edition. Join the
-              mailing list below to know when we open CFP for 2024!
+              We want to hear your story about prompt engineering! The call for
+              presentations is open.{' '}
+              <Link
+                href="https://sessionize.com/prompt-engineering-conference-2024"
+                onClick={() => ReactGA.event('cfp', {})}
+              >
+                Check more details and send your proposal
+              </Link>{' '}
+              now !
             </p>
           </div>
         </section>
@@ -361,82 +336,6 @@ export default function Home() {
               </ul>
             </div>
           </div>
-          <h2>Event hosts and moderators</h2>
-          <div className="team clearfix">
-            <div className="member">
-              <img src="/images/team/goda_go.png" alt="Goda Go" />
-              <h2>Goda Go</h2>
-              <small>Youtuber & Podcast co-host</small>
-              <ul className="icons">
-                <li>
-                  <a
-                    href="https://www.linkedin.com/in/godajuskevi/"
-                    target="_blank"
-                    className="icon brands fa-linkedin"
-                  >
-                    <span className="label">LinkedIn</span>
-                  </a>
-                </li>
-              </ul>
-            </div>
-            <div className="member">
-              <img
-                src="/images/team/wes_shields.png"
-                alt="William (Wes) Shields"
-              />
-              <h2>William (Wes) Shields</h2>
-              <small>MS, MBA, Founder @ Synthminds</small>
-              <ul className="icons">
-                <li>
-                  <a
-                    href="https://www.linkedin.com/in/shields-wes/"
-                    target="_blank"
-                    className="icon brands fa-linkedin"
-                  >
-                    <span className="label">LinkedIn</span>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <h2>Invited program committee members</h2>
-          <div className="team clearfix">
-            <div className="member">
-              <img src="/images/team/diana_philips.jpg" alt="Diana Philips" />
-              <h2>Diana Philips</h2>
-              <small>AI Technical Enablement @ Microsoft</small>
-              <ul className="icons">
-                <li>
-                  <a
-                    href="https://www.linkedin.com/in/utahitpro/"
-                    target="_blank"
-                    className="icon brands fa-linkedin"
-                  >
-                    <span className="label">LinkedIn</span>
-                  </a>
-                </li>
-              </ul>
-            </div>
-            <div className="member">
-              <img
-                src="/images/team/brian_elvesæter.jpg"
-                alt="Brian Elvesæter "
-              />
-              <h2>Brian Elvesæter </h2>
-              <small>Senior Research Scientist @ SINTEF</small>
-              <ul className="icons">
-                <li>
-                  <a
-                    href="https://www.linkedin.com/in/elvesater/"
-                    target="_blank"
-                    className="icon brands fa-linkedin"
-                  >
-                    <span className="label">LinkedIn</span>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
           <h2>Event partner in the Asian region</h2>
           <div className="team clearfix">
             <div className="member">
@@ -486,30 +385,12 @@ export default function Home() {
             </a>
           </div>
 
-          <div className="partner">
-            <a href="https://www.synthminds.ai/">
-              <img src="/images/partners/synthminds.png" alt="Synthminds AI" />
-              <p>
-                Synthminds AI is a full-service AI agency offering consulting,
-                training, and results-driven solutions
-              </p>
-            </a>
-          </div>
 
-          <div className="partner">
-            <a href="https://open.spotify.com/show/7c5OsxnEAEgflUqvd0aC5T?si=570a93f65aa64ba9">
-              <img src="/images/partners/httta.png" alt="How to Talk to AI" />
-              <p>
-                Podcast about unlocking AI’s Revolutionary Potential through
-                Prompt Engineering
-              </p>
-            </a>
-          </div>
         </div>
       </div>
 
       <div className="box container">
-        <h3>Community partners</h3>
+        <h3>Community partners (all years)</h3>
 
         <div className="partners">
           <div className="partner">

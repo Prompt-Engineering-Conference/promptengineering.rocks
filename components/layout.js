@@ -180,7 +180,30 @@ export default function Layout({ children }) {
             <span className="tokenizer-tkn tokenizer-tkn-4"> available</span>
           </div>
         </HtmlTooltip>
-        <h1>It was a success! See you in 2024</h1>
+        <h1>October 31, Online, Free</h1>
+        <HtmlTooltip title="Reserve your virtual seat" arrow>
+          <Button
+            variant="contained"
+            href="https://ti.to/prompt-engineering-conference/2024?source=website"
+            style={{ width: '18em', margin: '0 2em 1em 2em' }}
+            size="large"
+            onClick={() => ReactGA.event('ticket', {})}
+          >
+            Get a free ticket
+          </Button>
+        </HtmlTooltip>
+        <HtmlTooltip title="Call for papers is open!" arrow>
+          <Button
+            variant="contained"
+            color="secondary"
+            style={{ width: '18em', margin: '0 2em 1em 2em' }}
+            size="large"
+            href="https://sessionize.com/prompt-engineering-conference-2024"
+            onClick={() => ReactGA.event('cfp', {})}
+          >
+            Become a speaker
+          </Button>
+        </HtmlTooltip>
         <HtmlTooltip title="Over 10 hours of the sessions about prompt engineering" arrow>
           <Button
             variant="contained"
@@ -189,22 +212,10 @@ export default function Layout({ children }) {
             size="large"
             onClick={() => ReactGA.event('recordings', {})}
           >
-            Full program video playlist
+            See videos from 2023
           </Button>
         </HtmlTooltip>
         <br />
-        <HtmlTooltip title="Follow us on X (Twitter) to stay updated on the next events" arrow>
-          <Button
-            variant="contained"
-            color="secondary"
-            style={{ width: '20em', margin: '0 1em 1em 1em' }}
-            size="large"
-            href="https://twitter.com/PromptEngConf"
-            onClick={() => ReactGA.event('stream1', {})}
-          >
-            Follow @PromptEngConf
-          </Button>
-        </HtmlTooltip>
       </div>
 
       <div id="main">{children}</div>
@@ -284,9 +295,12 @@ export default function Layout({ children }) {
 
         <div className="container medium">
           <ul className="copyright">
-            <li>&copy; 2023 {siteTitle}</li>
+            <li>&copy; 2023-2024 {siteTitle}</li>
             <li>
               <Link href="/code-of-conduct">Code of Conduct</Link>
+            </li>
+            <li>
+              <Link href="https://2023.promptengineering.rocks/">2023's Edition</Link>
             </li>
             <li>
               Template: <a href="http://html5up.net">HTML5 UP</a>
