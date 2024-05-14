@@ -15,7 +15,7 @@ export default function Home() {
     <Layout home>
       <Head>
         <title>
-          {`${siteTitle} - The world's first conference about prompt engineering - October 31, Online, Free`}
+          {`${siteTitle} - The world's first conference about prompt engineering - Online, Free`}
         </title>
       </Head>
 
@@ -171,7 +171,7 @@ export default function Home() {
               >
                 Get your free ticket
               </Link>{' '}
-              right now and make sure to mark October 31st in your calendars.
+              right now and make sure to mark the conference date in your calendars.
               Also,{' '}
               <a href="#subscribe">
                 sign up for the newsletter and push notifications

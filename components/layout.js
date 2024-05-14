@@ -96,7 +96,7 @@ export default function Layout({ children }) {
         <meta property="og:type" content="website" />
         <meta
           property="og:title"
-          content="Prompt Engineering Conference - The world's first conference about prompt engineering - October 12, Online, Free"
+          content="Prompt Engineering Conference - The world's first conference about prompt engineering - Online, Free"
         />
         <meta
           property="og:description"
@@ -115,7 +115,7 @@ export default function Layout({ children }) {
         />
         <meta
           name="twitter:title"
-          content="Prompt Engineering Conference - The world's first conference about prompt engineering - October 12, Online, Free"
+          content="Prompt Engineering Conference - The world's first conference about prompt engineering - Online, Free"
         />
         <meta
           name="twitter:description"
@@ -180,7 +180,7 @@ export default function Layout({ children }) {
             <span className="tokenizer-tkn tokenizer-tkn-4"> available</span>
           </div>
         </HtmlTooltip>
-        <h1>October 31, Online, Free</h1>
+        <h1>October 30, Online, Free</h1>
         <HtmlTooltip title="Reserve your virtual seat" arrow>
           <Button
             variant="contained"
