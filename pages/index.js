@@ -122,12 +122,34 @@ export default function Home() {
           </li>
         </ul>
 
+        <h3>What is the Prompt Engineering Conference</h3>
+
+        <p>
+          The Prompt Engineering Conference is the world's first event
+          exclusively dedicated to prompt engineering. We are pioneers in this
+          field. Our close connections with top researchers, influencers,
+          educators, and presenters ensure a strong, inspirational, and
+          skill-enhancing experience for all participants.
+        </p>
+
+        <p>
+          We firmly believe in the significant and substantial contribution of
+          prompt engineering to the development of AI-infused applications. To
+          introduce this topic as an essential skill for modern developers, or
+          even as a distinct job title, we organized this conference exclusively
+          dedicated to this field.
+        </p>
+
         <h3>Audience</h3>
 
         <p>
-          Our target audience is very broad, so when choosing sessions, we make
-          sure the content is engaging and useful for everyone interested in
-          communicating with generative AI tools.
+          The Prompt Engineering Conference is open to everyone who wishes to
+          attend, present, and collaborate. We intentionally keep it online to
+          accommodate participants from around the globe. Although we dive
+          deeply into prompt engineering, this event is not solely for technical
+          individuals. One unique aspect of this discipline is its accessibility
+          to multiple professions: developers, linguists, data scientists,
+          domain experts, and more—all can become successful prompt engineers.
         </p>
 
         <h3>Using AI policy</h3>
@@ -171,8 +193,8 @@ export default function Home() {
               >
                 Get your free ticket
               </Link>{' '}
-              right now and make sure to mark the conference date in your calendars.
-              Also,{' '}
+              right now and make sure to mark the conference date in your
+              calendars. Also,{' '}
               <a href="#subscribe">
                 sign up for the newsletter and push notifications
               </a>{' '}
@@ -384,8 +406,6 @@ export default function Home() {
               </p>
             </a>
           </div>
-
-
         </div>
       </div>
 
