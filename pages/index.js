@@ -410,6 +410,22 @@ export default function Home() {
       </div>
 
       <div className="box container">
+        <h3>Media partners</h3>
+
+        <div className="partners">
+          <div className="partner">
+            <a href="https://www.it-schulungen.com">
+              <img
+                src="/images/partners/it-schulungen.png"
+                alt="IT-Schulungen"
+              />
+              <p>IT-Schulungen</p>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div className="box container">
         <h3>Community partners (all years)</h3>
 
         <div className="partners">
