@@ -180,7 +180,7 @@ export default function Layout({ children }) {
             <span className="tokenizer-tkn tokenizer-tkn-4"> available</span>
           </div>
         </HtmlTooltip>
-        <h1>October 30, Online, Free</h1>
+        <h1>November 20, Online, Free</h1>
         <HtmlTooltip title="Reserve your virtual seat" arrow>
           <Button
             variant="contained"
