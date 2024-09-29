@@ -184,6 +184,7 @@ export default function Layout({ children }) {
         <HtmlTooltip title="Reserve your virtual seat" arrow>
           <Button
             variant="contained"
+            color="secondary"
             href="https://ti.to/prompt-engineering-conference/2024?source=website"
             style={{ width: '18em', margin: '0 2em 1em 2em' }}
             size="large"

@@ -306,7 +306,7 @@ export default function Home() {
               <ul className="icons">
                 <li>
                   <a
-                    href="https://www.linkedin.com/in/godajuskevi/"
+                    href="https://www.linkedin.com/in/godago/"
                     target="_blank"
                     className="icon brands fa-linkedin"
                   >
