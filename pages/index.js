@@ -213,15 +213,7 @@ export default function Home() {
           <div className="content">
             <h3>Speaker</h3>
             <p>
-              We want to hear your story about prompt engineering! The call for
-              presentations is open.{' '}
-              <Link
-                href="https://sessionize.com/prompt-engineering-conference-2024"
-                onClick={() => ReactGA.event('cfp', {})}
-              >
-                Check more details and send your proposal
-              </Link>{' '}
-              now !
+             CFP for 2024 is closed. We want to hear your story about prompt engineering at the next conference edition in 2025 - stay tuned!
             </p>
           </div>
         </section>
@@ -306,24 +298,15 @@ export default function Home() {
             </div>
             <div className="member">
               <img
-                src="/images/team/erich_hellstrom.png"
-                alt="Erich Hellstrom"
+                src="/images/team/goda_go.png"
+                alt="Goda Go"
               />
-              <h2>Erich Hellstrom</h2>
-              <small>Founder @ Prompt Perfect</small>
+              <h2>Goda Go</h2>
+              <small>Youtuber & Podcast co-host</small>
               <ul className="icons">
                 <li>
                   <a
-                    href="https://twitter.com/Prompt_Perfect"
-                    target="_blank"
-                    className="icon brands fa-twitter"
-                  >
-                    <span className="label">Twitter</span>
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://www.linkedin.com/company/prompt-perfect/"
+                    href="https://www.linkedin.com/in/godajuskevi/"
                     target="_blank"
                     className="icon brands fa-linkedin"
                   >
@@ -361,7 +344,7 @@ export default function Home() {
           <h2>Event partner in the Asian region</h2>
           <div className="team clearfix">
             <div className="member">
-              <img src="/images/team/hank_liu.jpg" alt="Goda Go" />
+              <img src="/images/team/hank_liu.jpg" alt="Hank Liu" />
               <h2>Hank.Liu</h2>
               <small>Microsoft MVP, ChatU CEO</small>
               <ul className="icons">

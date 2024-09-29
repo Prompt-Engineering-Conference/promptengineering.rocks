@@ -192,18 +192,6 @@ export default function Layout({ children }) {
             Get a free ticket
           </Button>
         </HtmlTooltip>
-        <HtmlTooltip title="Call for papers is open!" arrow>
-          <Button
-            variant="contained"
-            color="secondary"
-            style={{ width: '18em', margin: '0 2em 1em 2em' }}
-            size="large"
-            href="https://sessionize.com/prompt-engineering-conference-2024"
-            onClick={() => ReactGA.event('cfp', {})}
-          >
-            Become a speaker
-          </Button>
-        </HtmlTooltip>
         <HtmlTooltip title="Over 10 hours of the sessions about prompt engineering" arrow>
           <Button
             variant="contained"
