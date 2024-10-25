@@ -19,6 +19,11 @@ export default function Home() {
         </title>
       </Head>
 
+      <IframeResizer
+        src="./schedule.html"
+        style={{ width: '1px', minWidth: '100%' }}
+      />
+
       <header className="major container medium">
         <h2>
           Prompt engineering is a cutting-edge discipline that focuses on

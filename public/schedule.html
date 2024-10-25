@@ -1,7 +1,7 @@
 <script src="./iframeResizer.contentWindow.min.js"></script>
 <div class="sz-root">
     <div id="sessionize" class="sessionize-wrapper">
-        <link rel="stylesheet" href="./embedstyle.css" media="screen">
+        <link rel="stylesheet" href="./embedstyle.css">
         <div class="sz-timezone" style="display: none;">
             <div class="sz-timezone__radio sz-timezone__radio--local">
                 <input type="radio" id="local-timezone" name="select-timezone" checked>
@@ -22,465 +22,342 @@
             </div>
         </div>
         <style>
-            .sz-cssgrid.sz-cssgrid--45211 {
+            .sz-cssgrid.sz-cssgrid--45616 {
                 --fraction-size: auto;
-                grid-template-rows: [tracks] auto [time-1700] var(--fraction-size) [time-1705] var(--fraction-size) [time-1710] var(--fraction-size) [time-1715] var(--fraction-size) [time-1720] var(--fraction-size) [time-1725] var(--fraction-size) [time-1730] var(--fraction-size) [time-1735] var(--fraction-size) [time-1740] var(--fraction-size) [time-1745] var(--fraction-size) [time-1750] var(--fraction-size) [time-1755] var(--fraction-size) [time-1800] var(--fraction-size) [time-1805] var(--fraction-size) [time-1810] var(--fraction-size) [time-1815] var(--fraction-size) [time-1820] var(--fraction-size) [time-1825] var(--fraction-size) [time-1830] var(--fraction-size) [time-1835] var(--fraction-size) [time-1840] var(--fraction-size) [time-1845] var(--fraction-size) [time-1850] var(--fraction-size) [time-1855] var(--fraction-size) [time-1900] var(--fraction-size) [time-1905] var(--fraction-size) [time-1910] var(--fraction-size) [time-1915] var(--fraction-size) [time-1920] var(--fraction-size) [time-1925] var(--fraction-size) [time-1930] var(--fraction-size) [time-1935] var(--fraction-size) [time-1940] var(--fraction-size) [time-1945] var(--fraction-size) [time-1950] var(--fraction-size) [time-1955] var(--fraction-size) [time-2000] var(--fraction-size) [time-2005] var(--fraction-size) [time-2010] var(--fraction-size) [time-2015] var(--fraction-size) [time-2020] var(--fraction-size) [time-2025] var(--fraction-size) [time-2030] var(--fraction-size) [time-2035] var(--fraction-size) [time-2040] var(--fraction-size) [time-2045] var(--fraction-size) [time-2050] var(--fraction-size) [time-2055] var(--fraction-size) [time-2100] var(--fraction-size) [time-2105] var(--fraction-size) [time-2110] var(--fraction-size) [time-2115] var(--fraction-size) [time-2120] var(--fraction-size) [time-2125] var(--fraction-size) [time-2130] var(--fraction-size) [time-2135] var(--fraction-size) [time-2140] var(--fraction-size) [time-2145] var(--fraction-size) [time-2150] var(--fraction-size) [time-2155] var(--fraction-size) [time-2200] var(--fraction-size) [time-2205] var(--fraction-size) [time-2210] var(--fraction-size) ;
-                grid-template-columns: [times] 4em [track-36636-start] 1fr [track-36636-end track-36637-start] 1fr [track-36637-end] ;
+                grid-template-rows: [tracks] auto [time-1700] var(--fraction-size) [time-1705] var(--fraction-size) [time-1710] var(--fraction-size) [time-1715] var(--fraction-size) [time-1720] var(--fraction-size) [time-1725] var(--fraction-size) [time-1730] var(--fraction-size) [time-1735] var(--fraction-size) [time-1740] var(--fraction-size) [time-1745] var(--fraction-size) [time-1750] var(--fraction-size) [time-1755] var(--fraction-size) [time-1800] var(--fraction-size) [time-1805] var(--fraction-size) [time-1810] var(--fraction-size) [time-1815] var(--fraction-size) [time-1820] var(--fraction-size) [time-1825] var(--fraction-size) [time-1830] var(--fraction-size) [time-1835] var(--fraction-size) [time-1840] var(--fraction-size) [time-1845] var(--fraction-size) [time-1850] var(--fraction-size) [time-1855] var(--fraction-size) [time-1900] var(--fraction-size) [time-1905] var(--fraction-size) [time-1910] var(--fraction-size) [time-1915] var(--fraction-size) [time-1920] var(--fraction-size) [time-1925] var(--fraction-size) [time-1930] var(--fraction-size) [time-1935] var(--fraction-size) [time-1940] var(--fraction-size) [time-1945] var(--fraction-size) [time-1950] var(--fraction-size) [time-1955] var(--fraction-size) [time-2000] var(--fraction-size) [time-2005] var(--fraction-size) [time-2010] var(--fraction-size) [time-2015] var(--fraction-size) [time-2020] var(--fraction-size) [time-2025] var(--fraction-size) [time-2030] var(--fraction-size) [time-2035] var(--fraction-size) [time-2040] var(--fraction-size) [time-2045] var(--fraction-size) [time-2050] var(--fraction-size) [time-2055] var(--fraction-size) [time-2100] var(--fraction-size) [time-2105] var(--fraction-size) [time-2110] var(--fraction-size) [time-2115] var(--fraction-size) [time-2120] var(--fraction-size) [time-2125] var(--fraction-size) [time-2130] var(--fraction-size) [time-2135] var(--fraction-size) [time-2140] var(--fraction-size) [time-2145] var(--fraction-size) [time-2150] var(--fraction-size) [time-2155] var(--fraction-size) [time-2200] var(--fraction-size) [time-2205] var(--fraction-size) [time-2210] var(--fraction-size) [time-2215] var(--fraction-size) [time-2220] var(--fraction-size) [time-2225] var(--fraction-size) [time-2230] var(--fraction-size) [time-2235] var(--fraction-size) [time-2240] var(--fraction-size) [time-2245] var(--fraction-size) [time-2250] var(--fraction-size) [time-2255] var(--fraction-size) [time-2300] var(--fraction-size) [time-2305] var(--fraction-size) [time-2310] var(--fraction-size) [time-2315] var(--fraction-size) [time-2320] var(--fraction-size) [time-2325] var(--fraction-size) [time-2330] var(--fraction-size) [time-2335] var(--fraction-size) [time-2340] var(--fraction-size) [time-2345] var(--fraction-size) [time-2350] var(--fraction-size) [time-2355] var(--fraction-size) [time-0000] var(--fraction-size) [time-0005] var(--fraction-size) [time-0010] var(--fraction-size) ;
+                grid-template-columns: [times] 4em [track-51638-start] 1fr [track-51638-end] ;
             }
         </style>
-        <div class="sz-tab-container sz-tab-container--active" id="sz-tab-45211">
-            <h1 class="sz-day__title" data-sztz="DayDate|en-GB|2023-10-12T15:00:00.0000000Z|2023-10-12T20:10:00.0000000Z">Thursday, 12 October 2023</h1>
-            <div class="sz-cssgrid sz-cssgrid--45211">
-                <span class="sz-cssgrid__track-label sz-room sz-room--36636" style="grid-column: track-36636; grid-row: tracks;">Track 1</span>
-                <span class="sz-cssgrid__track-label sz-room sz-room--36637" style="grid-column: track-36637; grid-row: tracks;">Track 2</span>
-                <h2 class="sz-cssgrid__time-label " style="grid-row: time-1700/span 3" data-sztz="Time|en-GB|2023-10-12T15:00:00.0000000Z">17:00</h2>
-                <span class="sz-cssgrid__time-separator " style="grid-row: time-1700; grid-column: times/track-36637-end;"></span>
-                <div data-sessionid="f105e827-0a7b-4b06-bc72-440a32f9afff" class="sz-session sz-session--cssgrid  sz-session--plenum sz-session--service sz-room--36636 " style="grid-column: track-36636-start / track-36637-end; grid-row: time-1700 / time-1710;">
+        <div class="sz-tab-container sz-tab-container--active" id="sz-tab-45616">
+            <h1 class="sz-day__title" data-sztz="DayDate|en-001|2024-11-20T16:00:00.0000000Z|2024-11-20T23:10:00.0000000Z">Wednesday, 20 November 2024</h1>
+            <div class="sz-cssgrid sz-cssgrid--45616">
+                <span class="sz-cssgrid__track-label sz-room sz-room--51638" style="grid-column: track-51638; grid-row: tracks;">Live Stream</span>
+                <h2 class="sz-cssgrid__time-label " style="grid-row: time-1700/span 3" data-sztz="Time|en-001|2024-11-20T16:00:00.0000000Z">5:00 pm</h2>
+                <span class="sz-cssgrid__time-separator " style="grid-row: time-1700; grid-column: times/track-51638-end;"></span>
+                <div data-sessionid="d8236cdf-9513-4794-8f21-61fdad370df5" class="sz-session sz-session--cssgrid   sz-session--service sz-room--51638 " style="grid-column: track-51638; grid-row: time-1700 / time-1710;">
                     <div class="sz-session__card">
                         <div class="sz-session__meta-group">
-                            <div data-roomid="36636" class="sz-session__room">Track 1</div>
-                            <div class="sz-session__time" data-sztz="TimeWithDuration|en-GB|2023-10-12T15:00:00.0000000Z|2023-10-12T15:10:00.0000000Z">17:00 → 10 min</div>
+                            <div data-roomid="51638" class="sz-session__room">Live Stream</div>
+                            <div class="sz-session__time" data-sztz="TimeWithDuration|en-001|2024-11-20T16:00:00.0000000Z|2024-11-20T16:10:00.0000000Z">5:00 pm → 10 min</div>
                         </div>
                         <h3 class="sz-session__title">
-                            <a href="#" onclick="return sessionize.showModal('0lnd986r', 'servicesession', 'f105e827-0a7b-4b06-bc72-440a32f9afff');">Opening (10 min)</a>
+                            <a href="#" onclick="return sessionize.showModal('5fgxuv2o', 'servicesession', 'd8236cdf-9513-4794-8f21-61fdad370df5');">Intro 10 min</a>
                         </h3>
                     </div>
                 </div>
-                <h2 class="sz-cssgrid__time-label sz-cssgrid__time-overlapping" style="grid-row: time-1710/span 3" data-sztz="Time|en-GB|2023-10-12T15:10:00.0000000Z">17:10</h2>
-                <span class="sz-cssgrid__time-separator sz-cssgrid__time-overlapping" style="grid-row: time-1710; grid-column: times/track-36637-end;"></span>
-                <div data-sessionid="542211" class="sz-session sz-session--cssgrid    sz-room--36636 " style="grid-column: track-36636; grid-row: time-1710 / time-1740;">
+                <h2 class="sz-cssgrid__time-label sz-cssgrid__time-overlapping" style="grid-row: time-1710/span 3" data-sztz="Time|en-001|2024-11-20T16:10:00.0000000Z">5:10 pm</h2>
+                <span class="sz-cssgrid__time-separator sz-cssgrid__time-overlapping" style="grid-row: time-1710; grid-column: times/track-51638-end;"></span>
+                <div data-sessionid="745848" class="sz-session sz-session--cssgrid    sz-room--51638 " style="grid-column: track-51638; grid-row: time-1710 / time-1740;">
                     <div class="sz-session__card">
                         <div class="sz-session__meta-group">
-                            <div data-roomid="36636" class="sz-session__room">Track 1</div>
-                            <div class="sz-session__time" data-sztz="TimeWithDuration|en-GB|2023-10-12T15:10:00.0000000Z|2023-10-12T15:40:00.0000000Z">17:10 → 30 min</div>
+                            <div data-roomid="51638" class="sz-session__room">Live Stream</div>
+                            <div class="sz-session__time" data-sztz="TimeWithDuration|en-001|2024-11-20T16:10:00.0000000Z|2024-11-20T16:40:00.0000000Z">5:10 pm → 30 min</div>
                         </div>
                         <h3 class="sz-session__title">
-                            <a href="#" onclick="return sessionize.showModal('0lnd986r', 'session', '542211');">Prompt Engineering: Democratising learning of AI - experiences from the University of Oxford</a>
-                            <a href="https://sessionize.com/live/khawsexo542211" class="sz-session__live is-disabled" data-szactive="2023-10-12T15:05:00.0000000Z|2023-10-12T15:40:00.0000000Z" target="_blank">Live</a>
+                            <a href="#" onclick="return sessionize.showModal('5fgxuv2o', 'session', '745848');">Building a Production-Ready AI-Powered Chatbot Tutor with Hybrid RAG system</a>
                         </h3>
                         <ul class="sz-session__speakers">
-                            <li data-speakerid="e8e4213d-ec80-469c-a460-ceda0b3655c1">
-                                <a href="#" onclick="return sessionize.showModal('0lnd986r', 'speaker', 'e8e4213d-ec80-469c-a460-ceda0b3655c1');">Ajit Jaokar</a>
+                            <li data-speakerid="64eaac24-1e95-49c7-bb7e-b67dbbe100cb">
+                                <a href="#" onclick="return sessionize.showModal('5fgxuv2o', 'speaker', '64eaac24-1e95-49c7-bb7e-b67dbbe100cb');">Alok Ranjan</a>
+                            </li>
+                            <li data-speakerid="adbb6fcc-dc2b-490a-b7d2-129d678f7b16">
+                                <a href="#" onclick="return sessionize.showModal('5fgxuv2o', 'speaker', 'adbb6fcc-dc2b-490a-b7d2-129d678f7b16');">Saurabh Suman</a>
                             </li>
                         </ul>
                     </div>
                 </div>
-                <div data-sessionid="542208" class="sz-session sz-session--cssgrid    sz-room--36637 " style="grid-column: track-36637; grid-row: time-1710 / time-1740;">
+                <h2 class="sz-cssgrid__time-label " style="grid-row: time-1740/span 3" data-sztz="Time|en-001|2024-11-20T16:40:00.0000000Z">5:40 pm</h2>
+                <span class="sz-cssgrid__time-separator " style="grid-row: time-1740; grid-column: times/track-51638-end;"></span>
+                <div data-sessionid="724743" class="sz-session sz-session--cssgrid    sz-room--51638 " style="grid-column: track-51638; grid-row: time-1740 / time-1810;">
                     <div class="sz-session__card">
                         <div class="sz-session__meta-group">
-                            <div data-roomid="36637" class="sz-session__room">Track 2</div>
-                            <div class="sz-session__time" data-sztz="TimeWithDuration|en-GB|2023-10-12T15:10:00.0000000Z|2023-10-12T15:40:00.0000000Z">17:10 → 30 min</div>
+                            <div data-roomid="51638" class="sz-session__room">Live Stream</div>
+                            <div class="sz-session__time" data-sztz="TimeWithDuration|en-001|2024-11-20T16:40:00.0000000Z|2024-11-20T17:10:00.0000000Z">5:40 pm → 30 min</div>
                         </div>
                         <h3 class="sz-session__title">
-                            <a href="#" onclick="return sessionize.showModal('0lnd986r', 'session', '542208');">Navigating the Evolution of Prompt Engineering</a>
-                            <a href="https://sessionize.com/live/xpasxeno542208" class="sz-session__live is-disabled" data-szactive="2023-10-12T15:05:00.0000000Z|2023-10-12T15:40:00.0000000Z" target="_blank">Live</a>
+                            <a href="#" onclick="return sessionize.showModal('5fgxuv2o', 'session', '724743');">A Large Language Model took me on vacation</a>
                         </h3>
                         <ul class="sz-session__speakers">
-                            <li data-speakerid="d0fe0eb6-3216-4b71-a42b-d0f1a77287bc">
-                                <a href="#" onclick="return sessionize.showModal('0lnd986r', 'speaker', 'd0fe0eb6-3216-4b71-a42b-d0f1a77287bc');">Stephen Perin</a>
+                            <li data-speakerid="ed279cd7-8c7b-4c58-8b1a-9351846f7d91">
+                                <a href="#" onclick="return sessionize.showModal('5fgxuv2o', 'speaker', 'ed279cd7-8c7b-4c58-8b1a-9351846f7d91');">Jorrik Klijnsma</a>
                             </li>
                         </ul>
                     </div>
                 </div>
-                <h2 class="sz-cssgrid__time-label " style="grid-row: time-1740/span 3" data-sztz="Time|en-GB|2023-10-12T15:40:00.0000000Z">17:40</h2>
-                <span class="sz-cssgrid__time-separator " style="grid-row: time-1740; grid-column: times/track-36637-end;"></span>
-                <div data-sessionid="521356" class="sz-session sz-session--cssgrid    sz-room--36636 " style="grid-column: track-36636; grid-row: time-1740 / time-1810;">
+                <h2 class="sz-cssgrid__time-label " style="grid-row: time-1810/span 3" data-sztz="Time|en-001|2024-11-20T17:10:00.0000000Z">6:10 pm</h2>
+                <span class="sz-cssgrid__time-separator " style="grid-row: time-1810; grid-column: times/track-51638-end;"></span>
+                <div data-sessionid="752053" class="sz-session sz-session--cssgrid    sz-room--51638 " style="grid-column: track-51638; grid-row: time-1810 / time-1820;">
                     <div class="sz-session__card">
                         <div class="sz-session__meta-group">
-                            <div data-roomid="36636" class="sz-session__room">Track 1</div>
-                            <div class="sz-session__time" data-sztz="TimeWithDuration|en-GB|2023-10-12T15:40:00.0000000Z|2023-10-12T16:10:00.0000000Z">17:40 → 30 min</div>
+                            <div data-roomid="51638" class="sz-session__room">Live Stream</div>
+                            <div class="sz-session__time" data-sztz="TimeWithDuration|en-001|2024-11-20T17:10:00.0000000Z|2024-11-20T17:20:00.0000000Z">6:10 pm → 10 min</div>
                         </div>
                         <h3 class="sz-session__title">
-                            <a href="#" onclick="return sessionize.showModal('0lnd986r', 'session', '521356');">Prompt Based Recommendation Systems: A New Era of Personalized Experiences</a>
-                            <a href="https://sessionize.com/live/isdarjemo521356" class="sz-session__live is-disabled" data-szactive="2023-10-12T15:35:00.0000000Z|2023-10-12T16:10:00.0000000Z" target="_blank">Live</a>
+                            <a href="#" onclick="return sessionize.showModal('5fgxuv2o', 'session', '752053');">Improving Retrieval Q &amp;A Contextualization Prompts (using TextGrad)</a>
                         </h3>
                         <ul class="sz-session__speakers">
-                            <li data-speakerid="ca60ad0a-9cff-4c81-b1c0-695bba7afd15">
-                                <a href="#" onclick="return sessionize.showModal('0lnd986r', 'speaker', 'ca60ad0a-9cff-4c81-b1c0-695bba7afd15');">Rohan Singh Rajput</a>
+                            <li data-speakerid="52bc805e-cc5a-4a22-964c-92d972e958c2">
+                                <a href="#" onclick="return sessionize.showModal('5fgxuv2o', 'speaker', '52bc805e-cc5a-4a22-964c-92d972e958c2');">Johannes Kuhn</a>
+                            </li>
+                            <li data-speakerid="7abb107b-6e75-4e2f-965c-96ecc2d85302">
+                                <a href="#" onclick="return sessionize.showModal('5fgxuv2o', 'speaker', '7abb107b-6e75-4e2f-965c-96ecc2d85302');">Max Schattauer</a>
                             </li>
                         </ul>
                     </div>
                 </div>
-                <div data-sessionid="513521" class="sz-session sz-session--cssgrid    sz-room--36637 " style="grid-column: track-36637; grid-row: time-1740 / time-1810;">
+                <h2 class="sz-cssgrid__time-label sz-cssgrid__time-overlapping" style="grid-row: time-1820/span 3" data-sztz="Time|en-001|2024-11-20T17:20:00.0000000Z">6:20 pm</h2>
+                <span class="sz-cssgrid__time-separator sz-cssgrid__time-overlapping" style="grid-row: time-1820; grid-column: times/track-51638-end;"></span>
+                <div data-sessionid="ee571e16-8747-4097-887e-672ac1688efe" class="sz-session sz-session--cssgrid   sz-session--service sz-room--51638 " style="grid-column: track-51638; grid-row: time-1820 / time-1840;">
                     <div class="sz-session__card">
                         <div class="sz-session__meta-group">
-                            <div data-roomid="36637" class="sz-session__room">Track 2</div>
-                            <div class="sz-session__time" data-sztz="TimeWithDuration|en-GB|2023-10-12T15:40:00.0000000Z|2023-10-12T16:10:00.0000000Z">17:40 → 30 min</div>
+                            <div data-roomid="51638" class="sz-session__room">Live Stream</div>
+                            <div class="sz-session__time" data-sztz="TimeWithDuration|en-001|2024-11-20T17:20:00.0000000Z|2024-11-20T17:40:00.0000000Z">6:20 pm → 20 min</div>
                         </div>
                         <h3 class="sz-session__title">
-                            <a href="#" onclick="return sessionize.showModal('0lnd986r', 'session', '513521');">The Dawn of Universal Creativity: Reinventing Design Workflows!</a>
-                            <a href="https://sessionize.com/live/ipyapgebo513521" class="sz-session__live is-disabled" data-szactive="2023-10-12T15:35:00.0000000Z|2023-10-12T16:10:00.0000000Z" target="_blank">Live</a>
+                            <a href="#" onclick="return sessionize.showModal('5fgxuv2o', 'servicesession', 'ee571e16-8747-4097-887e-672ac1688efe');">Q &amp;A with Section 1 speakers</a>
+                        </h3>
+                    </div>
+                </div>
+                <h2 class="sz-cssgrid__time-label " style="grid-row: time-1840/span 3" data-sztz="Time|en-001|2024-11-20T17:40:00.0000000Z">6:40 pm</h2>
+                <span class="sz-cssgrid__time-separator " style="grid-row: time-1840; grid-column: times/track-51638-end;"></span>
+                <div data-sessionid="381f135c-85f0-43cb-8790-534c40fd1044" class="sz-session sz-session--cssgrid   sz-session--service sz-room--51638 " style="grid-column: track-51638; grid-row: time-1840 / time-1850;">
+                    <div class="sz-session__card">
+                        <div class="sz-session__meta-group">
+                            <div data-roomid="51638" class="sz-session__room">Live Stream</div>
+                            <div class="sz-session__time" data-sztz="TimeWithDuration|en-001|2024-11-20T17:40:00.0000000Z|2024-11-20T17:50:00.0000000Z">6:40 pm → 10 min</div>
+                        </div>
+                        <h3 class="sz-session__title">
+                            <a href="#" onclick="return sessionize.showModal('5fgxuv2o', 'servicesession', '381f135c-85f0-43cb-8790-534c40fd1044');">Coffee break #1</a>
+                        </h3>
+                    </div>
+                </div>
+                <h2 class="sz-cssgrid__time-label sz-cssgrid__time-overlapping" style="grid-row: time-1850/span 3" data-sztz="Time|en-001|2024-11-20T17:50:00.0000000Z">6:50 pm</h2>
+                <span class="sz-cssgrid__time-separator sz-cssgrid__time-overlapping" style="grid-row: time-1850; grid-column: times/track-51638-end;"></span>
+                <div data-sessionid="750693" class="sz-session sz-session--cssgrid    sz-room--51638 " style="grid-column: track-51638; grid-row: time-1850 / time-1920;">
+                    <div class="sz-session__card">
+                        <div class="sz-session__meta-group">
+                            <div data-roomid="51638" class="sz-session__room">Live Stream</div>
+                            <div class="sz-session__time" data-sztz="TimeWithDuration|en-001|2024-11-20T17:50:00.0000000Z|2024-11-20T18:20:00.0000000Z">6:50 pm → 30 min</div>
+                        </div>
+                        <h3 class="sz-session__title">
+                            <a href="#" onclick="return sessionize.showModal('5fgxuv2o', 'session', '750693');">Multi-Agent Systems for Advanced Prompt Clarification</a>
                         </h3>
                         <ul class="sz-session__speakers">
-                            <li data-speakerid="83f223bb-1552-4699-aa27-4d7b361018c0">
-                                <a href="#" onclick="return sessionize.showModal('0lnd986r', 'speaker', '83f223bb-1552-4699-aa27-4d7b361018c0');">Jesus Serrano</a>
+                            <li data-speakerid="b528d2c1-1036-4eae-9367-0314783e81c3">
+                                <a href="#" onclick="return sessionize.showModal('5fgxuv2o', 'speaker', 'b528d2c1-1036-4eae-9367-0314783e81c3');">Koushik Sundar</a>
                             </li>
                         </ul>
                     </div>
                 </div>
-                <h2 class="sz-cssgrid__time-label " style="grid-row: time-1810/span 3" data-sztz="Time|en-GB|2023-10-12T16:10:00.0000000Z">18:10</h2>
-                <span class="sz-cssgrid__time-separator " style="grid-row: time-1810; grid-column: times/track-36637-end;"></span>
-                <div data-sessionid="515276" class="sz-session sz-session--cssgrid    sz-room--36636 " style="grid-column: track-36636; grid-row: time-1810 / time-1820;">
+                <h2 class="sz-cssgrid__time-label " style="grid-row: time-1920/span 3" data-sztz="Time|en-001|2024-11-20T18:20:00.0000000Z">7:20 pm</h2>
+                <span class="sz-cssgrid__time-separator " style="grid-row: time-1920; grid-column: times/track-51638-end;"></span>
+                <div data-sessionid="735212" class="sz-session sz-session--cssgrid    sz-room--51638 " style="grid-column: track-51638; grid-row: time-1920 / time-1950;">
                     <div class="sz-session__card">
                         <div class="sz-session__meta-group">
-                            <div data-roomid="36636" class="sz-session__room">Track 1</div>
-                            <div class="sz-session__time" data-sztz="TimeWithDuration|en-GB|2023-10-12T16:10:00.0000000Z|2023-10-12T16:20:00.0000000Z">18:10 → 10 min</div>
+                            <div data-roomid="51638" class="sz-session__room">Live Stream</div>
+                            <div class="sz-session__time" data-sztz="TimeWithDuration|en-001|2024-11-20T18:20:00.0000000Z|2024-11-20T18:50:00.0000000Z">7:20 pm → 30 min</div>
                         </div>
                         <h3 class="sz-session__title">
-                            <a href="#" onclick="return sessionize.showModal('0lnd986r', 'session', '515276');">Generated Cities and Architecture</a>
-                            <a href="https://sessionize.com/live/oqolzao515276" class="sz-session__live is-disabled" data-szactive="2023-10-12T16:05:00.0000000Z|2023-10-12T16:20:00.0000000Z" target="_blank">Live</a>
-                        </h3>
-                        <ul class="sz-session__speakers">
-                            <li data-speakerid="f711f5d2-25f8-49c2-8f43-7a53803a33fb">
-                                <a href="#" onclick="return sessionize.showModal('0lnd986r', 'speaker', 'f711f5d2-25f8-49c2-8f43-7a53803a33fb');">Dr. Ayse Glass</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div data-sessionid="515362" class="sz-session sz-session--cssgrid    sz-room--36637 " style="grid-column: track-36637; grid-row: time-1810 / time-1820;">
-                    <div class="sz-session__card">
-                        <div class="sz-session__meta-group">
-                            <div data-roomid="36637" class="sz-session__room">Track 2</div>
-                            <div class="sz-session__time" data-sztz="TimeWithDuration|en-GB|2023-10-12T16:10:00.0000000Z|2023-10-12T16:20:00.0000000Z">18:10 → 10 min</div>
-                        </div>
-                        <h3 class="sz-session__title">
-                            <a href="#" onclick="return sessionize.showModal('0lnd986r', 'session', '515362');">Whose Intellectual Property is Prompt Engineering?</a>
-                            <a href="https://sessionize.com/live/zsadzeno515362" class="sz-session__live is-disabled" data-szactive="2023-10-12T16:05:00.0000000Z|2023-10-12T16:20:00.0000000Z" target="_blank">Live</a>
-                        </h3>
-                        <ul class="sz-session__speakers">
-                            <li data-speakerid="e3980550-756b-4949-baa2-0e4945568587">
-                                <a href="#" onclick="return sessionize.showModal('0lnd986r', 'speaker', 'e3980550-756b-4949-baa2-0e4945568587');">Anand Kulkarni</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <h2 class="sz-cssgrid__time-label sz-cssgrid__time-overlapping" style="grid-row: time-1820/span 3" data-sztz="Time|en-GB|2023-10-12T16:20:00.0000000Z">18:20</h2>
-                <span class="sz-cssgrid__time-separator sz-cssgrid__time-overlapping" style="grid-row: time-1820; grid-column: times/track-36637-end;"></span>
-                <div data-sessionid="3e0486aa-c1f9-4e2f-a4e8-1b49703d14b6" class="sz-session sz-session--cssgrid   sz-session--service sz-room--36636 " style="grid-column: track-36636; grid-row: time-1820 / time-1840;">
-                    <div class="sz-session__card">
-                        <div class="sz-session__meta-group">
-                            <div data-roomid="36636" class="sz-session__room">Track 1</div>
-                            <div class="sz-session__time" data-sztz="TimeWithDuration|en-GB|2023-10-12T16:20:00.0000000Z|2023-10-12T16:40:00.0000000Z">18:20 → 20 min</div>
-                        </div>
-                        <h3 class="sz-session__title">
-                            <a href="#" onclick="return sessionize.showModal('0lnd986r', 'servicesession', '3e0486aa-c1f9-4e2f-a4e8-1b49703d14b6');">Q &amp;A with Section 1 speakers</a>
-                        </h3>
-                    </div>
-                </div>
-                <div data-sessionid="53756e66-4b22-4dd8-8d9f-1136dcee626f" class="sz-session sz-session--cssgrid   sz-session--service sz-room--36637 " style="grid-column: track-36637; grid-row: time-1820 / time-1840;">
-                    <div class="sz-session__card">
-                        <div class="sz-session__meta-group">
-                            <div data-roomid="36637" class="sz-session__room">Track 2</div>
-                            <div class="sz-session__time" data-sztz="TimeWithDuration|en-GB|2023-10-12T16:20:00.0000000Z|2023-10-12T16:40:00.0000000Z">18:20 → 20 min</div>
-                        </div>
-                        <h3 class="sz-session__title">
-                            <a href="#" onclick="return sessionize.showModal('0lnd986r', 'servicesession', '53756e66-4b22-4dd8-8d9f-1136dcee626f');">Q &amp;A with Section 1 speakers</a>
-                        </h3>
-                    </div>
-                </div>
-                <h2 class="sz-cssgrid__time-label " style="grid-row: time-1840/span 3" data-sztz="Time|en-GB|2023-10-12T16:40:00.0000000Z">18:40</h2>
-                <span class="sz-cssgrid__time-separator " style="grid-row: time-1840; grid-column: times/track-36637-end;"></span>
-                <div data-sessionid="9519331d-f2b0-4f0d-85ec-ddbaba3b64c7" class="sz-session sz-session--cssgrid  sz-session--plenum sz-session--service sz-room--36636 " style="grid-column: track-36636-start / track-36637-end; grid-row: time-1840 / time-1850;">
-                    <div class="sz-session__card">
-                        <div class="sz-session__meta-group">
-                            <div data-roomid="36636" class="sz-session__room">Track 1</div>
-                            <div class="sz-session__time" data-sztz="TimeWithDuration|en-GB|2023-10-12T16:40:00.0000000Z|2023-10-12T16:50:00.0000000Z">18:40 → 10 min</div>
-                        </div>
-                        <h3 class="sz-session__title">
-                            <a href="#" onclick="return sessionize.showModal('0lnd986r', 'servicesession', '9519331d-f2b0-4f0d-85ec-ddbaba3b64c7');">Virtual coffee break</a>
-                        </h3>
-                    </div>
-                </div>
-                <h2 class="sz-cssgrid__time-label sz-cssgrid__time-overlapping" style="grid-row: time-1850/span 3" data-sztz="Time|en-GB|2023-10-12T16:50:00.0000000Z">18:50</h2>
-                <span class="sz-cssgrid__time-separator sz-cssgrid__time-overlapping" style="grid-row: time-1850; grid-column: times/track-36637-end;"></span>
-                <div data-sessionid="513532" class="sz-session sz-session--cssgrid    sz-room--36636 " style="grid-column: track-36636; grid-row: time-1850 / time-1920;">
-                    <div class="sz-session__card">
-                        <div class="sz-session__meta-group">
-                            <div data-roomid="36636" class="sz-session__room">Track 1</div>
-                            <div class="sz-session__time" data-sztz="TimeWithDuration|en-GB|2023-10-12T16:50:00.0000000Z|2023-10-12T17:20:00.0000000Z">18:50 → 30 min</div>
-                        </div>
-                        <h3 class="sz-session__title">
-                            <a href="#" onclick="return sessionize.showModal('0lnd986r', 'session', '513532');">Better Prompting with Pseudocode</a>
-                            <a href="https://sessionize.com/live/ifyacqeo513532" class="sz-session__live is-disabled" data-szactive="2023-10-12T16:45:00.0000000Z|2023-10-12T17:20:00.0000000Z" target="_blank">Live</a>
-                        </h3>
-                        <ul class="sz-session__speakers">
-                            <li data-speakerid="06965830-82ec-46e2-92e6-9c0dbb086459">
-                                <a href="#" onclick="return sessionize.showModal('0lnd986r', 'speaker', '06965830-82ec-46e2-92e6-9c0dbb086459');">Eric Elliott</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div data-sessionid="532252" class="sz-session sz-session--cssgrid    sz-room--36637 " style="grid-column: track-36637; grid-row: time-1850 / time-1920;">
-                    <div class="sz-session__card">
-                        <div class="sz-session__meta-group">
-                            <div data-roomid="36637" class="sz-session__room">Track 2</div>
-                            <div class="sz-session__time" data-sztz="TimeWithDuration|en-GB|2023-10-12T16:50:00.0000000Z|2023-10-12T17:20:00.0000000Z">18:50 → 30 min</div>
-                        </div>
-                        <h3 class="sz-session__title">
-                            <a href="#" onclick="return sessionize.showModal('0lnd986r', 'session', '532252');">Intro to Fine-tuning</a>
-                            <a href="https://sessionize.com/live/iscacsego532252" class="sz-session__live is-disabled" data-szactive="2023-10-12T16:45:00.0000000Z|2023-10-12T17:20:00.0000000Z" target="_blank">Live</a>
-                        </h3>
-                        <ul class="sz-session__speakers">
-                            <li data-speakerid="93b258b8-149e-46f1-8550-85d390eec494">
-                                <a href="#" onclick="return sessionize.showModal('0lnd986r', 'speaker', '93b258b8-149e-46f1-8550-85d390eec494');">Mark Hennings</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <h2 class="sz-cssgrid__time-label " style="grid-row: time-1920/span 3" data-sztz="Time|en-GB|2023-10-12T17:20:00.0000000Z">19:20</h2>
-                <span class="sz-cssgrid__time-separator " style="grid-row: time-1920; grid-column: times/track-36637-end;"></span>
-                <div data-sessionid="495194" class="sz-session sz-session--cssgrid    sz-room--36636 " style="grid-column: track-36636; grid-row: time-1920 / time-1950;">
-                    <div class="sz-session__card">
-                        <div class="sz-session__meta-group">
-                            <div data-roomid="36636" class="sz-session__room">Track 1</div>
-                            <div class="sz-session__time" data-sztz="TimeWithDuration|en-GB|2023-10-12T17:20:00.0000000Z|2023-10-12T17:50:00.0000000Z">19:20 → 30 min</div>
-                        </div>
-                        <h3 class="sz-session__title">
-                            <a href="#" onclick="return sessionize.showModal('0lnd986r', 'session', '495194');">Semantic Kernel: Teaching AI to Not Just Repeat, But Complete!</a>
-                            <a href="https://sessionize.com/live/mvaooho495194" class="sz-session__live is-disabled" data-szactive="2023-10-12T17:15:00.0000000Z|2023-10-12T17:50:00.0000000Z" target="_blank">Live</a>
-                        </h3>
-                        <ul class="sz-session__speakers">
-                            <li data-speakerid="114ba4c1-dff7-4f8a-bc67-9b40e652b7d8">
-                                <a href="#" onclick="return sessionize.showModal('0lnd986r', 'speaker', '114ba4c1-dff7-4f8a-bc67-9b40e652b7d8');">Rory Preddy</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div data-sessionid="516936" class="sz-session sz-session--cssgrid    sz-room--36637 " style="grid-column: track-36637; grid-row: time-1920 / time-1950;">
-                    <div class="sz-session__card">
-                        <div class="sz-session__meta-group">
-                            <div data-roomid="36637" class="sz-session__room">Track 2</div>
-                            <div class="sz-session__time" data-sztz="TimeWithDuration|en-GB|2023-10-12T17:20:00.0000000Z|2023-10-12T17:50:00.0000000Z">19:20 → 30 min</div>
-                        </div>
-                        <h3 class="sz-session__title">
-                            <a href="#" onclick="return sessionize.showModal('0lnd986r', 'session', '516936');">How prompt engineering projects change R &amp;D cycle and team work in enterprise</a>
-                            <a href="https://sessionize.com/live/wxadveio516936" class="sz-session__live is-disabled" data-szactive="2023-10-12T17:15:00.0000000Z|2023-10-12T17:50:00.0000000Z" target="_blank">Live</a>
+                            <a href="#" onclick="return sessionize.showModal('5fgxuv2o', 'session', '735212');">Navigating Prompt Quality in Enterprise: Chaos Control Guide</a>
                         </h3>
                         <ul class="sz-session__speakers">
                             <li data-speakerid="422f4c87-0c92-4393-acc4-ecba579b5d36">
-                                <a href="#" onclick="return sessionize.showModal('0lnd986r', 'speaker', '422f4c87-0c92-4393-acc4-ecba579b5d36');">Anastasia Podrabinek</a>
+                                <a href="#" onclick="return sessionize.showModal('5fgxuv2o', 'speaker', '422f4c87-0c92-4393-acc4-ecba579b5d36');">Anastasia Podrabinek</a>
                             </li>
                         </ul>
                     </div>
                 </div>
-                <h2 class="sz-cssgrid__time-label " style="grid-row: time-1950/span 3" data-sztz="Time|en-GB|2023-10-12T17:50:00.0000000Z">19:50</h2>
-                <span class="sz-cssgrid__time-separator " style="grid-row: time-1950; grid-column: times/track-36637-end;"></span>
-                <div data-sessionid="538589" class="sz-session sz-session--cssgrid    sz-room--36636 " style="grid-column: track-36636; grid-row: time-1950 / time-2000;">
+                <h2 class="sz-cssgrid__time-label " style="grid-row: time-1950/span 3" data-sztz="Time|en-001|2024-11-20T18:50:00.0000000Z">7:50 pm</h2>
+                <span class="sz-cssgrid__time-separator " style="grid-row: time-1950; grid-column: times/track-51638-end;"></span>
+                <div data-sessionid="753471" class="sz-session sz-session--cssgrid    sz-room--51638 " style="grid-column: track-51638; grid-row: time-1950 / time-2000;">
                     <div class="sz-session__card">
                         <div class="sz-session__meta-group">
-                            <div data-roomid="36636" class="sz-session__room">Track 1</div>
-                            <div class="sz-session__time" data-sztz="TimeWithDuration|en-GB|2023-10-12T17:50:00.0000000Z|2023-10-12T18:00:00.0000000Z">19:50 → 10 min</div>
+                            <div data-roomid="51638" class="sz-session__room">Live Stream</div>
+                            <div class="sz-session__time" data-sztz="TimeWithDuration|en-001|2024-11-20T18:50:00.0000000Z|2024-11-20T19:00:00.0000000Z">7:50 pm → 10 min</div>
                         </div>
                         <h3 class="sz-session__title">
-                            <a href="#" onclick="return sessionize.showModal('0lnd986r', 'session', '538589');">Rapid Prototyping with AI</a>
-                            <a href="https://sessionize.com/live/ixnafyevo538589" class="sz-session__live is-disabled" data-szactive="2023-10-12T17:45:00.0000000Z|2023-10-12T18:00:00.0000000Z" target="_blank">Live</a>
+                            <a href="#" onclick="return sessionize.showModal('5fgxuv2o', 'session', '753471');">Maximizing the Potential of Foundation Models through Prompt Engineering</a>
                         </h3>
                         <ul class="sz-session__speakers">
-                            <li data-speakerid="92d014d9-78bf-407f-a4fb-bd7b7bf23828">
-                                <a href="#" onclick="return sessionize.showModal('0lnd986r', 'speaker', '92d014d9-78bf-407f-a4fb-bd7b7bf23828');">Eric Allen</a>
+                            <li data-speakerid="e4c0e689-06d7-4798-9267-27bce11c84dd">
+                                <a href="#" onclick="return sessionize.showModal('5fgxuv2o', 'speaker', 'e4c0e689-06d7-4798-9267-27bce11c84dd');">Daniela De Quevedo</a>
                             </li>
                         </ul>
                     </div>
                 </div>
-                <div data-sessionid="541038" class="sz-session sz-session--cssgrid    sz-room--36637 " style="grid-column: track-36637; grid-row: time-1950 / time-2000;">
+                <h2 class="sz-cssgrid__time-label sz-cssgrid__time-overlapping" style="grid-row: time-2000/span 3" data-sztz="Time|en-001|2024-11-20T19:00:00.0000000Z">8:00 pm</h2>
+                <span class="sz-cssgrid__time-separator sz-cssgrid__time-overlapping" style="grid-row: time-2000; grid-column: times/track-51638-end;"></span>
+                <div data-sessionid="1be3bcdb-5645-46aa-b5cb-6e75e04df3ae" class="sz-session sz-session--cssgrid   sz-session--service sz-room--51638 " style="grid-column: track-51638; grid-row: time-2000 / time-2020;">
                     <div class="sz-session__card">
                         <div class="sz-session__meta-group">
-                            <div data-roomid="36637" class="sz-session__room">Track 2</div>
-                            <div class="sz-session__time" data-sztz="TimeWithDuration|en-GB|2023-10-12T17:50:00.0000000Z|2023-10-12T18:00:00.0000000Z">19:50 → 10 min</div>
+                            <div data-roomid="51638" class="sz-session__room">Live Stream</div>
+                            <div class="sz-session__time" data-sztz="TimeWithDuration|en-001|2024-11-20T19:00:00.0000000Z|2024-11-20T19:20:00.0000000Z">8:00 pm → 20 min</div>
                         </div>
                         <h3 class="sz-session__title">
-                            <a href="#" onclick="return sessionize.showModal('0lnd986r', 'session', '541038');">Prompt Engineering a Product Manager</a>
-                            <a href="https://sessionize.com/live/ciogsafo541038" class="sz-session__live is-disabled" data-szactive="2023-10-12T17:45:00.0000000Z|2023-10-12T18:00:00.0000000Z" target="_blank">Live</a>
+                            <a href="#" onclick="return sessionize.showModal('5fgxuv2o', 'servicesession', '1be3bcdb-5645-46aa-b5cb-6e75e04df3ae');">Q &amp;A with Section 2 speakers</a>
+                        </h3>
+                    </div>
+                </div>
+                <h2 class="sz-cssgrid__time-label " style="grid-row: time-2020/span 3" data-sztz="Time|en-001|2024-11-20T19:20:00.0000000Z">8:20 pm</h2>
+                <span class="sz-cssgrid__time-separator " style="grid-row: time-2020; grid-column: times/track-51638-end;"></span>
+                <div data-sessionid="54dba7b1-ccff-4872-b896-8641282de70a" class="sz-session sz-session--cssgrid   sz-session--service sz-room--51638 " style="grid-column: track-51638; grid-row: time-2020 / time-2030;">
+                    <div class="sz-session__card">
+                        <div class="sz-session__meta-group">
+                            <div data-roomid="51638" class="sz-session__room">Live Stream</div>
+                            <div class="sz-session__time" data-sztz="TimeWithDuration|en-001|2024-11-20T19:20:00.0000000Z|2024-11-20T19:30:00.0000000Z">8:20 pm → 10 min</div>
+                        </div>
+                        <h3 class="sz-session__title">
+                            <a href="#" onclick="return sessionize.showModal('5fgxuv2o', 'servicesession', '54dba7b1-ccff-4872-b896-8641282de70a');">Coffee break #2</a>
+                        </h3>
+                    </div>
+                </div>
+                <h2 class="sz-cssgrid__time-label sz-cssgrid__time-overlapping" style="grid-row: time-2030/span 3" data-sztz="Time|en-001|2024-11-20T19:30:00.0000000Z">8:30 pm</h2>
+                <span class="sz-cssgrid__time-separator sz-cssgrid__time-overlapping" style="grid-row: time-2030; grid-column: times/track-51638-end;"></span>
+                <div data-sessionid="748402" class="sz-session sz-session--cssgrid    sz-room--51638 " style="grid-column: track-51638; grid-row: time-2030 / time-2100;">
+                    <div class="sz-session__card">
+                        <div class="sz-session__meta-group">
+                            <div data-roomid="51638" class="sz-session__room">Live Stream</div>
+                            <div class="sz-session__time" data-sztz="TimeWithDuration|en-001|2024-11-20T19:30:00.0000000Z|2024-11-20T20:00:00.0000000Z">8:30 pm → 30 min</div>
+                        </div>
+                        <h3 class="sz-session__title">
+                            <a href="#" onclick="return sessionize.showModal('5fgxuv2o', 'session', '748402');">Model-Based Input Validation for Preventing Prompt Injection Attacks</a>
                         </h3>
                         <ul class="sz-session__speakers">
-                            <li data-speakerid="2703762b-207b-45cf-bdef-dfc6dcf2d4ef">
-                                <a href="#" onclick="return sessionize.showModal('0lnd986r', 'speaker', '2703762b-207b-45cf-bdef-dfc6dcf2d4ef');">C Wen</a>
+                            <li data-speakerid="40ab97c5-ea53-43cf-a1b5-944c1a00c86f">
+                                <a href="#" onclick="return sessionize.showModal('5fgxuv2o', 'speaker', '40ab97c5-ea53-43cf-a1b5-944c1a00c86f');">Alara Ozturk</a>
                             </li>
-                            <li data-speakerid="8598066d-58c8-4dd2-8738-d2593461fd28">
-                                <a href="#" onclick="return sessionize.showModal('0lnd986r', 'speaker', '8598066d-58c8-4dd2-8738-d2593461fd28');">Zhaohong Wang</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <h2 class="sz-cssgrid__time-label sz-cssgrid__time-overlapping" style="grid-row: time-2000/span 3" data-sztz="Time|en-GB|2023-10-12T18:00:00.0000000Z">20:00</h2>
-                <span class="sz-cssgrid__time-separator sz-cssgrid__time-overlapping" style="grid-row: time-2000; grid-column: times/track-36637-end;"></span>
-                <div data-sessionid="44db2c1e-b834-4628-9ee8-0ad5ec477f6e" class="sz-session sz-session--cssgrid   sz-session--service sz-room--36636 " style="grid-column: track-36636; grid-row: time-2000 / time-2020;">
-                    <div class="sz-session__card">
-                        <div class="sz-session__meta-group">
-                            <div data-roomid="36636" class="sz-session__room">Track 1</div>
-                            <div class="sz-session__time" data-sztz="TimeWithDuration|en-GB|2023-10-12T18:00:00.0000000Z|2023-10-12T18:20:00.0000000Z">20:00 → 20 min</div>
-                        </div>
-                        <h3 class="sz-session__title">
-                            <a href="#" onclick="return sessionize.showModal('0lnd986r', 'servicesession', '44db2c1e-b834-4628-9ee8-0ad5ec477f6e');">Q &amp;A with Section 2 speakers</a>
-                        </h3>
-                    </div>
-                </div>
-                <div data-sessionid="c6302839-1ceb-4754-8884-f931506e49f5" class="sz-session sz-session--cssgrid   sz-session--service sz-room--36637 " style="grid-column: track-36637; grid-row: time-2000 / time-2020;">
-                    <div class="sz-session__card">
-                        <div class="sz-session__meta-group">
-                            <div data-roomid="36637" class="sz-session__room">Track 2</div>
-                            <div class="sz-session__time" data-sztz="TimeWithDuration|en-GB|2023-10-12T18:00:00.0000000Z|2023-10-12T18:20:00.0000000Z">20:00 → 20 min</div>
-                        </div>
-                        <h3 class="sz-session__title">
-                            <a href="#" onclick="return sessionize.showModal('0lnd986r', 'servicesession', 'c6302839-1ceb-4754-8884-f931506e49f5');">Q &amp;A with Section 2 speakers</a>
-                        </h3>
-                    </div>
-                </div>
-                <h2 class="sz-cssgrid__time-label " style="grid-row: time-2020/span 3" data-sztz="Time|en-GB|2023-10-12T18:20:00.0000000Z">20:20</h2>
-                <span class="sz-cssgrid__time-separator " style="grid-row: time-2020; grid-column: times/track-36637-end;"></span>
-                <div data-sessionid="c6bd02ec-c3b3-4b86-8d0f-c7c0f2673964" class="sz-session sz-session--cssgrid  sz-session--plenum sz-session--service sz-room--36636 " style="grid-column: track-36636-start / track-36637-end; grid-row: time-2020 / time-2030;">
-                    <div class="sz-session__card">
-                        <div class="sz-session__meta-group">
-                            <div data-roomid="36636" class="sz-session__room">Track 1</div>
-                            <div class="sz-session__time" data-sztz="TimeWithDuration|en-GB|2023-10-12T18:20:00.0000000Z|2023-10-12T18:30:00.0000000Z">20:20 → 10 min</div>
-                        </div>
-                        <h3 class="sz-session__title">
-                            <a href="#" onclick="return sessionize.showModal('0lnd986r', 'servicesession', 'c6bd02ec-c3b3-4b86-8d0f-c7c0f2673964');">Virtual coffee break</a>
-                        </h3>
-                    </div>
-                </div>
-                <h2 class="sz-cssgrid__time-label sz-cssgrid__time-overlapping" style="grid-row: time-2030/span 3" data-sztz="Time|en-GB|2023-10-12T18:30:00.0000000Z">20:30</h2>
-                <span class="sz-cssgrid__time-separator sz-cssgrid__time-overlapping" style="grid-row: time-2030; grid-column: times/track-36637-end;"></span>
-                <div data-sessionid="533241" class="sz-session sz-session--cssgrid    sz-room--36636 " style="grid-column: track-36636; grid-row: time-2030 / time-2100;">
-                    <div class="sz-session__card">
-                        <div class="sz-session__meta-group">
-                            <div data-roomid="36636" class="sz-session__room">Track 1</div>
-                            <div class="sz-session__time" data-sztz="TimeWithDuration|en-GB|2023-10-12T18:30:00.0000000Z|2023-10-12T19:00:00.0000000Z">20:30 → 30 min</div>
-                        </div>
-                        <h3 class="sz-session__title">
-                            <a href="#" onclick="return sessionize.showModal('0lnd986r', 'session', '533241');">Building complex data visualisations using ChatGPT: The power of Iterative Prompt Engineering</a>
-                            <a href="https://sessionize.com/live/nqaqpevo533241" class="sz-session__live is-disabled" data-szactive="2023-10-12T18:25:00.0000000Z|2023-10-12T19:00:00.0000000Z" target="_blank">Live</a>
-                        </h3>
-                        <ul class="sz-session__speakers">
-                            <li data-speakerid="d6f2c2df-5eba-4c29-ab86-f4fa3bf134d1">
-                                <a href="#" onclick="return sessionize.showModal('0lnd986r', 'speaker', 'd6f2c2df-5eba-4c29-ab86-f4fa3bf134d1');">Greg Nash</a>
+                            <li data-speakerid="82c58fbd-2e89-4aaa-b2fa-7b8d673f10e7">
+                                <a href="#" onclick="return sessionize.showModal('5fgxuv2o', 'speaker', '82c58fbd-2e89-4aaa-b2fa-7b8d673f10e7');">Hilik Paz</a>
                             </li>
                         </ul>
                     </div>
                 </div>
-                <div data-sessionid="511930" class="sz-session sz-session--cssgrid    sz-room--36637 " style="grid-column: track-36637; grid-row: time-2030 / time-2100;">
+                <h2 class="sz-cssgrid__time-label " style="grid-row: time-2100/span 3" data-sztz="Time|en-001|2024-11-20T20:00:00.0000000Z">9:00 pm</h2>
+                <span class="sz-cssgrid__time-separator " style="grid-row: time-2100; grid-column: times/track-51638-end;"></span>
+                <div data-sessionid="714881" class="sz-session sz-session--cssgrid    sz-room--51638 " style="grid-column: track-51638; grid-row: time-2100 / time-2130;">
                     <div class="sz-session__card">
                         <div class="sz-session__meta-group">
-                            <div data-roomid="36637" class="sz-session__room">Track 2</div>
-                            <div class="sz-session__time" data-sztz="TimeWithDuration|en-GB|2023-10-12T18:30:00.0000000Z|2023-10-12T19:00:00.0000000Z">20:30 → 30 min</div>
+                            <div data-roomid="51638" class="sz-session__room">Live Stream</div>
+                            <div class="sz-session__time" data-sztz="TimeWithDuration|en-001|2024-11-20T20:00:00.0000000Z|2024-11-20T20:30:00.0000000Z">9:00 pm → 30 min</div>
                         </div>
                         <h3 class="sz-session__title">
-                            <a href="#" onclick="return sessionize.showModal('0lnd986r', 'session', '511930');">Leveraging Prompt Engineering for Effective OpenAPI Descriptions of APIs</a>
-                            <a href="https://sessionize.com/live/djajzeuo511930" class="sz-session__live is-disabled" data-szactive="2023-10-12T18:25:00.0000000Z|2023-10-12T19:00:00.0000000Z" target="_blank">Live</a>
-                        </h3>
-                        <ul class="sz-session__speakers">
-                            <li data-speakerid="fb37fe52-097c-4cc7-b765-cbd60e548ed2">
-                                <a href="#" onclick="return sessionize.showModal('0lnd986r', 'speaker', 'fb37fe52-097c-4cc7-b765-cbd60e548ed2');">Daniel Kocot</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <h2 class="sz-cssgrid__time-label " style="grid-row: time-2100/span 3" data-sztz="Time|en-GB|2023-10-12T19:00:00.0000000Z">21:00</h2>
-                <span class="sz-cssgrid__time-separator " style="grid-row: time-2100; grid-column: times/track-36637-end;"></span>
-                <div data-sessionid="540933" class="sz-session sz-session--cssgrid    sz-room--36636 " style="grid-column: track-36636; grid-row: time-2100 / time-2130;">
-                    <div class="sz-session__card">
-                        <div class="sz-session__meta-group">
-                            <div data-roomid="36636" class="sz-session__room">Track 1</div>
-                            <div class="sz-session__time" data-sztz="TimeWithDuration|en-GB|2023-10-12T19:00:00.0000000Z|2023-10-12T19:30:00.0000000Z">21:00 → 30 min</div>
-                        </div>
-                        <h3 class="sz-session__title">
-                            <a href="#" onclick="return sessionize.showModal('0lnd986r', 'session', '540933');">The Power of Prompting: Rocket Fuel for People with a Growth Mindset; Here's the Proof!</a>
-                            <a href="https://sessionize.com/live/qxazgepo540933" class="sz-session__live is-disabled" data-szactive="2023-10-12T18:55:00.0000000Z|2023-10-12T19:30:00.0000000Z" target="_blank">Live</a>
-                        </h3>
-                        <ul class="sz-session__speakers">
-                            <li data-speakerid="924ce662-4204-4293-98c8-8c5ee4e11239">
-                                <a href="#" onclick="return sessionize.showModal('0lnd986r', 'speaker', '924ce662-4204-4293-98c8-8c5ee4e11239');">Jan Krans</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div data-sessionid="515129" class="sz-session sz-session--cssgrid    sz-room--36637 " style="grid-column: track-36637; grid-row: time-2100 / time-2130;">
-                    <div class="sz-session__card">
-                        <div class="sz-session__meta-group">
-                            <div data-roomid="36637" class="sz-session__room">Track 2</div>
-                            <div class="sz-session__time" data-sztz="TimeWithDuration|en-GB|2023-10-12T19:00:00.0000000Z|2023-10-12T19:30:00.0000000Z">21:00 → 30 min</div>
-                        </div>
-                        <h3 class="sz-session__title">
-                            <a href="#" onclick="return sessionize.showModal('0lnd986r', 'session', '515129');">Supercharge Your Productivity: Mastering Prompt Engineering</a>
-                            <a href="https://sessionize.com/live/ioqjapfeo515129" class="sz-session__live is-disabled" data-szactive="2023-10-12T18:55:00.0000000Z|2023-10-12T19:30:00.0000000Z" target="_blank">Live</a>
+                            <a href="#" onclick="return sessionize.showModal('5fgxuv2o', 'session', '714881');">Words as weapons: The dark arts of Prompt Engineering</a>
                         </h3>
                         <ul class="sz-session__speakers">
                             <li data-speakerid="47fea73d-403c-4cd9-9a94-01422c6b31ec">
-                                <a href="#" onclick="return sessionize.showModal('0lnd986r', 'speaker', '47fea73d-403c-4cd9-9a94-01422c6b31ec');">Jeroen Egelmeers</a>
+                                <a href="#" onclick="return sessionize.showModal('5fgxuv2o', 'speaker', '47fea73d-403c-4cd9-9a94-01422c6b31ec');">Jeroen Egelmeers</a>
                             </li>
                         </ul>
                     </div>
                 </div>
-                <h2 class="sz-cssgrid__time-label " style="grid-row: time-2130/span 3" data-sztz="Time|en-GB|2023-10-12T19:30:00.0000000Z">21:30</h2>
-                <span class="sz-cssgrid__time-separator " style="grid-row: time-2130; grid-column: times/track-36637-end;"></span>
-                <div data-sessionid="540490" class="sz-session sz-session--cssgrid    sz-room--36636 " style="grid-column: track-36636; grid-row: time-2130 / time-2140;">
+                <h2 class="sz-cssgrid__time-label " style="grid-row: time-2130/span 3" data-sztz="Time|en-001|2024-11-20T20:30:00.0000000Z">9:30 pm</h2>
+                <span class="sz-cssgrid__time-separator " style="grid-row: time-2130; grid-column: times/track-51638-end;"></span>
+                <div data-sessionid="751144" class="sz-session sz-session--cssgrid    sz-room--51638 " style="grid-column: track-51638; grid-row: time-2130 / time-2140;">
                     <div class="sz-session__card">
                         <div class="sz-session__meta-group">
-                            <div data-roomid="36636" class="sz-session__room">Track 1</div>
-                            <div class="sz-session__time" data-sztz="TimeWithDuration|en-GB|2023-10-12T19:30:00.0000000Z|2023-10-12T19:40:00.0000000Z">21:30 → 10 min</div>
+                            <div data-roomid="51638" class="sz-session__room">Live Stream</div>
+                            <div class="sz-session__time" data-sztz="TimeWithDuration|en-001|2024-11-20T20:30:00.0000000Z|2024-11-20T20:40:00.0000000Z">9:30 pm → 10 min</div>
                         </div>
                         <h3 class="sz-session__title">
-                            <a href="#" onclick="return sessionize.showModal('0lnd986r', 'session', '540490');">How can you use prompt engineering to debug PowerShell?</a>
-                            <a href="https://sessionize.com/live/ilgahtexo540490" class="sz-session__live is-disabled" data-szactive="2023-10-12T19:25:00.0000000Z|2023-10-12T19:40:00.0000000Z" target="_blank">Live</a>
+                            <a href="#" onclick="return sessionize.showModal('5fgxuv2o', 'session', '751144');">Can we evade AI-generated content detectors using prompt engineering?</a>
                         </h3>
                         <ul class="sz-session__speakers">
-                            <li data-speakerid="a01acbcb-a66d-4991-8f1c-5dc4d275df56">
-                                <a href="#" onclick="return sessionize.showModal('0lnd986r', 'speaker', 'a01acbcb-a66d-4991-8f1c-5dc4d275df56');">Alexander Holmeset</a>
+                            <li data-speakerid="8c0527f1-5475-4e0e-924e-7f73ddd1ec73">
+                                <a href="#" onclick="return sessionize.showModal('5fgxuv2o', 'speaker', '8c0527f1-5475-4e0e-924e-7f73ddd1ec73');">Aldan Creo</a>
                             </li>
                         </ul>
                     </div>
                 </div>
-                <div data-sessionid="499639" class="sz-session sz-session--cssgrid    sz-room--36637 " style="grid-column: track-36637; grid-row: time-2130 / time-2140;">
+                <h2 class="sz-cssgrid__time-label sz-cssgrid__time-overlapping" style="grid-row: time-2140/span 3" data-sztz="Time|en-001|2024-11-20T20:40:00.0000000Z">9:40 pm</h2>
+                <span class="sz-cssgrid__time-separator sz-cssgrid__time-overlapping" style="grid-row: time-2140; grid-column: times/track-51638-end;"></span>
+                <div data-sessionid="db873562-2fc0-433c-a8b7-77fed81eab6b" class="sz-session sz-session--cssgrid   sz-session--service sz-room--51638 " style="grid-column: track-51638; grid-row: time-2140 / time-2200;">
                     <div class="sz-session__card">
                         <div class="sz-session__meta-group">
-                            <div data-roomid="36637" class="sz-session__room">Track 2</div>
-                            <div class="sz-session__time" data-sztz="TimeWithDuration|en-GB|2023-10-12T19:30:00.0000000Z|2023-10-12T19:40:00.0000000Z">21:30 → 10 min</div>
+                            <div data-roomid="51638" class="sz-session__room">Live Stream</div>
+                            <div class="sz-session__time" data-sztz="TimeWithDuration|en-001|2024-11-20T20:40:00.0000000Z|2024-11-20T21:00:00.0000000Z">9:40 pm → 20 min</div>
                         </div>
                         <h3 class="sz-session__title">
-                            <a href="#" onclick="return sessionize.showModal('0lnd986r', 'session', '499639');">Prompting your next company strategy</a>
-                            <a href="https://sessionize.com/live/ihqaopmeo499639" class="sz-session__live is-disabled" data-szactive="2023-10-12T19:25:00.0000000Z|2023-10-12T19:40:00.0000000Z" target="_blank">Live</a>
+                            <a href="#" onclick="return sessionize.showModal('5fgxuv2o', 'servicesession', 'db873562-2fc0-433c-a8b7-77fed81eab6b');">Q &amp;A with Section 3 speakers</a>
+                        </h3>
+                    </div>
+                </div>
+                <h2 class="sz-cssgrid__time-label " style="grid-row: time-2200/span 3" data-sztz="Time|en-001|2024-11-20T21:00:00.0000000Z">10:00 pm</h2>
+                <span class="sz-cssgrid__time-separator " style="grid-row: time-2200; grid-column: times/track-51638-end;"></span>
+                <div data-sessionid="1e63733b-c8cf-428d-80e2-ab2b39905830" class="sz-session sz-session--cssgrid   sz-session--service sz-room--51638 " style="grid-column: track-51638; grid-row: time-2200 / time-2220;">
+                    <div class="sz-session__card">
+                        <div class="sz-session__meta-group">
+                            <div data-roomid="51638" class="sz-session__room">Live Stream</div>
+                            <div class="sz-session__time" data-sztz="TimeWithDuration|en-001|2024-11-20T21:00:00.0000000Z|2024-11-20T21:20:00.0000000Z">10:00 pm → 20 min</div>
+                        </div>
+                        <h3 class="sz-session__title">
+                            <a href="#" onclick="return sessionize.showModal('5fgxuv2o', 'servicesession', '1e63733b-c8cf-428d-80e2-ab2b39905830');">Coffee break #3</a>
+                        </h3>
+                    </div>
+                </div>
+                <h2 class="sz-cssgrid__time-label " style="grid-row: time-2220/span 3" data-sztz="Time|en-001|2024-11-20T21:20:00.0000000Z">10:20 pm</h2>
+                <span class="sz-cssgrid__time-separator " style="grid-row: time-2220; grid-column: times/track-51638-end;"></span>
+                <div data-sessionid="726624" class="sz-session sz-session--cssgrid    sz-room--51638 " style="grid-column: track-51638; grid-row: time-2220 / time-2250;">
+                    <div class="sz-session__card">
+                        <div class="sz-session__meta-group">
+                            <div data-roomid="51638" class="sz-session__room">Live Stream</div>
+                            <div class="sz-session__time" data-sztz="TimeWithDuration|en-001|2024-11-20T21:20:00.0000000Z|2024-11-20T21:50:00.0000000Z">10:20 pm → 30 min</div>
+                        </div>
+                        <h3 class="sz-session__title">
+                            <a href="#" onclick="return sessionize.showModal('5fgxuv2o', 'session', '726624');">Ignore Previous Instructions: Embracing AI Red Teaming</a>
                         </h3>
                         <ul class="sz-session__speakers">
-                            <li data-speakerid="2892a10e-a271-4407-b410-34711af3cf23">
-                                <a href="#" onclick="return sessionize.showModal('0lnd986r', 'speaker', '2892a10e-a271-4407-b410-34711af3cf23');">Peter Kestenholz</a>
+                            <li data-speakerid="e3c99a3a-4d01-479f-9f96-5e8758e70746">
+                                <a href="#" onclick="return sessionize.showModal('5fgxuv2o', 'speaker', 'e3c99a3a-4d01-479f-9f96-5e8758e70746');">David Campbell</a>
                             </li>
                         </ul>
                     </div>
                 </div>
-                <h2 class="sz-cssgrid__time-label sz-cssgrid__time-overlapping" style="grid-row: time-2140/span 3" data-sztz="Time|en-GB|2023-10-12T19:40:00.0000000Z">21:40</h2>
-                <span class="sz-cssgrid__time-separator sz-cssgrid__time-overlapping" style="grid-row: time-2140; grid-column: times/track-36637-end;"></span>
-                <div data-sessionid="4721f706-c897-44da-8833-046efcb68ecf" class="sz-session sz-session--cssgrid   sz-session--service sz-room--36636 " style="grid-column: track-36636; grid-row: time-2140 / time-2200;">
+                <h2 class="sz-cssgrid__time-label " style="grid-row: time-2250/span 3" data-sztz="Time|en-001|2024-11-20T21:50:00.0000000Z">10:50 pm</h2>
+                <span class="sz-cssgrid__time-separator " style="grid-row: time-2250; grid-column: times/track-51638-end;"></span>
+                <div data-sessionid="753921" class="sz-session sz-session--cssgrid    sz-room--51638 " style="grid-column: track-51638; grid-row: time-2250 / time-2320;">
                     <div class="sz-session__card">
                         <div class="sz-session__meta-group">
-                            <div data-roomid="36636" class="sz-session__room">Track 1</div>
-                            <div class="sz-session__time" data-sztz="TimeWithDuration|en-GB|2023-10-12T19:40:00.0000000Z|2023-10-12T20:00:00.0000000Z">21:40 → 20 min</div>
+                            <div data-roomid="51638" class="sz-session__room">Live Stream</div>
+                            <div class="sz-session__time" data-sztz="TimeWithDuration|en-001|2024-11-20T21:50:00.0000000Z|2024-11-20T22:20:00.0000000Z">10:50 pm → 30 min</div>
                         </div>
                         <h3 class="sz-session__title">
-                            <a href="#" onclick="return sessionize.showModal('0lnd986r', 'servicesession', '4721f706-c897-44da-8833-046efcb68ecf');">Q &amp;A with Section 3 speakers</a>
+                            <a href="#" onclick="return sessionize.showModal('5fgxuv2o', 'session', '753921');">Digital Course Assistants for Mathematics and Math Education</a>
                         </h3>
+                        <ul class="sz-session__speakers">
+                            <li data-speakerid="694ce64f-4646-4ee2-a4a2-571efdfc2018">
+                                <a href="#" onclick="return sessionize.showModal('5fgxuv2o', 'speaker', '694ce64f-4646-4ee2-a4a2-571efdfc2018');">Daniel Jackson</a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
-                <div data-sessionid="72962725-8ad9-4b75-9dae-f01b4e61f735" class="sz-session sz-session--cssgrid   sz-session--service sz-room--36637 " style="grid-column: track-36637; grid-row: time-2140 / time-2200;">
+                <h2 class="sz-cssgrid__time-label " style="grid-row: time-2320/span 3" data-sztz="Time|en-001|2024-11-20T22:20:00.0000000Z">11:20 pm</h2>
+                <span class="sz-cssgrid__time-separator " style="grid-row: time-2320; grid-column: times/track-51638-end;"></span>
+                <div data-sessionid="761360" class="sz-session sz-session--cssgrid    sz-room--51638 " style="grid-column: track-51638; grid-row: time-2320 / time-2350;">
                     <div class="sz-session__card">
                         <div class="sz-session__meta-group">
-                            <div data-roomid="36637" class="sz-session__room">Track 2</div>
-                            <div class="sz-session__time" data-sztz="TimeWithDuration|en-GB|2023-10-12T19:40:00.0000000Z|2023-10-12T20:00:00.0000000Z">21:40 → 20 min</div>
+                            <div data-roomid="51638" class="sz-session__room">Live Stream</div>
+                            <div class="sz-session__time" data-sztz="TimeWithDuration|en-001|2024-11-20T22:20:00.0000000Z|2024-11-20T22:50:00.0000000Z">11:20 pm → 30 min</div>
                         </div>
                         <h3 class="sz-session__title">
-                            <a href="#" onclick="return sessionize.showModal('0lnd986r', 'servicesession', '72962725-8ad9-4b75-9dae-f01b4e61f735');">Q &amp;A with Section 3 speakers</a>
+                            <a href="#" onclick="return sessionize.showModal('5fgxuv2o', 'session', '761360');">Can AI Be Used to Develop a Whole Videogame?</a>
                         </h3>
+                        <ul class="sz-session__speakers">
+                            <li data-speakerid="afc847a7-f74b-4edb-af09-f6f1e2c84334">
+                                <a href="#" onclick="return sessionize.showModal('5fgxuv2o', 'speaker', 'afc847a7-f74b-4edb-af09-f6f1e2c84334');">Jesus Serrano</a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
-                <h2 class="sz-cssgrid__time-label " style="grid-row: time-2200/span 3" data-sztz="Time|en-GB|2023-10-12T20:00:00.0000000Z">22:00</h2>
-                <span class="sz-cssgrid__time-separator " style="grid-row: time-2200; grid-column: times/track-36637-end;"></span>
-                <div data-sessionid="c4f81660-a52d-42ea-8f09-1ef00d6b45cd" class="sz-session sz-session--cssgrid  sz-session--plenum sz-session--service sz-room--36636 " style="grid-column: track-36636-start / track-36637-end; grid-row: time-2200 / time-2210;">
+                <h2 class="sz-cssgrid__time-label " style="grid-row: time-2350/span 3" data-sztz="Time|en-001|2024-11-20T22:50:00.0000000Z">11:50 pm</h2>
+                <span class="sz-cssgrid__time-separator " style="grid-row: time-2350; grid-column: times/track-51638-end;"></span>
+                <div data-sessionid="e64cf26b-0c09-4b3f-8dd0-d3734ddd9410" class="sz-session sz-session--cssgrid   sz-session--service sz-room--51638 " style="grid-column: track-51638; grid-row: time-2350 / time-0010;">
                     <div class="sz-session__card">
                         <div class="sz-session__meta-group">
-                            <div data-roomid="36636" class="sz-session__room">Track 1</div>
-                            <div class="sz-session__time" data-sztz="TimeWithDuration|en-GB|2023-10-12T20:00:00.0000000Z|2023-10-12T20:10:00.0000000Z">22:00 → 10 min</div>
+                            <div data-roomid="51638" class="sz-session__room">Live Stream</div>
+                            <div class="sz-session__time" data-sztz="TimeWithDuration|en-001|2024-11-20T22:50:00.0000000Z|2024-11-20T23:10:00.0000000Z">11:50 pm → 20 min</div>
                         </div>
                         <h3 class="sz-session__title">
-                            <a href="#" onclick="return sessionize.showModal('0lnd986r', 'servicesession', 'c4f81660-a52d-42ea-8f09-1ef00d6b45cd');">Closing (10min)</a>
+                            <a href="#" onclick="return sessionize.showModal('5fgxuv2o', 'servicesession', 'e64cf26b-0c09-4b3f-8dd0-d3734ddd9410');">Q &amp;A with Section 4 speakers + Outro</a>
                         </h3>
                     </div>
                 </div>
@@ -870,8 +747,8 @@
                 sessionize.getLocalTimes();
                 sessionize.manageActive();
                 window.location.hash && window.location.hash.lastIndexOf("#sz-tab-", 0) === 0 ? sessionize.tabChange(window.location.hash) : window.location.hash && window.location.hash.lastIndexOf("#sz-speaker-", 0) === 0 ? (n = window.location.hash.substr(12),
-                sessionize.showModal("0lnd986r", "speaker", n)) : window.location.hash && window.location.hash.lastIndexOf("#sz-session-", 0) === 0 && (n = window.location.hash.substr(12),
-                sessionize.showModal("0lnd986r", "session", n));
+                sessionize.showModal("5fgxuv2o", "speaker", n)) : window.location.hash && window.location.hash.lastIndexOf("#sz-session-", 0) === 0 && (n = window.location.hash.substr(12),
+                sessionize.showModal("5fgxuv2o", "session", n));
                 sessionize.event && window.dispatchEvent(sessionize.event)
             }
             ;
@@ -881,7 +758,7 @@
             sessionize.eventTimezone = 'UTC+02';
             sessionize.eventCityName = 'Amsterdam, Berlin, Bern, Rome, Stockholm, Vienna';
             sessionize.showLocalTimezone = true;
-            sessionize.todayId = 45210;
+            sessionize.todayId = 45590;
 
             //]]>
         </script>
