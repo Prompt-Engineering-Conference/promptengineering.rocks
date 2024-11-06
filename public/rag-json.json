@@ -1,0 +1,498 @@
+{
+  "sessions": [
+    {
+      "id": "745848",
+      "title": "Building a Production-Ready AI-Powered Chatbot Tutor with Hybrid RAG system",
+      "description": "In this talk, we dive deep into the development of a state-of-the-art AI-powered chatbot tutor using Retrieval-Augmented Generation (RAG) combined with fine-tuning and sophisticated prompt engineering techniques. We will explore a step-by-step guide starting from data collection and preparation, choosing and configuring models, to fine-tuning with domain-specific datasets, and iterative evaluation for performance optimization. Additionally, the session will cover the intricacies of prompt engineering, including dynamic adjustment, contextual prompt development, and bias mitigation to enhance the chatbot’s ability to deliver precise, engaging, and relevant educational interactions. Attendees will gain insights into building scalable and effective AI-driven tutoring solutions, focusing on leveraging RAG for contextual responses and continuous prompt optimization strategies.",
+      "startsAt": "2024-11-20T16:10:00Z",
+      "endsAt": "2024-11-20T16:40:00Z",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "64eaac24-1e95-49c7-bb7e-b67dbbe100cb",
+        "adbb6fcc-dc2b-490a-b7d2-129d678f7b16"
+      ],
+      "categoryItems": [],
+      "questionAnswers": [],
+      "roomId": 51638,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "724743",
+      "title": "A Large Language Model took me on vacation",
+      "description": "Imagine handing over your vacation planning to an AI. Sounds crazy, right? That's exactly what Jorrik did for his trip to Porto in Portugal. ChatGPT picked everything from restaurants to the sightseeing spots. But this trip taught Jorrik more than just how to order pastel de nata in Portuguese.\r\n\r\nIn this talk, you'll dive into different parallels between prompting engineering AI for travel tips and using it for coding and problem-solving. You'll learn why context is king in AI interactions and ways to provide it effectively. Jorrik will walk you through real examples from my AI-planned adventure, showing how each interaction unlocked new insights into advanced prompting techniques. Plus, he will introduce you to \"Indirect Conversation\" a new method he describes as \"pushing AI's creative boundaries\".\r\n\r\nIntegrating AI in applications is now everywhere to be found. And creating web applications, prompt engineering is set to become a crucial skill in our developers toolkit. The techniques you'll learn aren't just for planning vacations. They're the building blocks for creating smarter, more intuitive AI-powered tools. Whether you're designing chatbots, implementing AI-assisted search, or build the next-gen AI-driven web app, mastering these prompting skills will give you a significant benefit in creating a seamless user experience.\r\n\r\nBy the end of this session, you'll walk away with practical skills to supercharge your AI interactions, whether you're planning your next vacation or tackling complex coding challenges. You'll gain a fresh perspective on AI's capabilities and limitations, and you'll be equipped with strategies to get more innovative, useful responses from AI tools. Get ready for a session that's a bit of fun, part travelogue, mainly tech talk, and entirely eye-opening!",
+      "startsAt": "2024-11-20T16:40:00Z",
+      "endsAt": "2024-11-20T17:10:00Z",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "ed279cd7-8c7b-4c58-8b1a-9351846f7d91"
+      ],
+      "categoryItems": [],
+      "questionAnswers": [],
+      "roomId": 51638,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "752053",
+      "title": "Improving Retrieval Q&A Contextualization Prompts (using TextGrad)",
+      "description": "We showcase the importance of good query contextualization in document retrieval Q&A scenarios with various industry examples. We present approaches to improve contextualization by prompt engineering with TextGrad and show how crucial these improvements are for delivering industry-grade chatbot solutions and customer satisfaction.\r\n\r\nBackground: When performing document retrieval in a Q&A/chatbot scenario, just using the last Q&A message, namely the current human inquiry, as a target might not yield good results. Often the context needed for retrieving relevant documents is spread out over several previous messages. Query contextualization helps by transforming a message history into a singular retrieval query including the relevant context. Main threats to the quality of the retrieval are missing context, a direct answer to the question, and follow-up questions back to the user in the contextualized query. These threats can be contained by a good choice of the contextualization model and a well-designed system prompt.",
+      "startsAt": "2024-11-20T17:10:00Z",
+      "endsAt": "2024-11-20T17:20:00Z",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "52bc805e-cc5a-4a22-964c-92d972e958c2",
+        "7abb107b-6e75-4e2f-965c-96ecc2d85302"
+      ],
+      "categoryItems": [],
+      "questionAnswers": [],
+      "roomId": 51638,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "750693",
+      "title": "Multi-Agent Systems for Advanced Prompt Clarification",
+      "description": "The concept of optimizing prompt engineering through a multi-agent model involves dividing the task of understanding and refining user inputs into distinct roles. When a user provides an incomplete or unclear prompt, the first agent acts as an interactive mediator, engaging in a dialogue to elicit further details or clarify the intent behind the prompt. By refining and enhancing the initial query through iterative questioning or contextualization, the first agent ensures that the final prompt accurately represents the user's true needs. Once the prompt has been clarified, it is passed to the second agent, which is responsible for processing the refined input and generating the desired output. This system allows for more effective handling of vague or ambiguous prompts, improving overall response quality and user satisfaction by ensuring that the core question or task is fully understood before the model attempts to provide a solution.",
+      "startsAt": "2024-11-20T17:50:00Z",
+      "endsAt": "2024-11-20T18:20:00Z",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "b528d2c1-1036-4eae-9367-0314783e81c3"
+      ],
+      "categoryItems": [],
+      "questionAnswers": [],
+      "roomId": 51638,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "735212",
+      "title": "Navigating Prompt Quality in Enterprise: Chaos Control Guide",
+      "description": "What if you have a few hundreds developers building their AI-based features all across a huge user-facing product? Sounds exciting but also a bit troubling: how is it possible to move fast without compromising security and quality standards of an enterprise?\r\n\r\nDuring the past year, we’ve built a whole infrastructure for LLM-oriented development in Wix. As the industry was exploding with new models and techniques, this infrastructure grew to include a wide range of tools to make developer experience with AI really smooth. But then we’ve noticed something else: the easier it was to work with LLMs, the more difficult it was to make sure that the quality of LLM-based features stays high. That was the moment when we had to make a leap from AI democratisation to AI standardisation.\r\n\r\nBuilding a whole infrastructure of prompt QA tools and arranging prompt engineering flows gave me some new insights about bringing AI to enterprise while ensuring a high standard of LLM feature implementation.\r\n\r\nIn this talk, I’ll take you through the AI Standartisation journey we took and share some practical ideas of improving prompt engineering standards across a big organisation. We’ll touch both technical solutions and educational approaches that can help in bringing enterprise prompt engineering standards to a higher level.\r\n",
+      "startsAt": "2024-11-20T18:20:00Z",
+      "endsAt": "2024-11-20T18:50:00Z",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "422f4c87-0c92-4393-acc4-ecba579b5d36"
+      ],
+      "categoryItems": [],
+      "questionAnswers": [],
+      "roomId": 51638,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "753471",
+      "title": "Maximizing the Potential of Foundation Models through Prompt Engineering",
+      "description": "Explore techniques to leverage capabilities of foundation models. Learn how prompt engineering enhances AI performance, enabling more accurate, context-aware, and tailored responses for diverse applications in natural language processing, sharing my experience as prompt engineer.",
+      "startsAt": "2024-11-20T18:50:00Z",
+      "endsAt": "2024-11-20T19:00:00Z",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "e4c0e689-06d7-4798-9267-27bce11c84dd"
+      ],
+      "categoryItems": [],
+      "questionAnswers": [],
+      "roomId": 51638,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "748402",
+      "title": "Model-Based Input Validation for Preventing Prompt Injection Attacks",
+      "description": "As Large Language Models (LLMs) become increasingly integrated into various applications, the threat of prompt injection attacks has emerged as a significant security concern. This presentation introduces a novel model-based input validation approach to mitigate these attacks in LLM-integrated applications.\r\n\r\nWe present a meta-prompt methodology that acts as an intermediate validator, examining user inputs before they reach the LLM. Our approach builds on established input validation techniques, drawing parallels with traditional security measures like SQL injection prevention.\r\n\r\nThroughout the presentation, we will discuss the challenges of input validation in LLM contexts and explore how our model-based approach provides a more flexible and adaptive solution. We'll share preliminary results from evaluations against established prompt injection datasets, highlighting the effectiveness of our methodology in detecting and mitigating various types of injection attempts.\r\n\r\nJoin us for an insightful exploration of this innovative approach to enhancing the security of LLM applications through advanced prompt engineering techniques, and learn how to implement robust input validation mechanisms to safeguard your AI-driven systems.",
+      "startsAt": "2024-11-20T19:30:00Z",
+      "endsAt": "2024-11-20T20:00:00Z",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "40ab97c5-ea53-43cf-a1b5-944c1a00c86f",
+        "82c58fbd-2e89-4aaa-b2fa-7b8d673f10e7"
+      ],
+      "categoryItems": [],
+      "questionAnswers": [],
+      "roomId": 51638,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "714881",
+      "title": "Words as weapons: The dark arts of Prompt Engineering",
+      "description": "With a \"Co-pilot for everything,\" our interaction with technology and daily tasks is evolving. Organizations are increasingly integrating LLMs into their applications, enhancing features like search tools, chatbots, and internal information systems.\r\n\r\nChances are, you're already working with Generative AI or will be soon. But are you aware of the risks before diving into use cases or development? Curiosity drives us to explore limits, which can lead to finding ways around \"Guard Rails.\" These guard rails prevent misuse, like asking ChatGPT how to build a bomb. But what if clever wordplay confuses LLMs into bypassing these safeguards?\r\n\r\nIn \"The dark arts of Prompt Engineering,\" we'll explore Prompt Injections. We'll cover what Guard Rails are, how they function, and how to circumvent them using Prompt Injections—purely for educational purposes. Understanding these risks is crucial for knowing where to implement safeguards or reconsider actions. This session goes beyond tech details. It’s about real-life impacts. You'll see examples that will make you rethink AI's role in our lives. We'll also discuss the ethical aspect—how to use AI responsibly and safely. Plus, learn a fun trick: hide some \"words as weapons\" in your CV to trick recruiters!\r\n\r\nAs AI is here to stay, let's get secure and join this session!\r\nLearn from the mistakes other companies have already made.\r\nDon’t miss this important and eye-opening session!",
+      "startsAt": "2024-11-20T20:00:00Z",
+      "endsAt": "2024-11-20T20:30:00Z",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "47fea73d-403c-4cd9-9a94-01422c6b31ec"
+      ],
+      "categoryItems": [],
+      "questionAnswers": [],
+      "roomId": 51638,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "751144",
+      "title": "Can we evade AI-generated content detectors using prompt engineering?",
+      "description": "In this talk, we'll explore an intriguing question: can clever prompt engineering help us bypass AI-generated content detectors? We'll dive into the world of AI detection and briefly explain how these systems work. Then we'll go straight to the answer, using the latest scientific literature. Get ready for a fast-paced session that bridges the gap between prompt engineering and AI detection!",
+      "startsAt": "2024-11-20T20:30:00Z",
+      "endsAt": "2024-11-20T20:40:00Z",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "8c0527f1-5475-4e0e-924e-7f73ddd1ec73"
+      ],
+      "categoryItems": [],
+      "questionAnswers": [],
+      "roomId": 51638,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "726624",
+      "title": "Ignore Previous Instructions: Embracing AI Red Teaming",
+      "description": "In this talk, we will explore the journey of Red Teaming from its origins to its transformation into AI Red Teaming, highlighting its pivotal role in shaping the future of Large Language Models (LLMs) and beyond. Drawing from my firsthand experiences developing and deploying the largest generative red teaming platform to date, I will share insightful antidotes and real-world examples. We will explore how adversarial red teaming fortifies AI applications at every layer—protecting platforms, businesses, and consumers. This includes safeguarding the external application interface, reinforcing LLM guardrails, and enhancing the security of the LLMs' internal algorithms. Join me as we uncover the critical importance of adversarial strategies in securing the AI landscape.",
+      "startsAt": "2024-11-20T21:20:00Z",
+      "endsAt": "2024-11-20T21:50:00Z",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "e3c99a3a-4d01-479f-9f96-5e8758e70746"
+      ],
+      "categoryItems": [],
+      "questionAnswers": [],
+      "roomId": 51638,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "753921",
+      "title": "Digital Course Assistants for Mathematics and Math Education",
+      "description": "In this session, I will share how I use OpenAI's ChatGPT to create custom \"digital course assistants\" for both my mathematics and math education courses. These assistants generate course materials such as assignments, quizzes, and lecture notes, and are also made available to students for personalized learning. I will detail the prompt engineering methodologies I use to tailor the GPTs for specific educational needs, ensuring clarity in mathematical explanations, optimizing accuracy, and enhancing learning engagement. By highlighting practical strategies for prompt optimization and creativity in teaching, this session will provide attendees with insights on how to effectively integrate AI tools into education, offering both production-ready applications and experimental possibilities.",
+      "startsAt": "2024-11-20T21:50:00Z",
+      "endsAt": "2024-11-20T22:20:00Z",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "694ce64f-4646-4ee2-a4a2-571efdfc2018"
+      ],
+      "categoryItems": [],
+      "questionAnswers": [],
+      "roomId": 51638,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "761360",
+      "title": "Can AI Be Used to Develop a Whole Videogame?",
+      "description": "That's what I asked me a few months ago to bring to life one of my childhood deepest aspirations since I learn programming at 8 years old... Being the main character in my own videogame. \r\n\r\nBald NinjAI, a retro-inspired beat'em-up, is being brought to life entirely through the power of AI. In this session, I’ll showcase how AI tools are used across every aspect of the game development process—scriptwriting, lore creation, character design, animations, sound, music, and coding. From generating thousands of lines of code to crafting iconic game elements like a Tokyo train fight level, AI is transforming the way we create games.\r\n\r\nLearn about the dozens of cutting-edge tools AI technologies, that have empowered me to streamline such a creative process. \r\n\r\nWhether you're a game developer, AI enthusiast, or curious about how AI is reshaping the gaming industry, this session will provide valuable insights into the future of game creation.",
+      "startsAt": "2024-11-20T22:20:00Z",
+      "endsAt": "2024-11-20T22:50:00Z",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "afc847a7-f74b-4edb-af09-f6f1e2c84334"
+      ],
+      "categoryItems": [],
+      "questionAnswers": [],
+      "roomId": 51638,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    }
+  ],
+  "speakers": [
+    {
+      "id": "40ab97c5-ea53-43cf-a1b5-944c1a00c86f",
+      "firstName": "Alara",
+      "lastName": "Ozturk",
+      "bio": "Alara Ozturk is an accomplished Technical Community Manager with a strong background in fostering collaboration within the tech industry. Currently at arato.ai and previously with Electronic Arts (EA) and Tigera, she has successfully enhanced community engagement through initiatives like the Calico Big Cats Ambassador Program and CalicoCon 2023. Alara's expertise in community building and content creation makes her a valuable voice in the tech community.",
+      "tagLine": "Arato.ai, Community Manager",
+      "profilePicture": "https://sessionize.com/image/f299-400o400o1-hR7cg3iAF6RPzv9U4fJJJJ.png",
+      "isTopSpeaker": false,
+      "links": [],
+      "sessions": [
+        748402
+      ],
+      "fullName": "Alara Ozturk",
+      "categoryItems": [],
+      "questionAnswers": []
+    },
+    {
+      "id": "8c0527f1-5475-4e0e-924e-7f73ddd1ec73",
+      "firstName": "Aldan",
+      "lastName": "Creo",
+      "bio": "Aldan is a Fulbright Scholar, sponsored by the U.S. Department of State. He studied Computer Science in Spain, France and Switzerland with a focus on Natural Language Processing and has been recognized for leadership and academic excellence through several awards. He is also the founder of 3 associations and contributes to open source. He is currently working on research on Knowledge Graphs and Natural Language Processing.",
+      "tagLine": "Technology Research Specialist @ Accenture Labs",
+      "profilePicture": "https://sessionize.com/image/a8f5-400o400o1-KZ2Qk2kdE34vjwtHtCDzEk.jpg",
+      "isTopSpeaker": false,
+      "links": [],
+      "sessions": [
+        751144
+      ],
+      "fullName": "Aldan Creo",
+      "categoryItems": [],
+      "questionAnswers": []
+    },
+    {
+      "id": "64eaac24-1e95-49c7-bb7e-b67dbbe100cb",
+      "firstName": "Alok",
+      "lastName": "Ranjan",
+      "bio": "Hello, I’m Alok Ranjan, an Engineering Manager at Dropbox overseeing the Storage Platform team in the infrastructure org. My team focuses on providing interfaces for file and block storage, along with encryption, compression, and verification of user data. With a master’s degree from Carnegie Mellon University, I began my career at Cisco Systems, working on networking technologies. I've led projects at VMware, Big Switch Networks, and Dropbox, focusing on improving network monitoring and system operations. While at Dropbox we use AI tools in our work, but it's not my team's primary focus. However, I also mentor engineers at an AI-based startup, which keeps me up-to-date on developments in the AI world.\r\n I'm passionate about innovative technology solutions and fortunate to work with talented teams daily. ",
+      "tagLine": "Software Engineering Manager, Dropbox",
+      "profilePicture": "https://sessionize.com/image/d0de-400o400o1-Sz714MySra1j1roHHrhzKD.png",
+      "isTopSpeaker": false,
+      "links": [],
+      "sessions": [
+        745848
+      ],
+      "fullName": "Alok Ranjan",
+      "categoryItems": [],
+      "questionAnswers": []
+    },
+    {
+      "id": "422f4c87-0c92-4393-acc4-ecba579b5d36",
+      "firstName": "Anastasia",
+      "lastName": "Podrabinek",
+      "bio": "I'm a product manager with more than 10 years of experience working on various applications in startups and enterprise. \r\nIn the past five years, I was working as a product manager for tools in the Data Science Group at Wix. This role has given me the unique opportunity to witness numerous data science and AI projects up close, understanding the workflows, bottlenecks, and challenges firsthand.\r\nI specialize in building tools and workflows for successful data science and AI projects, and in bringing the power of data science closer to engineering teams that want to incorporate newest technologies and approaches into the products they create. ",
+      "tagLine": "Wix.com - Product Manager for data science and AI tools",
+      "profilePicture": "https://sessionize.com/image/bdf3-400o400o1-NjpNs73T1W2by7opWqPdZ.jpg",
+      "isTopSpeaker": false,
+      "links": [],
+      "sessions": [
+        735212
+      ],
+      "fullName": "Anastasia Podrabinek",
+      "categoryItems": [],
+      "questionAnswers": []
+    },
+    {
+      "id": "694ce64f-4646-4ee2-a4a2-571efdfc2018",
+      "firstName": "Daniel",
+      "lastName": "Jackson",
+      "bio": "I am an Associate Professor of Mathematics at the University of Maine at Farmington, where I teach undergraduate and graduate Mathematics and Math Education courses.",
+      "tagLine": "Associate Professor of Mathematics, University of Maine Farmington ",
+      "profilePicture": "https://sessionize.com/image/e213-400o400o1-7Bc4EcEaerJoaNpUHHYPjq.jpg",
+      "isTopSpeaker": false,
+      "links": [],
+      "sessions": [
+        753921
+      ],
+      "fullName": "Daniel Jackson",
+      "categoryItems": [],
+      "questionAnswers": []
+    },
+    {
+      "id": "e4c0e689-06d7-4798-9267-27bce11c84dd",
+      "firstName": "Daniela",
+      "lastName": "De Quevedo",
+      "bio": "Data Science and Generative AI enthusiast passionate about continuous learning and innovation. My commitment to knowledge sharing is recognized through roles as a Google Developers Group Organizer and Women Techmakers Ambassador. With foundational certifications in major cloud platforms, I strive to stay at the forefront of AI technologies while creating collaborative learning environments.",
+      "tagLine": "NTT DATA, Analyst, computer engineer",
+      "profilePicture": "https://sessionize.com/image/a423-400o400o1-NGBknX3cx5BHUWYh4mG9Hn.jpg",
+      "isTopSpeaker": false,
+      "links": [],
+      "sessions": [
+        753471
+      ],
+      "fullName": "Daniela De Quevedo",
+      "categoryItems": [],
+      "questionAnswers": []
+    },
+    {
+      "id": "e3c99a3a-4d01-479f-9f96-5e8758e70746",
+      "firstName": "David",
+      "lastName": "Campbell",
+      "bio": "David Campbell is a seasoned technology leader with nearly 20 years of experience in Silicon Valley's startup ecosystem, now spearheading Responsible AI initiatives at Scale AI. As the Lead AI Risk Engineer, David has been pivotal in developing a cutting-edge AI Red Teaming platform that marries ethical AI practices with rigorous security evaluations. His work, recognized by the U.S. Congress and highlighted by the White House, underscores his commitment to shaping a safer AI ecosystem. With a deep background in Security, Core Infrastructure, and Platform Engineering, David actively drives discussions and actions that integrate responsible AI principles into practical security frameworks, aiming to nurture robust, ethical AI applications across industries.",
+      "tagLine": "AI Risk Security Platform Lead at Scale, AI",
+      "profilePicture": "https://sessionize.com/image/616d-400o400o1-aUG5QE8E5NEXRBxrZkqCQM.JPG",
+      "isTopSpeaker": false,
+      "links": [],
+      "sessions": [
+        726624
+      ],
+      "fullName": "David Campbell",
+      "categoryItems": [],
+      "questionAnswers": []
+    },
+    {
+      "id": "82c58fbd-2e89-4aaa-b2fa-7b8d673f10e7",
+      "firstName": "Hilik",
+      "lastName": "Paz",
+      "bio": "Hilik Paz is the Co-Founder and CTO at Arato.ai. Since March 2024, he has been leading the company’s efforts in providing advanced AI solutions. Prior to this, he co-founded Stoke Talent, which was later acquired by Fiverr, and served as CTO for almost five years. Hilik also held leadership roles at Cloudyn (acquired by Microsoft) and VMware, where he managed R&D teams and contributed to product innovations. His extensive experience spans over two decades in the tech industry, driving cloud, AI, and R&D development.",
+      "tagLine": "Arato.ai, CTO",
+      "profilePicture": "https://sessionize.com/image/3448-400o400o1-XwxAZQSAWHhP5gzQPy98LN.jpg",
+      "isTopSpeaker": false,
+      "links": [],
+      "sessions": [
+        748402
+      ],
+      "fullName": "Hilik Paz",
+      "categoryItems": [],
+      "questionAnswers": []
+    },
+    {
+      "id": "47fea73d-403c-4cd9-9a94-01422c6b31ec",
+      "firstName": "Jeroen",
+      "lastName": "Egelmeers",
+      "bio": "Jeroen Egelmeers is a Prompt Engineering Advocate and GenAI Whisperer at Sogeti Netherlands. Jeroen also serves as a Software Engineering Trainer at the Capgemini Academy. He frequently delivers presentations on Java, Software Quality and Prompt Engineering at various events and venues. Jeroen is the founder of the \"Crafting AI Prompts Framework.\" This framework is designed to craft optimal prompts while considering non-disclosure, data security, GDPR, and other constraints.",
+      "tagLine": "Prompt Engineering Advocate / GenAI Whisperer & Public Speaker - Sogeti Netherlands",
+      "profilePicture": "https://sessionize.com/image/71a0-400o400o1-EBnjtAhGaDtandmJgLjZQ2.jpg",
+      "isTopSpeaker": false,
+      "links": [],
+      "sessions": [
+        714881
+      ],
+      "fullName": "Jeroen Egelmeers",
+      "categoryItems": [],
+      "questionAnswers": []
+    },
+    {
+      "id": "afc847a7-f74b-4edb-af09-f6f1e2c84334",
+      "firstName": "Jesus",
+      "lastName": "Serrano",
+      "bio": "Jesus has 25 years of experience in the digital sector, the last 17 of which he spent at Microsoft, specializing in Innovation, Artificial Intelligence, and User Experience. Among other awards and recognitions, in 2014 he became the inventor of one of Microsoft's protected patents. \r\nJesús has worked in a variety of industries, including sports and entertainment, media, retail, finance, and telecommunications, and has collaborated with over 200 clients in 35 countries. He has led the development of various consumer mobile apps that have received millions of downloads. \r\nHe is an awarded Microsoft speaker with over 100 sessions and keynotes at global events. He is also an AI Tutor at the University of Oxford, and Associate Professor for other universities and business schools throughout the world.",
+      "tagLine": "Principal Program Manager @ Microsoft | Sportainment Innovation Lead & Research | International Speaker | LinkedIn Top Voice",
+      "profilePicture": "https://sessionize.com/image/5218-400o400o1-PZREKrxA5psJvHmmSc5gXG.jpg",
+      "isTopSpeaker": false,
+      "links": [],
+      "sessions": [
+        761360
+      ],
+      "fullName": "Jesus Serrano",
+      "categoryItems": [],
+      "questionAnswers": []
+    },
+    {
+      "id": "52bc805e-cc5a-4a22-964c-92d972e958c2",
+      "firstName": "Johannes",
+      "lastName": "Kuhn",
+      "bio": "Johannes Kuhn brings years of expertise in AI and machine learning, having led innovative projects in data science, AI assessment, and innovation management. As a former Senior Technical Data Specialist at Munich Re and Head of Engineering for Trustworthy AI Assessment at CertAI, Johannes has been at the forefront of developing compliant, auditable machine learning solutions across industries. His expertise spans designing scalable AI systems, automated trustworthy AI assessments, and integrating AI into business operations, with a focus on delivering reliable, efficient outcomes in real-world environments.",
+      "tagLine": "Leading autonomous & trustworthy AI at Perelyn",
+      "profilePicture": "https://sessionize.com/image/fca8-400o400o1-whWCsyaR7YkuhZZf3LAJax.jpg",
+      "isTopSpeaker": false,
+      "links": [],
+      "sessions": [
+        752053
+      ],
+      "fullName": "Johannes Kuhn",
+      "categoryItems": [],
+      "questionAnswers": []
+    },
+    {
+      "id": "ed279cd7-8c7b-4c58-8b1a-9351846f7d91",
+      "firstName": "Jorrik",
+      "lastName": "Klijnsma",
+      "bio": "Jorrik is a creative front-end developer and public speaker at Sopra Steria with a passion for getting and sharing information. He focuses on new, inspiring topics and is a real #changemaker. His first lines of code were in the days jQuery ruled. That didn’t scare him. Now he has 7+ years of frontend experience using React and Vue during his day job. In the evening and night hours, a lot of fun projects and other libraries passed his `git clone`.",
+      "tagLine": "Creative Frontend Developer @ Sopra Steria | AI Enthusiast",
+      "profilePicture": "https://sessionize.com/image/0ecc-400o400o1-9Fbry5fCbkk9HytKJAysfV.jpg",
+      "isTopSpeaker": false,
+      "links": [],
+      "sessions": [
+        724743
+      ],
+      "fullName": "Jorrik Klijnsma",
+      "categoryItems": [],
+      "questionAnswers": []
+    },
+    {
+      "id": "b528d2c1-1036-4eae-9367-0314783e81c3",
+      "firstName": "Koushik",
+      "lastName": "Sundar",
+      "bio": "Koushik Sundar currently holds the position of Vice President of Engineering at Citibank. With over 16 years of industry experience, he is recognized as an accomplished IT professional, serving as a Tech Architect for the Global Team and Lead Developer. Throughout his career, Koushik has consistently driven large-scale product initiatives, resulting in multi-million dollar annual revenues.\r\n\r\nAs a seasoned leader, Koushik has managed large teams and mentored over 40 developers, business analysts, and QA professionals across six countries. His expertise spans complex projects involving Algorithmic challenges, DevOps, Site Reliability Engineering, Artificial Intelligence, Machine Learning, Cybersecurity, Application Security, and Cloud Native Apps Development. Koushik Sundar has led, designed, and delivered a complex middle office platform for clearing, connecting with over 40 global exchanges. This highly visible application generates multi-million dollar revenue and manages a budget exceeding $5 million. Koushik developed a robust and performance-intensive architecture, recently modernizing the application by implementing AI/ML technologies. Beyond his professional endeavors, Koushik is deeply committed to mentoring and contributing to the community. In his personal time, he assists students with programming challenges and STEM coursework, shares engineering knowledge with nonprofits to maximize their social impact, and mentors aspiring professionals on platforms like ADPList.\r\n\r\nThroughout his career, Koushik has garnered numerous awards and accolades for his dedication to exceeding expectations and delivering exceptional results. He has also contributed to the technical community as a reviewer for Technovation girls, NCWIT, Stevie, Globee awards and as a mentor and judge for hackathon competitions. Koushik is a graduate alumnus of Citi's Engineering Excellence program and the Citi Leaders Exchange program, two of the most advanced programs in engineering and leadership at Citi. Only a select few candidates are chosen to participate in these prestigious programs. Additionally, Koushik is an active member of professional organizations such as the Institute of Electrical and Electronics Engineers and reviewer in couple of international journals.\r\n\r\nWith his problem-solving prowess, analytical abilities, innovative approach, and technical expertise, Koushik has established himself as a leader in the field. His outstanding performance, passion for technology, particularly in addressing AI/ML challenges, drives impactful change within organizations.",
+      "tagLine": "Vice President - Engineering & Lead Technical Architect - Citibank NA",
+      "profilePicture": "https://sessionize.com/image/c12c-400o400o1-TjVD7emxb3g5Wyffudrn7m.jpg",
+      "isTopSpeaker": false,
+      "links": [],
+      "sessions": [
+        750693
+      ],
+      "fullName": "Koushik Sundar",
+      "categoryItems": [],
+      "questionAnswers": []
+    },
+    {
+      "id": "7abb107b-6e75-4e2f-965c-96ecc2d85302",
+      "firstName": "Max",
+      "lastName": "Schattauer",
+      "bio": "Technical consultant for data and AI projects at Perelyn. Focusing on innovative LLM solutions and cloud deployments. Industry experience in telecom, automotive, healthcare, and energy. MSc in Physics, BSc in Economics.",
+      "tagLine": "Technical Consultant for Data & AI @ Perelyn GmbH",
+      "profilePicture": "https://sessionize.com/image/56d5-400o400o1-V9XwT5gy2BUvu7WZ4kfZPP.jpg",
+      "isTopSpeaker": false,
+      "links": [],
+      "sessions": [
+        752053
+      ],
+      "fullName": "Max Schattauer",
+      "categoryItems": [],
+      "questionAnswers": []
+    },
+    {
+      "id": "adbb6fcc-dc2b-490a-b7d2-129d678f7b16",
+      "firstName": "Saurabh",
+      "lastName": "Suman",
+      "bio": "I’m Saurabh, an Applied AI Developer at Wednesday Solutions with a focus in the EdTech sector. I love using AI models to solve challenges in education, creating scalable backend systems that enhance learning experiences and drive innovation. ",
+      "tagLine": "Applied AI Engineer",
+      "profilePicture": "https://sessionize.com/image/f8a1-400o400o1-hZgo9x6FqiuczA9jNDjYX4.jpg",
+      "isTopSpeaker": false,
+      "links": [],
+      "sessions": [
+        745848
+      ],
+      "fullName": "Saurabh Suman",
+      "categoryItems": [],
+      "questionAnswers": []
+    }
+  ],
+  "questions": [],
+  "categories": [],
+  "rooms": [
+    {
+      "id": 51638,
+      "name": "Live Stream",
+      "sort": 0
+    }
+  ]
+}

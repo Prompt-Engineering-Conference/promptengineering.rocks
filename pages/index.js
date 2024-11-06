@@ -218,7 +218,8 @@ export default function Home() {
           <div className="content">
             <h3>Speaker</h3>
             <p>
-             CFP for 2024 is closed. We want to hear your story about prompt engineering at the next conference edition in 2025 - stay tuned!
+              CFP for 2024 is closed. We want to hear your story about prompt
+              engineering at the next conference edition in 2025 - stay tuned!
             </p>
           </div>
         </section>
@@ -302,10 +303,7 @@ export default function Home() {
               </ul>
             </div>
             <div className="member">
-              <img
-                src="/images/team/goda_go.png"
-                alt="Goda Go"
-              />
+              <img src="/images/team/goda_go.png" alt="Goda Go" />
               <h2>Goda Go</h2>
               <small>Youtuber & Podcast co-host</small>
               <ul className="icons">
@@ -414,6 +412,19 @@ export default function Home() {
       </div>
 
       <div className="box container">
+        <h3>Upskilling sponsor</h3>
+
+        <div className="partners">
+          <div className="partner">
+            <a href="https://www.packt.com">
+              <img src="/images/partners/packt.png" alt="Packt" />
+              <p>Packt</p>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div className="box container">
         <h3>Community partners (all years)</h3>
 
         <div className="partners">
@@ -458,9 +469,9 @@ export default function Home() {
           </div>
 
           <div className="partner">
-            <a href="https://chatu.ai">
-              <img src="/images/partners/chatu.jpg" alt="ChatU" />
-              <p>ChatU</p>
+            <a href="https://cubixai.com/">
+              <img src="/images/partners/cubix-ai.png" alt="Cubix AI" />
+              <p>Cubix AI</p>
             </a>
           </div>
 
