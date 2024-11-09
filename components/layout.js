@@ -184,7 +184,6 @@ export default function Layout({ children }) {
         <HtmlTooltip title="Reserve your virtual seat" arrow>
           <Button
             variant="contained"
-            color="secondary"
             href="https://ti.to/prompt-engineering-conference/2024?source=website"
             style={{ width: '18em', margin: '0 2em 1em 2em' }}
             size="large"
@@ -193,11 +192,27 @@ export default function Layout({ children }) {
             Get a free ticket
           </Button>
         </HtmlTooltip>
-        <HtmlTooltip title="Over 10 hours of the sessions about prompt engineering" arrow>
+        <HtmlTooltip title="Get all sessions scheduled in your calendar" arrow>
           <Button
             variant="contained"
+            color="secondary"
+            href="/PromptEngineeringConference2024.ics"
+            style={{ width: '18em', margin: '0 1em 1em 1em' }}
+            size="large"
+            onClick={() => ReactGA.event('calendar', {})}
+          >
+            Add sessions to calendar
+          </Button>
+        </HtmlTooltip>
+        <HtmlTooltip
+          title="Over 10 hours of the sessions about prompt engineering"
+          arrow
+        >
+          <Button
+            variant="contained"
+            color="secondary"
             href="https://bit.ly/prompt-eng-conf-videos"
-            style={{ width: '20em', margin: '0 1em 1em 1em' }}
+            style={{ width: '18em', margin: '0 1em 1em 1em' }}
             size="large"
             onClick={() => ReactGA.event('recordings', {})}
           >
@@ -289,7 +304,9 @@ export default function Layout({ children }) {
               <Link href="/code-of-conduct">Code of Conduct</Link>
             </li>
             <li>
-              <Link href="https://2023.promptengineering.rocks/">2023's Edition</Link>
+              <Link href="https://2023.promptengineering.rocks/">
+                2023's Edition
+              </Link>
             </li>
             <li>
               Template: <a href="http://html5up.net">HTML5 UP</a>

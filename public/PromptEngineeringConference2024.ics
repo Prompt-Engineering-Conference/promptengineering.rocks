@@ -1,0 +1,394 @@
+BEGIN:VCALENDAR
+CALNAME:Prompt Engineering Conference 2024
+NAME:Prompt Engineering Conference 2024
+PRODID:-//github.com/rianjs/ical.net//NONSGML ical.net 4.0//EN
+VERSION:2.0
+X-WR-CALNAME:Prompt Engineering Conference 2024
+BEGIN:VEVENT
+DESCRIPTION:
+DTEND:20241120T161000Z
+DTSTAMP:20241109T115815Z
+DTSTART:20241120T160000Z
+LOCATION:Live Stream
+SEQUENCE:255527
+STATUS:CONFIRMED
+SUMMARY:Intro 10 min
+UID:SZSESSIONd8236cdf-9513-4794-8f21-61fdad370df5
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Speakers: Alok Ranjan\, Saurabh Suman\n\nIn this talk\, we div
+ e deep into the development of a state-of-the-art AI-powered chatbot tuto
+ r using Retrieval-Augmented Generation (RAG) combined with fine-tuning an
+ d sophisticated prompt engineering techniques. We will explore a step-by-
+ step guide starting from data collection and preparation\, choosing and c
+ onfiguring models\, to fine-tuning with domain-specific datasets\, and it
+ erative evaluation for performance optimization. Additionally\, the sessi
+ on will cover the intricacies of prompt engineering\, including dynamic a
+ djustment\, contextual prompt development\, and bias mitigation to enhanc
+ e the chatbot’s ability to deliver precise\, engaging\, and relevant educ
+ ational interactions. Attendees will gain insights into building scalable
+  and effective AI-driven tutoring solutions\, focusing on leveraging RAG 
+ for contextual responses and continuous prompt optimization strategies.
+DTEND:20241120T165000Z
+DTSTAMP:20241109T115815Z
+DTSTART:20241120T161000Z
+LOCATION:Live Stream
+SEQUENCE:255527
+STATUS:CONFIRMED
+SUMMARY:Building a Production-Ready AI-Powered Chatbot Tutor with Hybrid R
+ AG system
+UID:SZSESSION745848
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Speaker: Jorrik Klijnsma\n\nImagine handing over your vacation
+  planning to an AI. Sounds crazy\, right? That's exactly what Jorrik did 
+ for his trip to Porto in Portugal. ChatGPT picked everything from restaur
+ ants to the sightseeing spots. But this trip taught Jorrik more than just
+  how to order pastel de nata in Portuguese.\n\nIn this talk\, you'll dive
+  into different parallels between prompting engineering AI for travel tip
+ s and using it for coding and problem-solving. You'll learn why context i
+ s king in AI interactions and ways to provide it effectively. Jorrik will
+  walk you through real examples from my AI-planned adventure\, showing ho
+ w each interaction unlocked new insights into advanced prompting techniqu
+ es. Plus\, he will introduce you to "Indirect Conversation" a new method 
+ he describes as "pushing AI's creative boundaries".\n\nIntegrating AI in 
+ applications is now everywhere to be found. And creating web applications
+ \, prompt engineering is set to become a crucial skill in our developers 
+ toolkit. The techniques you'll learn aren't just for planning vacations. 
+ They're the building blocks for creating smarter\, more intuitive AI-powe
+ red tools. Whether you're designing chatbots\, implementing AI-assisted s
+ earch\, or build the next-gen AI-driven web app\, mastering these prompti
+ ng skills will give you a significant benefit in creating a seamless user
+  experience.\n\nBy the end of this session\, you'll walk away with practi
+ cal skills to supercharge your AI interactions\, whether you're planning 
+ your next vacation or tackling complex coding challenges. You'll gain a f
+ resh perspective on AI's capabilities and limitations\, and you'll be equ
+ ipped with strategies to get more innovative\, useful responses from AI t
+ ools. Get ready for a session that's a bit of fun\, part travelogue\, mai
+ nly tech talk\, and entirely eye-opening!
+DTEND:20241120T172000Z
+DTSTAMP:20241109T115815Z
+DTSTART:20241120T165000Z
+LOCATION:Live Stream
+SEQUENCE:255527
+STATUS:CONFIRMED
+SUMMARY:A Large Language Model took me on vacation
+UID:SZSESSION724743
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Speakers: Johannes Kuhn\, Max Schattauer\n\nWe showcase the im
+ portance of good query contextualization in document retrieval Q&A scenar
+ ios with various industry examples. We present approaches to improve cont
+ extualization by prompt engineering with TextGrad and show how crucial th
+ ese improvements are for delivering industry-grade chatbot solutions and 
+ customer satisfaction.\n\nBackground: When performing document retrieval 
+ in a Q&A/chatbot scenario\, just using the last Q&A message\, namely the 
+ current human inquiry\, as a target might not yield good results. Often t
+ he context needed for retrieving relevant documents is spread out over se
+ veral previous messages. Query contextualization helps by transforming a 
+ message history into a singular retrieval query including the relevant co
+ ntext. Main threats to the quality of the retrieval are missing context\,
+  a direct answer to the question\, and follow-up questions back to the us
+ er in the contextualized query. These threats can be contained by a good 
+ choice of the contextualization model and a well-designed system prompt.
+DTEND:20241120T173000Z
+DTSTAMP:20241109T115815Z
+DTSTART:20241120T172000Z
+LOCATION:Live Stream
+SEQUENCE:255527
+STATUS:CONFIRMED
+SUMMARY:Improving Retrieval Q&A Contextualization Prompts (using TextGrad)
+UID:SZSESSION752053
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:
+DTEND:20241120T175000Z
+DTSTAMP:20241109T115815Z
+DTSTART:20241120T173000Z
+LOCATION:Live Stream
+SEQUENCE:255527
+STATUS:CONFIRMED
+SUMMARY:Q&A with Section 1 speakers
+UID:SZSESSIONee571e16-8747-4097-887e-672ac1688efe
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:
+DTEND:20241120T180000Z
+DTSTAMP:20241109T115815Z
+DTSTART:20241120T175000Z
+LOCATION:Live Stream
+SEQUENCE:255527
+STATUS:CONFIRMED
+SUMMARY:Coffee break #1
+UID:SZSESSION381f135c-85f0-43cb-8790-534c40fd1044
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Speaker: Koushik Sundar\n\nThe concept of optimizing prompt en
+ gineering through a multi-agent model involves dividing the task of under
+ standing and refining user inputs into distinct roles. When a user provid
+ es an incomplete or unclear prompt\, the first agent acts as an interacti
+ ve mediator\, engaging in a dialogue to elicit further details or clarify
+  the intent behind the prompt. By refining and enhancing the initial quer
+ y through iterative questioning or contextualization\, the first agent en
+ sures that the final prompt accurately represents the user's true needs. 
+ Once the prompt has been clarified\, it is passed to the second agent\, w
+ hich is responsible for processing the refined input and generating the d
+ esired output. This system allows for more effective handling of vague or
+  ambiguous prompts\, improving overall response quality and user satisfac
+ tion by ensuring that the core question or task is fully understood befor
+ e the model attempts to provide a solution.
+DTEND:20241120T182000Z
+DTSTAMP:20241109T115815Z
+DTSTART:20241120T180000Z
+LOCATION:Live Stream
+SEQUENCE:255527
+STATUS:CONFIRMED
+SUMMARY:Multi-Agent Systems for Advanced Prompt Clarification
+UID:SZSESSION750693
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Speaker: Anastasia Podrabinek\n\nWhat if you have a few hundre
+ ds developers building their AI-based features all across a huge user-fac
+ ing product? Sounds exciting but also a bit troubling: how is it possible
+  to move fast without compromising security and quality standards of an e
+ nterprise?\n\nDuring the past year\, we’ve built a whole infrastructure f
+ or LLM-oriented development in Wix. As the industry was exploding with ne
+ w models and techniques\, this infrastructure grew to include a wide rang
+ e of tools to make developer experience with AI really smooth. But then w
+ e’ve noticed something else: the easier it was to work with LLMs\, the mo
+ re difficult it was to make sure that the quality of LLM-based features s
+ tays high. That was the moment when we had to make a leap from AI democra
+ tisation to AI standardisation.\n\nBuilding a whole infrastructure of pro
+ mpt QA tools and arranging prompt engineering flows gave me some new insi
+ ghts about bringing AI to enterprise while ensuring a high standard of LL
+ M feature implementation.\n\nIn this talk\, I’ll take you through the AI 
+ Standartisation journey we took and share some practical ideas of improvi
+ ng prompt engineering standards across a big organisation. We’ll touch bo
+ th technical solutions and educational approaches that can help in bringi
+ ng enterprise prompt engineering standards to a higher level.\n
+DTEND:20241120T184500Z
+DTSTAMP:20241109T115815Z
+DTSTART:20241120T182000Z
+LOCATION:Live Stream
+SEQUENCE:255527
+STATUS:CONFIRMED
+SUMMARY:Navigating Prompt Quality in Enterprise: Chaos Control Guide
+UID:SZSESSION735212
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Speaker: Daniela De Quevedo\n\nExplore techniques to leverage 
+ capabilities of foundation models. Learn how prompt engineering enhances 
+ AI performance\, enabling more accurate\, context-aware\, and tailored re
+ sponses for diverse applications in natural language processing\, sharing
+  my experience as prompt engineer.
+DTEND:20241120T185000Z
+DTSTAMP:20241109T115815Z
+DTSTART:20241120T184500Z
+LOCATION:Live Stream
+SEQUENCE:255527
+STATUS:CONFIRMED
+SUMMARY:Maximizing the Potential of Foundation Models through Prompt Engin
+ eering
+UID:SZSESSION753471
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:
+DTEND:20241120T191000Z
+DTSTAMP:20241109T115815Z
+DTSTART:20241120T185000Z
+LOCATION:Live Stream
+SEQUENCE:255527
+STATUS:CONFIRMED
+SUMMARY:Q&A with Section 2 speakers
+UID:SZSESSION1be3bcdb-5645-46aa-b5cb-6e75e04df3ae
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:
+DTEND:20241120T192000Z
+DTSTAMP:20241109T115815Z
+DTSTART:20241120T191000Z
+LOCATION:Live Stream
+SEQUENCE:255527
+STATUS:CONFIRMED
+SUMMARY:Coffee break #2
+UID:SZSESSION54dba7b1-ccff-4872-b896-8641282de70a
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Speakers: Alara Ozturk\, Hilik Paz\n\nAs Large Language Models
+  (LLMs) become increasingly integrated into various applications\, the th
+ reat of prompt injection attacks has emerged as a significant security co
+ ncern. This presentation introduces a novel model-based input validation 
+ approach to mitigate these attacks in LLM-integrated applications.\n\nWe 
+ present a meta-prompt methodology that acts as an intermediate validator\
+ , examining user inputs before they reach the LLM. Our approach builds on
+  established input validation techniques\, drawing parallels with traditi
+ onal security measures like SQL injection prevention.\n\nThroughout the p
+ resentation\, we will discuss the challenges of input validation in LLM c
+ ontexts and explore how our model-based approach provides a more flexible
+  and adaptive solution. We'll share preliminary results from evaluations 
+ against established prompt injection datasets\, highlighting the effectiv
+ eness of our methodology in detecting and mitigating various types of inj
+ ection attempts.\n\nJoin us for an insightful exploration of this innovat
+ ive approach to enhancing the security of LLM applications through advanc
+ ed prompt engineering techniques\, and learn how to implement robust inpu
+ t validation mechanisms to safeguard your AI-driven systems.
+DTEND:20241120T194500Z
+DTSTAMP:20241109T115815Z
+DTSTART:20241120T192000Z
+LOCATION:Live Stream
+SEQUENCE:255527
+STATUS:CONFIRMED
+SUMMARY:Model-Based Input Validation for Preventing Prompt Injection Attac
+ ks
+UID:SZSESSION748402
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Speaker: Jeroen Egelmeers\n\nWith a "Co-pilot for everything\,
+ " our interaction with technology and daily tasks is evolving. Organizati
+ ons are increasingly integrating LLMs into their applications\, enhancing
+  features like search tools\, chatbots\, and internal information systems
+ .\n\nChances are\, you're already working with Generative AI or will be s
+ oon. But are you aware of the risks before diving into use cases or devel
+ opment? Curiosity drives us to explore limits\, which can lead to finding
+  ways around "Guard Rails." These guard rails prevent misuse\, like askin
+ g ChatGPT how to build a bomb. But what if clever wordplay confuses LLMs 
+ into bypassing these safeguards?\n\nIn "The dark arts of Prompt Engineeri
+ ng\," we'll explore Prompt Injections. We'll cover what Guard Rails are\,
+  how they function\, and how to circumvent them using Prompt Injections—p
+ urely for educational purposes. Understanding these risks is crucial for 
+ knowing where to implement safeguards or reconsider actions. This session
+  goes beyond tech details. It’s about real-life impacts. You'll see examp
+ les that will make you rethink AI's role in our lives. We'll also discuss
+  the ethical aspect—how to use AI responsibly and safely. Plus\, learn a 
+ fun trick: hide some "words as weapons" in your CV to trick recruiters!\n
+ \nAs AI is here to stay\, let's get secure and join this session!\nLearn 
+ from the mistakes other companies have already made.\nDon’t miss this imp
+ ortant and eye-opening session!
+DTEND:20241120T202000Z
+DTSTAMP:20241109T115815Z
+DTSTART:20241120T194500Z
+LOCATION:Live Stream
+SEQUENCE:255527
+STATUS:CONFIRMED
+SUMMARY:Words as weapons: The dark arts of Prompt Engineering
+UID:SZSESSION714881
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Speaker: Aldan Creo\n\nIn this talk\, we'll explore an intrigu
+ ing question: can clever prompt engineering help us bypass AI-generated c
+ ontent detectors? We'll dive into the world of AI detection and briefly e
+ xplain how these systems work. Then we'll go straight to the answer\, usi
+ ng the latest scientific literature. Get ready for a fast-paced session t
+ hat bridges the gap between prompt engineering and AI detection!
+DTEND:20241120T203500Z
+DTSTAMP:20241109T115815Z
+DTSTART:20241120T202000Z
+LOCATION:Live Stream
+SEQUENCE:255527
+STATUS:CONFIRMED
+SUMMARY:Can we evade AI-generated content detectors using prompt engineeri
+ ng?
+UID:SZSESSION751144
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:
+DTEND:20241120T205500Z
+DTSTAMP:20241109T115815Z
+DTSTART:20241120T203500Z
+LOCATION:Live Stream
+SEQUENCE:255527
+STATUS:CONFIRMED
+SUMMARY:Q&A with Section 3 speakers
+UID:SZSESSIONdb873562-2fc0-433c-a8b7-77fed81eab6b
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:
+DTEND:20241120T210500Z
+DTSTAMP:20241109T115815Z
+DTSTART:20241120T205500Z
+LOCATION:Live Stream
+SEQUENCE:255527
+STATUS:CONFIRMED
+SUMMARY:Coffee break #3
+UID:SZSESSION1e63733b-c8cf-428d-80e2-ab2b39905830
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Speaker: David Campbell\n\nIn this talk\, we will explore the 
+ journey of Red Teaming from its origins to its transformation into AI Red
+  Teaming\, highlighting its pivotal role in shaping the future of Large L
+ anguage Models (LLMs) and beyond. Drawing from my firsthand experiences d
+ eveloping and deploying the largest generative red teaming platform to da
+ te\, I will share insightful antidotes and real-world examples. We will e
+ xplore how adversarial red teaming fortifies AI applications at every lay
+ er—protecting platforms\, businesses\, and consumers. This includes safeg
+ uarding the external application interface\, reinforcing LLM guardrails\,
+  and enhancing the security of the LLMs' internal algorithms. Join me as 
+ we uncover the critical importance of adversarial strategies in securing 
+ the AI landscape.
+DTEND:20241120T213500Z
+DTSTAMP:20241109T115815Z
+DTSTART:20241120T210500Z
+LOCATION:Live Stream
+SEQUENCE:255527
+STATUS:CONFIRMED
+SUMMARY:Ignore Previous Instructions: Embracing AI Red Teaming
+UID:SZSESSION726624
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Speaker: Daniel Jackson\n\nIn this session\, I will share how 
+ I use OpenAI's ChatGPT to create custom "digital course assistants" for b
+ oth my mathematics and math education courses. These assistants generate 
+ course materials such as assignments\, quizzes\, and lecture notes\, and 
+ are also made available to students for personalized learning. I will det
+ ail the prompt engineering methodologies I use to tailor the GPTs for spe
+ cific educational needs\, ensuring clarity in mathematical explanations\,
+  optimizing accuracy\, and enhancing learning engagement. By highlighting
+  practical strategies for prompt optimization and creativity in teaching\
+ , this session will provide attendees with insights on how to effectively
+  integrate AI tools into education\, offering both production-ready appli
+ cations and experimental possibilities.
+DTEND:20241120T220500Z
+DTSTAMP:20241109T115815Z
+DTSTART:20241120T213500Z
+LOCATION:Live Stream
+SEQUENCE:255527
+STATUS:CONFIRMED
+SUMMARY:Digital Course Assistants for Mathematics and Math Education
+UID:SZSESSION753921
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Speaker: Jesus Serrano\n\nThat's what I asked me a few months 
+ ago to bring to life one of my childhood deepest aspirations since I lear
+ n programming at 8 years old... Being the main character in my own videog
+ ame. \n\nBald NinjAI\, a retro-inspired beat'em-up\, is being brought to 
+ life entirely through the power of AI. In this session\, I’ll showcase ho
+ w AI tools are used across every aspect of the game development process—s
+ criptwriting\, lore creation\, character design\, animations\, sound\, mu
+ sic\, and coding. From generating thousands of lines of code to crafting 
+ iconic game elements like a Tokyo train fight level\, AI is transforming 
+ the way we create games.\n\nLearn about the dozens of cutting-edge tools 
+ AI technologies\, that have empowered me to streamline such a creative pr
+ ocess. \n\nWhether you're a game developer\, AI enthusiast\, or curious a
+ bout how AI is reshaping the gaming industry\, this session will provide 
+ valuable insights into the future of game creation.
+DTEND:20241120T224000Z
+DTSTAMP:20241109T115815Z
+DTSTART:20241120T220500Z
+LOCATION:Live Stream
+SEQUENCE:255527
+STATUS:CONFIRMED
+SUMMARY:Can AI Be Used to Develop a Whole Videogame?
+UID:SZSESSION761360
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:
+DTEND:20241120T230000Z
+DTSTAMP:20241109T115815Z
+DTSTART:20241120T224000Z
+LOCATION:Live Stream
+SEQUENCE:255527
+STATUS:CONFIRMED
+SUMMARY:Q&A with Section 4 speakers + Outro
+UID:SZSESSIONe64cf26b-0c09-4b3f-8dd0-d3734ddd9410
+END:VEVENT
+END:VCALENDAR
