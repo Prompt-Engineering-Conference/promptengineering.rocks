@@ -392,6 +392,16 @@ export default function Home() {
               </p>
             </a>
           </div>
+
+          <div className="partner">
+            <a href="https://www.conf42.com/prompt2024">
+              <img
+                src="/images/partners/conf42.png"
+                alt="Conf42 Prompt Engineering Conference"
+              />
+              <p>Conf42 Prompt Engineering Conference</p>
+            </a>
+          </div>
         </div>
       </div>
 
