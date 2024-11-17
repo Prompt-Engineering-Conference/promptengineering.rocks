@@ -203,7 +203,7 @@ export default function Layout({ children }) {
             size="large"
             onClick={() => ReactGA.event('ticket', {})}
           >
-            Get a free ticket
+            🎫 Get a free ticket
           </Button>
         </HtmlTooltip>
         <br />

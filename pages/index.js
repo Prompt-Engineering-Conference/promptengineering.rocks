@@ -36,7 +36,7 @@ export default function Home() {
           width="350"
           height="315"
           className="live-iframe"
-          src="https://www.youtube.com/live_chat?v=zqx5wroCiV8&amp;embed_domain=promptengineerimg.rocks"
+          src="https://www.youtube.com/live_chat?v=zqx5wroCiV8&amp;embed_domain=promptengineering.rocks"
         ></iframe>
       </div>
 
