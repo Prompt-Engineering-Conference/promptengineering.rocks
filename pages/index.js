@@ -21,8 +21,8 @@ export default function Home() {
 
       <div className="major container live-container">
         <iframe
-          width="560"
-          height="315"
+          width="100%"
+          height="400"
           className="live-iframe"
           src="https://www.youtube.com/embed/zqx5wroCiV8?si=ZqHUWUVdvhWc8FHe"
           title="YouTube video player"
@@ -30,13 +30,6 @@ export default function Home() {
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           referrerpolicy="strict-origin-when-cross-origin"
           allowfullscreen
-        ></iframe>
-
-        <iframe
-          width="350"
-          height="315"
-          className="live-iframe"
-          src="https://www.youtube.com/live_chat?v=zqx5wroCiV8&amp;embed_domain=proud-hill-07a8a7e0f.3.azurestaticapps.net"
         ></iframe>
       </div>
 
