@@ -181,6 +181,20 @@ export default function Layout({ children }) {
           </div>
         </HtmlTooltip>
         <h1>November 20, Online, Free</h1>
+        <HtmlTooltip
+          title="Join event on YouTube Live to watch the conference"
+          arrow
+        >
+          <Button
+            variant="contained"
+            href="https://www.youtube.com/live/zqx5wroCiV8"
+            style={{ width: '18em', margin: '0 1em 1em 1em' }}
+            size="large"
+            onClick={() => ReactGA.event('stream', {})}
+          >
+            🔴 LIVE STREAM
+          </Button>
+        </HtmlTooltip>
         <HtmlTooltip title="Reserve your virtual seat" arrow>
           <Button
             variant="contained"
@@ -190,33 +204,6 @@ export default function Layout({ children }) {
             onClick={() => ReactGA.event('ticket', {})}
           >
             Get a free ticket
-          </Button>
-        </HtmlTooltip>
-        <HtmlTooltip title="Get all sessions scheduled in your calendar" arrow>
-          <Button
-            variant="contained"
-            color="secondary"
-            href="/PromptEngineeringConference2024.ics"
-            style={{ width: '18em', margin: '0 1em 1em 1em' }}
-            size="large"
-            onClick={() => ReactGA.event('calendar', {})}
-          >
-            Add sessions to calendar
-          </Button>
-        </HtmlTooltip>
-        <HtmlTooltip
-          title="Over 10 hours of the sessions about prompt engineering"
-          arrow
-        >
-          <Button
-            variant="contained"
-            color="secondary"
-            href="https://bit.ly/prompt-eng-conf-videos"
-            style={{ width: '18em', margin: '0 1em 1em 1em' }}
-            size="large"
-            onClick={() => ReactGA.event('recordings', {})}
-          >
-            See videos from 2023
           </Button>
         </HtmlTooltip>
         <br />

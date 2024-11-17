@@ -19,6 +19,27 @@ export default function Home() {
         </title>
       </Head>
 
+      <div className="major container live-container">
+        <iframe
+          width="560"
+          height="315"
+          className="live-iframe"
+          src="https://www.youtube.com/embed/zqx5wroCiV8?si=ZqHUWUVdvhWc8FHe"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+
+        <iframe
+          width="350"
+          height="315"
+          className="live-iframe"
+          src="https://www.youtube.com/live_chat?v=zqx5wroCiV8&amp;embed_domain=promptengineerimg.rocks"
+        ></iframe>
+      </div>
+
       <IframeResizer
         src="./schedule.html"
         style={{ width: '1px', minWidth: '100%' }}

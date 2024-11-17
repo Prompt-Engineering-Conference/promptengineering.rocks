@@ -1892,3 +1892,21 @@ input[type='button'],
     color: #fff;
   }
 }
+
+@media (min-width: 769px) {
+  .live-container {
+    display: flex;
+    flex-direction: row;
+  }
+
+}
+
+@media (max-width: 768px) {
+  .live-container {
+    display: block;
+  }
+
+  .live-iframe {
+    width: 100%;
+  }
+}
