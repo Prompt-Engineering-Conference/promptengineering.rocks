@@ -180,9 +180,9 @@ export default function Layout({ children }) {
             <span className="tokenizer-tkn tokenizer-tkn-4"> available</span>
           </div>
         </HtmlTooltip>
-        <h1>November 20, Online, Free</h1>
+        <h1>See you in 2025!</h1>
         <HtmlTooltip
-          title="Join event on YouTube Live to watch the conference"
+          title="Full conference playlist"
           arrow
         >
           <Button
@@ -192,10 +192,10 @@ export default function Layout({ children }) {
             size="large"
             onClick={() => ReactGA.event('playlist', {})}
           >
-            🎥 All session videos
+            🍿 All session videos
           </Button>
         </HtmlTooltip>
-        <HtmlTooltip title="Reserve your virtual seat" arrow>
+        <HtmlTooltip title="Join our community" arrow>
           <Button
             variant="contained"
             href="https://dly.to/8aJosYU4Z6k"
