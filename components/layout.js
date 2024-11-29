@@ -187,23 +187,23 @@ export default function Layout({ children }) {
         >
           <Button
             variant="contained"
-            href="https://www.youtube.com/live/zqx5wroCiV8"
+            href="https://www.youtube.com/watch?v=oNB49iIRk54&list=PLQEYbmzcCfpc4b9Z1zGd4waWwthP-PdmM&ab_channel=PromptEngineeringConference"
             style={{ width: '18em', margin: '0 1em 1em 1em' }}
             size="large"
-            onClick={() => ReactGA.event('stream', {})}
+            onClick={() => ReactGA.event('playlist', {})}
           >
-            🔴 LIVE STREAM
+            🎥 All session videos
           </Button>
         </HtmlTooltip>
         <HtmlTooltip title="Reserve your virtual seat" arrow>
           <Button
             variant="contained"
-            href="https://ti.to/prompt-engineering-conference/2024?source=website"
+            href="https://dly.to/8aJosYU4Z6k"
             style={{ width: '18em', margin: '0 2em 1em 2em' }}
             size="large"
-            onClick={() => ReactGA.event('ticket', {})}
+            onClick={() => ReactGA.event('squad', {})}
           >
-            🎫 Get a free ticket
+            🤝 Join our community
           </Button>
         </HtmlTooltip>
         <br />
