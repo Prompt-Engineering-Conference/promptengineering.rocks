@@ -358,16 +358,32 @@ export default function Home() {
               </ul>
             </div>
           </div>
-          <h2>Event partner in the Asian region</h2>
+          <h2>Event partners in the Asian region</h2>
           <div className="team clearfix">
             <div className="member">
               <img src="/images/team/hank_liu.jpg" alt="Hank Liu" />
-              <h2>Hank.Liu</h2>
+              <h2>Hank Liu</h2>
               <small>Microsoft MVP, ChatU CEO</small>
               <ul className="icons">
                 <li>
                   <a
                     href="https://www.linkedin.com/in/hank6/"
+                    target="_blank"
+                    className="icon brands fa-linkedin"
+                  >
+                    <span className="label">LinkedIn</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div className="member">
+              <img src="/images/team/gao_fei.jpg" alt="Gao Fei" />
+              <h2>Gao Fei</h2>
+              <small>Zhiding Tech Group CEO</small>
+              <ul className="icons">
+                <li>
+                  <a
+                    href="#"
                     target="_blank"
                     className="icon brands fa-linkedin"
                   >
